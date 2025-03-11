@@ -85,3 +85,9 @@ nationalRules.json is a list of objects condensed version of TED-OP fields.json 
 
 #### nationalFields.json
 nationalFields.json is an implementation of TED-OP fields.json, see TED-OP field.json for example field object.
+
+
+## Attributions
+### hilma-validation.sch
+hilma-validation-sch is base on work by TED-OP (https://github.com/OP-TED/eForms-SDK) and contains modifications to the 
+phases and file imports to accomodate Hilma's use case.
