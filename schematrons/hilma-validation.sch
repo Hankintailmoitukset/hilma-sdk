@@ -343,12 +343,12 @@
         <active pattern="EFORMS-validation-stage-4-X02"/>
     </phase>
     <!-- FI -->
-    <include href="./FI-validation-M.sch" />
-    <include href="../output/schematron/FI-Validation-2b-g.sch"/>
-    <include href="../output/schematron/FI-Validation-3b-g.sch"/>
-    <include href="../output/schematron/FI-Validation-E1.sch"/>
-    <include href="../output/schematron/FI-Validation-E3.sch"/>
-    <include href="../output/schematron/FI-Validation-E4.sch"/>
+    <include href="./manual/FI-validation-M.sch" />
+    <include href="./generated/FI-Validation-2b-g.sch"/>
+    <include href="./generated/FI-Validation-3b-g.sch"/>
+    <include href="./generated/FI-Validation-E1.sch"/>
+    <include href="./generated/FI-Validation-E3.sch"/>
+    <include href="./generated/FI-Validation-E4.sch"/>
     <!-- TED -->
     <include href="../../SDK/1.13.0/schematrons/static/validation-stage-1a.sch"/>
     <include href="../../SDK/1.13.0/schematrons/static/validation-stage-1b-1.sch"/>
