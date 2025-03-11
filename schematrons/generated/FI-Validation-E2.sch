@@ -4,7 +4,7 @@
 
 <pattern id="FI-validation-E2" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = 'E2']">
-<assert id="FI-E2-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislation) = 0">rule|text|FI-E2-FI-11-1</assert>
+<assert id="FI-E2-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-E2-FI-11-1</assert>
 <assert id="FI-E2-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-E2-FI-30-1</assert>
 <assert id="FI-E2-FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) = 0">rule|text|FI-E2-FI-20-1</assert>
 </rule>
