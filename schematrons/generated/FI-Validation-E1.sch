@@ -27,7 +27,7 @@
 <assert id="FI-E1-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E1-BT-501-Organization-Company-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = 'E1']">
-<assert id="FI-E1-BT-506-Organization-Company-1" role="ERROR" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or (cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|FI-E1-BT-506-Organization-Company-1</assert>
+<assert id="FI-E1-BT-506-Organization-Company-1" role="ERROR" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0 or not((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())))">rule|text|FI-E1-BT-506-Organization-Company-1</assert>
 <assert id="FI-E1-BT-507-Organization-Company-1" role="ERROR" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX'))">rule|text|FI-E1-BT-507-Organization-Company-1</assert>
 <assert id="FI-E1-BT-507-Organization-Company-2" role="ERROR" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX'))">rule|text|FI-E1-BT-507-Organization-Company-2</assert>
 </rule>
@@ -35,7 +35,7 @@
 <assert id="FI-E1-BT-513-Organization-Company-1" role="ERROR" test="count(cbc:CityName) &gt; 0">rule|text|FI-E1-BT-513-Organization-Company-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = 'E1']">
-<assert id="FI-E1-BT-745-Lot-1" role="ERROR" test="count(cbc:Description) &gt; 0 or ../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed' or ../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'allowed'">rule|text|FI-E1-BT-745-Lot-1</assert>
+<assert id="FI-E1-BT-745-Lot-1" role="ERROR" test="count(cbc:Description) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed' or ../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'allowed')">rule|text|FI-E1-BT-745-Lot-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-758-notice-1" role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &gt; 0">rule|text|FI-E1-BT-758-notice-1</assert>
