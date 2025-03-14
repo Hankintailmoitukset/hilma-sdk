@@ -32,7 +32,7 @@
       },
       "codeList": {
         "value": {
-          "id": "national-applicable-legislation",
+          "id": "applicable-legislation-national",
           "type": "flat"
         },
         "severity": "ERROR"
