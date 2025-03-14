@@ -121,11 +121,7 @@
 }, {
   "id" : "BT-52-Lot",
   "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
+    "constraints" : [],
     "severity" : "",
     "value" : false
   },
