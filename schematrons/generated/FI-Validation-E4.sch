@@ -32,7 +32,7 @@
 <assert id="FI-E4-BT-144-LotResult-1" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|FI-E4-BT-144-LotResult-1</assert>
 <assert id="FI-E4-BT-144-LotResult-2" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|FI-E4-BT-144-LotResult-2</assert>
 <assert id="FI-E4-BT-760-LotResult-1" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or cbc:TenderResultCode/normalize-space(text()) = 'open-nw'">rule|text|FI-E4-BT-760-LotResult-1</assert>
-<assert id="FI-E4-BT-760-LotResult-2" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or cbc:TenderResultCode/normalize-space(text()) = 'open-nw'">rule|text|FI-E4-BT-760-LotResult-2</assert>
+<assert id="FI-E4-BT-760-LotResult-2" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'open-nw')">rule|text|FI-E4-BT-760-LotResult-2</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-262-Part-1" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|FI-E4-BT-262-Part-1</assert>
