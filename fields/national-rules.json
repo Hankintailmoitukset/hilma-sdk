@@ -648,7 +648,7 @@
   },
   "mandatory" : {
     "constraints" : [ {
-      "noticeTypes" : [ "E1", "E3", "E4"],
+      "noticeTypes" : [ "E1", "E3" ],
       "severity" : "ERROR",
       "value" : true
     } ],

@@ -45,9 +45,6 @@
 <assert id="FI-E4-BT-507-Organization-Company-1" role="ERROR" test="count(cac:PostalAddress/cbc:CountrySubentityCode) &gt; 0 or not(cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX'))">rule|text|FI-E4-BT-507-Organization-Company-1</assert>
 <assert id="FI-E4-BT-507-Organization-Company-2" role="ERROR" test="count(cac:PostalAddress/cbc:CountrySubentityCode) = 0 or (cac:PostalAddress/cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX'))">rule|text|FI-E4-BT-507-Organization-Company-2</assert>
 </rule>
-<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress[$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-513-Organization-Company-1" role="ERROR" test="count(cbc:CityName) &gt; 0">rule|text|FI-E4-BT-513-Organization-Company-1</assert>
-</rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-539-Lot-1" role="ERROR" test="count(cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) &gt; 0">rule|text|FI-E4-BT-539-Lot-1</assert>
 </rule>
