@@ -75,7 +75,6 @@
     <entry key="rule|text|FI-E3-BT-766-Lot-1">FI-E3-BT-766-Lot-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-766-Part-1">FI-E3-BT-766-Part-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-767-Lot-1">FI-E3-BT-767-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-769-Lot-1">(BT-769-Lot) is not allowed (in 'E3')</entry>
     <entry key="rule|text|FI-E3-BT-88-Procedure-1">count(cbc:Description) &gt; 0 or not(cbc:ProcedureCode/normalize-space(text()) = ('oth-mult','oth-single'))</entry>
     <entry key="rule|text|FI-E3-BT-97-Lot-1">FI-E3-BT-97-Lot-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-FI-11-1">FI-E3-FI-11-1 - is mandatory.</entry>

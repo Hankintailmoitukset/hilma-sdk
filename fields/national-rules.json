@@ -436,26 +436,6 @@
     "value" : false
   }
 }, {
-  "id" : "BT-769-Lot",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
   "id" : "BT-630(d)-Lot",
   "forbidden" : {
     "constraints" : [ {

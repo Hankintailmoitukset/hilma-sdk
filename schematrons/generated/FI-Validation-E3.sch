@@ -64,7 +64,6 @@
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-60-Lot-1" role="ERROR" test="count(cbc:FundingProgramCode[@listName='eu-funded']) &gt; 0">rule|text|FI-E3-BT-60-Lot-1</assert>
-<assert id="FI-E3-BT-769-Lot-1" role="ERROR" test="count(cbc:MultipleTendersCode) = 0">rule|text|FI-E3-BT-769-Lot-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:InterestExpressionReceptionPeriod[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-630_d_-Lot-1" role="ERROR" test="count(cbc:EndDate) = 0">rule|text|FI-E3-BT-630(d)-Lot-1</assert>
