@@ -120,7 +120,7 @@
         "value": false,
         "severity": "ERROR",
         "constraints": [
-          { "noticeTypes": ["E3", "E4"], "value": true, "severity": "ERROR" }
+          { "noticeTypes": ["E3"], "value": true, "severity": "ERROR" }
         ]
       },
       "forbidden": {
@@ -172,6 +172,7 @@
               "CEI",
               "E1",
               "E2",
+              "E4",
               "E5",
               "E6",
               "T01",

@@ -82,7 +82,7 @@
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = 'E4']">
 <assert id="FI-E4-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-E4-FI-11-1</assert>
-<assert id="FI-E4-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) &gt; 0">rule|text|FI-E4-FI-30-1</assert>
+<assert id="FI-E4-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-E4-FI-30-1</assert>
 <assert id="FI-E4-FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) &gt; 0">rule|text|FI-E4-FI-20-1</assert>
 </rule>
 </pattern>
