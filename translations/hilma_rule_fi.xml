@@ -1,6 +1,7 @@
 <properties>
     <!-- Manual -->
-    <entry key="rule|text|FI-11-2">FI-11-2 - NationalExtension is mandatory on E1, E3 and E4.</entry>
+    <entry key="rule|text|FI-0001">FI-0001 - NationalExtension is mandatory on E1, E3 and E4.</entry>
+    <entry key="rule|text|FI-0002">FI-0002 - Mandatory Exclusion Ground (BT-67(a)) is missing entries: </entry>
 
     <!-- Shared -->
     <entry key="rule|text|FI-11-1">FI-11-1 - There cannot be multiple instances of FI-11.</entry>
