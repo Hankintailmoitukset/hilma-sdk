@@ -957,4 +957,25 @@
     "severity" : "",
     "value" : false
   }
+},{
+  "id" : "BT-50-Lot",
+  "forbidden" : {
+    "constraints" : [ {
+      "noticeTypes" : [ ],
+      "severity" : "ERROR",
+      "value" : true
+    } ],
+    "severity" : "",
+    "value" : false
+  },
+  "mandatory" : {
+    "constraints" : [  {
+      "noticeTypes" : [ "16"],
+      "condition": "{ND-SecondStage} ${BT-661-Lot == TRUE}",
+      "value" : true,
+      "severity" : "ERROR"
+    } ],
+    "severity" : "",
+    "value" : false
+  }
 }]

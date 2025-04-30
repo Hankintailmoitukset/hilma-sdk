@@ -124,6 +124,7 @@
         <active pattern="EFORMS-validation-stage-4-15"/>
     </phase>
     <phase id="eforms-16">
+        <active pattern="FI-validation-16"/>
         <active pattern="EFORMS-validation-stage-1b-16"/>
         <active pattern="EFORMS-validation-stage-2a-16"/>
         <active pattern="EFORMS-validation-stage-3b-16"/>
@@ -346,6 +347,7 @@
     <include href="./manual/FI-validation-M.sch" />
     <include href="./generated/FI-Validation-2b-g.sch"/>
     <include href="./generated/FI-Validation-3b-g.sch"/>
+    <include href="generated/FI-Validation-16.sch"/>
     <include href="./generated/FI-Validation-E1.sch"/>
     <include href="./generated/FI-Validation-E3.sch"/>
     <include href="./generated/FI-Validation-E4.sch"/>
