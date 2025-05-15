@@ -1,310 +1,310 @@
 <properties>
     <!-- Manual -->
-    <entry key="rule|text|FI-M-FI-0001">FI-0001 - NationalExtension is mandatory on E1, E3 and E4.</entry>
-    <entry key="rule|text|FI-M-FI-0002">FI-0002 - Mandatory Exclusion Ground (BT-67(a)) is missing entries: </entry>
+    <entry key="rule|text|FI-M-FI-0001">FI-0001 - Kansallinen laajennus on pakollinen ilmoituksissa E1, E3 and E4.</entry>
+    <entry key="rule|text|FI-M-FI-0002">FI-0002 - Pakollisesta poissulkemisperusteesta (BT-67(a)) puuttuu merkintˆj‰: </entry>
     <!-- Shared -->
-    <entry key="rule|text|FI-11-1">FI-11-1 - There cannot be multiple instances of FI-11.</entry>
-    <entry key="rule|text|FI-20-1">FI-20-1 - There cannot be multiple instances of FI-11.</entry>
-    <entry key="rule|text|FI-30-1">FI-30-1 - There cannot be multiple instances of FI-11.</entry>
-    <entry key="rule|text|FI-11-2">FI-11-2 - Can only be a valid value of ApplicableLegislationNational.</entry>
+    <entry key="rule|text|FI-11-1">FI-11-1 - FI-11-instansseja ei voi olla useita.</entry>
+    <entry key="rule|text|FI-20-1">FI-20-1 - FI-11-instansseja ei voi olla useita.</entry>
+    <entry key="rule|text|FI-30-1">FI-30-1 - FI-11-instansseja ei voi olla useita.</entry>
+    <entry key="rule|text|FI-11-2">FI-11-2 - Vain kelvollinen arvo sovellettevan lans‰‰d‰nnˆn kent‰ss‰ on sallittu.</entry>
     <!-- 1 -->
-    <entry key="rule|text|FI-1-FI-11-1">FI-1-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-1-FI-20-1">FI-1-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-1-FI-30-1">FI-1-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-1-FI-11-1">FI-1-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-1-FI-20-1">FI-1-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-1-FI-30-1">FI-1-FI-30-1 - ei ole sallittu.</entry>
     <!-- 2 -->
-    <entry key="rule|text|FI-2-FI-11-1">FI-2-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-2-FI-20-1">FI-2-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-2-FI-30-1">FI-2-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-2-FI-11-1">FI-2-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-2-FI-20-1">FI-2-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-2-FI-30-1">FI-2-FI-30-1 - ei ole sallittu.</entry>
     <!-- 3 -->
-    <entry key="rule|text|FI-3-FI-11-1">FI-3-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-3-FI-20-1">FI-3-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-3-FI-30-1">FI-3-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-3-FI-11-1">FI-3-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-3-FI-20-1">FI-3-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-3-FI-30-1">FI-3-FI-30-1 - ei ole sallittu.</entry>
     <!-- 4 -->
-    <entry key="rule|text|FI-4-FI-11-1">FI-4-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-4-FI-20-1">FI-4-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-4-FI-30-1">FI-4-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-4-FI-11-1">FI-4-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-4-FI-20-1">FI-4-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-4-FI-30-1">FI-4-FI-30-1 - ei ole sallittu.</entry>
     <!-- 5 -->
-    <entry key="rule|text|FI-5-FI-11-1">FI-5-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-5-FI-20-1">FI-5-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-5-FI-30-1">FI-5-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-5-FI-11-1">FI-5-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-5-FI-20-1">FI-5-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-5-FI-30-1">FI-5-FI-30-1 - ei ole sallittu.</entry>
     <!-- 6 -->
-    <entry key="rule|text|FI-6-FI-11-1">FI-6-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-6-FI-20-1">FI-6-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-6-FI-30-1">FI-6-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-6-FI-11-1">FI-6-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-6-FI-20-1">FI-6-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-6-FI-30-1">FI-6-FI-30-1 - ei ole sallittu.</entry>
     <!-- 7 -->
-    <entry key="rule|text|FI-7-FI-11-1">FI-7-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-7-FI-20-1">FI-7-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-7-FI-30-1">FI-7-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-7-FI-11-1">FI-7-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-7-FI-20-1">FI-7-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-7-FI-30-1">FI-7-FI-30-1 - ei ole sallittu.</entry>
     <!-- 8 -->
-    <entry key="rule|text|FI-8-FI-11-1">FI-8-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-8-FI-20-1">FI-8-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-8-FI-30-1">FI-8-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-8-FI-11-1">FI-8-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-8-FI-20-1">FI-8-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-8-FI-30-1">FI-8-FI-30-1 - ei ole sallittu.</entry>
     <!-- 9 -->
-    <entry key="rule|text|FI-9-FI-11-1">FI-9-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-9-FI-20-1">FI-9-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-9-FI-30-1">FI-9-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-9-FI-11-1">FI-9-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-9-FI-20-1">FI-9-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-9-FI-30-1">FI-9-FI-30-1 - ei ole sallittu.</entry>
     <!-- 10 -->
-    <entry key="rule|text|FI-10-FI-11-1">FI-10-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-10-FI-20-1">FI-10-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-10-FI-30-1">FI-10-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-10-FI-11-1">FI-10-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-10-FI-20-1">FI-10-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-10-FI-30-1">FI-10-FI-30-1 - ei ole sallittu.</entry>
     <!-- 11 -->
-    <entry key="rule|text|FI-11-FI-11-1">FI-11-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-11-FI-20-1">FI-11-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-11-FI-30-1">FI-11-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-11-FI-11-1">FI-11-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-11-FI-20-1">FI-11-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-11-FI-30-1">FI-11-FI-30-1 - ei ole sallittu.</entry>
     <!-- 12 -->
-    <entry key="rule|text|FI-12-FI-11-1">FI-12-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-12-FI-11-1">FI-12-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - ei ole sallittu.</entry>
     <!-- 13 -->
-    <entry key="rule|text|FI-13-FI-11-1">FI-13-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-13-FI-20-1">FI-13-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-13-FI-30-1">FI-13-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-13-FI-11-1">FI-13-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-13-FI-20-1">FI-13-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-13-FI-30-1">FI-13-FI-30-1 - ei ole sallittu.</entry>
     <!-- 14 -->
-    <entry key="rule|text|FI-14-FI-11-1">FI-14-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-14-FI-20-1">FI-14-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-14-FI-11-1">FI-14-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-14-FI-20-1">FI-14-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - ei ole sallittu.</entry>
     <!-- 15 -->
-    <entry key="rule|text|FI-15-FI-11-1">FI-15-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-15-FI-20-1">FI-15-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-15-FI-30-1">FI-15-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-15-FI-11-1">FI-15-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-15-FI-20-1">FI-15-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-15-FI-30-1">FI-15-FI-30-1 - ei ole sallittu.</entry>
     <!-- 16 -->
-    <entry key="rule|text|FI-16-FI-11-1">FI-16-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-16-FI-20-1">FI-16-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-16-BT-50-Lot-1">'Minimum Candidates' (BT-50-Lot) is mandatory when: 'Maximum Candidates Indicator' (BT-661-Lot) is 'true'</entry>
+    <entry key="rule|text|FI-16-FI-11-1">FI-16-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-FI-20-1">FI-16-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-BT-50-Lot-1">'Menettelyn j‰lkimm‰iseen vaiheeseen kutsuttavien ehdokkaiden v‰himm‰ism‰‰r‰' (BT-50-Lot) on pakollinen, kun: 'Menettelyn j‰lkimm‰iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm‰ism‰‰r‰' (BT-661-Lot) on 'kyll‰'</entry>
     <!-- 17 -->
-    <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-17-FI-20-1">FI-17-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-17-FI-20-1">FI-17-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - ei ole sallittu.</entry>
     <!-- 18 -->
-    <entry key="rule|text|FI-18-FI-11-1">FI-18-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-18-FI-20-1">FI-18-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-18-FI-11-1">FI-18-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-18-FI-20-1">FI-18-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - ei ole sallittu.</entry>
     <!-- 19 -->
-    <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-19-FI-30-1">FI-19-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-19-FI-30-1">FI-19-FI-30-1 - ei ole sallittu.</entry>
     <!-- 20 -->
-    <entry key="rule|text|FI-20-FI-11-1">FI-20-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-20-FI-20-1">FI-20-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-20-FI-11-1">FI-20-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-20-FI-20-1">FI-20-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - ei ole sallittu.</entry>
     <!-- 21 -->
-    <entry key="rule|text|FI-21-FI-11-1">FI-21-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-21-FI-20-1">FI-21-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-21-FI-11-1">FI-21-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-21-FI-20-1">FI-21-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - ei ole sallittu.</entry>
     <!-- 22 -->
-    <entry key="rule|text|FI-22-FI-11-1">FI-22-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-22-FI-20-1">FI-22-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-22-FI-11-1">FI-22-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-22-FI-20-1">FI-22-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - ei ole sallittu.</entry>
     <!-- 23 -->
-    <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-23-FI-30-1">FI-23-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-23-FI-30-1">FI-23-FI-30-1 - ei ole sallittu.</entry>
     <!-- 24 -->
-    <entry key="rule|text|FI-24-FI-11-1">FI-24-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-24-FI-20-1">FI-24-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-24-FI-30-1">FI-24-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-24-FI-11-1">FI-24-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-24-FI-20-1">FI-24-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-24-FI-30-1">FI-24-FI-30-1 - ei ole sallittu.</entry>
     <!-- 25 -->
-    <entry key="rule|text|FI-25-FI-11-1">FI-25-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-25-FI-20-1">FI-25-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-25-FI-11-1">FI-25-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-25-FI-20-1">FI-25-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - ei ole sallittu.</entry>
     <!-- 26 -->
-    <entry key="rule|text|FI-26-FI-11-1">FI-26-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-26-FI-20-1">FI-26-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-26-FI-11-1">FI-26-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-26-FI-20-1">FI-26-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - ei ole sallittu.</entry>
     <!-- 27 -->
-    <entry key="rule|text|FI-27-FI-11-1">FI-27-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-27-FI-20-1">FI-27-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-27-FI-11-1">FI-27-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-27-FI-20-1">FI-27-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - ei ole sallittu.</entry>
     <!-- 28 -->
-    <entry key="rule|text|FI-28-FI-11-1">FI-28-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-28-FI-20-1">FI-28-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-28-FI-11-1">FI-28-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-28-FI-20-1">FI-28-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - ei ole sallittu.</entry>
     <!-- 29 -->
-    <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-29-FI-30-1">FI-29-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-29-FI-30-1">FI-29-FI-30-1 - ei ole sallittu.</entry>
     <!-- 30 -->
-    <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-30-FI-30-1">FI-30-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-30-FI-30-1">FI-30-FI-30-1 - ei ole sallittu.</entry>
     <!-- 31 -->
-    <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-31-FI-30-1">FI-31-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-31-FI-30-1">FI-31-FI-30-1 - ei ole sallittu.</entry>
     <!-- 32 -->
-    <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - ei ole sallittu.</entry>
     <!-- 33 -->
-    <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - ei ole sallittu.</entry>
     <!-- 34 -->
-    <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-34-FI-30-1">FI-34-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-34-FI-30-1">FI-34-FI-30-1 - ei ole sallittu.</entry>
     <!-- 35 -->
-    <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - ei ole sallittu.</entry>
     <!-- 36 -->
-    <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-36-FI-30-1">FI-36-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-36-FI-30-1">FI-36-FI-30-1 - ei ole sallittu.</entry>
     <!-- 37 -->
-    <entry key="rule|text|FI-37-FI-11-1">FI-37-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-37-FI-20-1">FI-37-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-37-FI-30-1">FI-37-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-37-FI-11-1">FI-37-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-37-FI-20-1">FI-37-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-37-FI-30-1">FI-37-FI-30-1 - ei ole sallittu.</entry>
     <!-- 38 -->
-    <entry key="rule|text|FI-38-FI-11-1">FI-38-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-38-FI-20-1">FI-38-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-38-FI-11-1">FI-38-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-38-FI-20-1">FI-38-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - ei ole sallittu.</entry>
     <!-- 39 -->
-    <entry key="rule|text|FI-39-FI-11-1">FI-39-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-39-FI-20-1">FI-39-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-39-FI-11-1">FI-39-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-39-FI-20-1">FI-39-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - ei ole sallittu.</entry>
     <!-- 40 -->
-    <entry key="rule|text|FI-40-FI-11-1">FI-40-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-40-FI-20-1">FI-40-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-40-FI-11-1">FI-40-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-40-FI-20-1">FI-40-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - ei ole sallittu.</entry>
     <!-- E1 -->
-    <entry key="rule|text|FI-E1-BT-11-Procedure-Buyer-1">FI-E1-BT-11-Procedure-Buyer-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-BT-13716-notice-1">'Section identifier' (BT-13716-notice) is mandatory, except when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-13716-notice-2">'Section identifier' (BT-13716-notice) is not allowed when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-141(a)-notice-1">'Description of changes' (BT-141(a)-notice) is mandatory, except when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-141(a)-notice-2">'Description of changes' (BT-141(a)-notice) is not allowed when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-17-Lot-1">FI-E1-BT-17-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-BT-23-Part-1">FI-E1-BT-23-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-BT-262-Part-1">FI-E1-BT-262-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-BT-501-Organization-Company-1">FI-E1-BT-501-Organization-Company-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-BT-506-Organization-Company-1">'Email' (BT-506-Organization-Company) is mandatory when: the organisation (OPT-200-Organization-Company) is a Buyer (OPT-300-Procedure-Buyer) (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-507-Organization-Company-1">'Country subdivision (NUTS)' (BT-507-Organization-Company) is mandatory, except when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-507-Organization-Company-2">Country subdivision (NUTS)' (BT-507-Organization-Company) is not allowed when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E1')</entry>
-    <entry key="rule|text|FI-E1-BT-513-Organization-Company-1">FI-E1-BT-513-Organization-Company-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-745-Lot-1">'Description' (BT-745-Lot) is mandatory when: Electronic submission is 'not allowed' or 'allowed' (in 'E3')</entry>
-    <entry key="rule|text|FI-E1-BT-758-notice-1">FI-E1-BT-758-notice-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-FI-11-1">FI-E1-FI-11-1 - is forbidden.</entry>
-    <entry key="rule|text|FI-E1-FI-20-1">FI-E1-FI-20-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E1-FI-30-1">FI-E1-FI-30-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E1-BT-11-Procedure-Buyer-1">FI-E1-BT-11-Procedure-Buyer-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-BT-13716-notice-1">'Osion tunniste' (BT-13716-notice) on pakollinen, paitsi kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-13716-notice-2">'Osion tunniste' (BT-13716-notice) ei ole sallittu, kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-141(a)-notice-1">'Muutosten kuvaus' (BT-141(a)-notice) on pakollinen, paitsi kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-141(a)-notice-2">'Muutosten kuvaus' (BT-141(a)-notice) ei ole sallittu, kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-17-Lot-1">FI-E1-BT-17-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-BT-23-Part-1">FI-E1-BT-23-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-BT-262-Part-1">FI-E1-BT-262-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-BT-501-Organization-Company-1">FI-E1-BT-501-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-BT-506-Organization-Company-1">'S‰hkˆposti' (BT-506-Organization-Company) on pakollinen, kun: Organisaatio (OPT-200-Organization-Company) on Ostaja (OPT-300-Procedure-Buyer) ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-507-Organization-Company-1">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on pakollinen, paitsi kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-507-Organization-Company-2">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) ei ole sallittu, kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E1')</entry>
+    <entry key="rule|text|FI-E1-BT-513-Organization-Company-1">FI-E1-BT-513-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-745-Lot-1">'Kuvaus' (BT-745-Lot) on pakollinen, kun: Tarjousten s‰hkˆinen j‰tt‰minen on 'ei sallittu' tai 'sallittu' ('E3')</entry>
+    <entry key="rule|text|FI-E1-BT-758-notice-1">FI-E1-BT-758-notice-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-FI-11-1">FI-E1-FI-11-1 - on kielletty.</entry>
+    <entry key="rule|text|FI-E1-FI-20-1">FI-E1-FI-20-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E1-FI-30-1">FI-E1-FI-30-1 - on pakollinen.</entry>
     <!-- E3 -->
-    <entry key="rule|text|FI-E3-BT-105-Procedure-1">FI-E3-BT-105-Procedure-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-109-Lot-1">'Justification for the duration of the framework agreement' (BT-109-Lot) is mandatory, except when: Duration of the lot must be greater than 4 years (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-109-Lot-2">'Justification for the duration of the framework agreement' (BT-109-Lot) is not allowed when: Duration of the lot must be greater than 4 years (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-113-Lot-1">'Maximum number of participants' (BT-113-Lot) is mandatory, except when: 'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition' (in 'E3'</entry>
-    <entry key="rule|text|FI-E3-BT-113-Lot-2">'Maximum number of participants' (BT-113-Lot) is not allowed when: 'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-11-Procedure-Buyer-1">FI-E3-BT-11-Procedure-Buyer-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-13716-notice-1">'Section identifier' (BT-13716-notice) is mandatory, except when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-13716-notice-2">'Section identifier' (BT-13716-notice) is not allowed when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-141(a)-notice-1">'Description of changes' (BT-141(a)-notice) is mandatory, except when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-141(a)-notice-2">'Description of changes' (BT-141(a)-notice) is not allowed when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-14-Lot-1">FI-E3-BT-14-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-14-Part-1">FI-E3-BT-14-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-17-Lot-1">FI-E3-BT-17-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-23-Part-1">FI-E3-BT-23-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-262-Part-1">FI-E3-BT-262-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-40-Lot-1">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40-Lot) is mandatory, except when: 'Selection criteria' (BT-809-Lot) does not exist or 'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes' or 'Type of procedure' (BT-105) is not 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', or 'Restricted' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-40-Lot-2">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40-Lot) is not allowed when: 'Selection criteria' (BT-809-Lot) does not exist or 'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes' or 'Type of procedure' (BT-105) is not 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', or 'Restricted' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-501-Organization-Company-1">FI-E3-BT-501-Organization-Company-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-506-Organization-Company-1">'Email' (BT-506-Organization-Company) is mandatory when: the organisation (OPT-200-Organization-Company) is a Buyer (OPT-300-Procedure-Buyer) (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-507-Organization-Company-1">'Country subdivision (NUTS)' (BT-507-Organization-Company) is mandatory, except when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-507-Organization-Company-2">'Country subdivision (NUTS)' (BT-507-Organization-Company) is not allowed when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-513-Organization-Company-1">FI-E3-BT-513-Organization-Company-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-52-Lot-1">'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is mandatory when: 'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-539-Lot-1">FI-E3-BT-539-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-539-LotsGroup-1">'Type' (BT-539-LotsGroup) is mandatory, except when: Lot ID is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-539-LotsGroup-2">'Type' (BT-539-LotsGroup) is not allowed when: Lot ID is not filled in (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-60-Lot-1">FI-E3-BT-60-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-630(d)-Lot-1">'Deadline for receipt of expressions of interest' (BT-630(d)-Lot) is not allowed (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-630(t)-Lot-1">'Deadline for receipt of expressions of interest' (BT-630(t)-Lot) is not allowed (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-661-Lot-1">'There is a maximum number of candidates to be invited for the second stage of the procedure' (BT-661-Lot) is mandatory, except when: 'Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-661-Lot-2">'There is a maximum number of candidates to be invited for the second stage of the procedure' (BT-661-Lot) is not allowed when: 'Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-71-Lot-1">FI-E3-BT-71-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-71-Part-1">FI-E3-BT-71-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-736-Lot-1">FI-E3-BT-736-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-736-Part-1">FI-E3-BT-736-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-745-Lot-1">'Description' (BT-745-Lot) is mandatory when: Electronic submission is 'not allowed' or 'allowed' (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-750-Lot-1">'Description' (BT-750-Lot) is mandatory, except when: The selection criterion (BT-809) code does not exist (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-750-Lot-2">'Description' (BT-750-Lot) is not allowed when: The selection criterion (BT-809) code does not exist (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-751-Lot-1">FI-E3-BT-751-Lot-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E3-BT-105-Procedure-1">FI-E3-BT-105-Procedure-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-109-Lot-1">'Puitej‰rjestelyn poikkeuksellisen pitk‰‰ kestoa koskevat perustelut' (BT-109-Lot) on pakollinen, paitsi kun: Osan keston on oltava yli 4 vuotta ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-109-Lot-2">'Puitej‰rjestelyn poikkeuksellisen pitk‰‰ kestoa koskevat perustelut' (BT-109-Lot) ei ole sallittu, kun: Osan keston on oltava yli 4 vuotta ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-113-Lot-1">'Osallistujien enimm‰ism‰‰r‰' (BT-113-Lot) on pakollinen, paitsi kun: 'K‰ytet‰‰n puitej‰rjestely‰' (BT-765-Lot) arvo ei ole yksi seuraavista: 'Puitej‰rjestely, johon liittyy osittainen uudelleen kilpailuttaminen'; 'Puitej‰rjestely, johon liittyy uudelleen kilpailuttaminen'; 'Puitej‰rjestely, johon ei liity uudelleen kilpailuttamista' ('E3'</entry>
+    <entry key="rule|text|FI-E3-BT-113-Lot-2">'Osallistujien enimm‰ism‰‰r‰' (BT-113-Lot) ei ole sallittu, kun: 'K‰ytet‰‰n puitej‰rjestely‰' (BT-765-Lot) arvo ei ole yksi seuraavista: 'Puitej‰rjestely, johon liittyy osittainen uudelleen kilpailuttaminen'; 'Puitej‰rjestely, johon liittyy uudelleen kilpailuttaminen'; 'Puitej‰rjestely, johon ei liity uudelleen kilpailuttamista' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-11-Procedure-Buyer-1">FI-E3-BT-11-Procedure-Buyer-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-13716-notice-1">'Osion tunniste' (BT-13716-notice) on pakollinen, paitsi kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-13716-notice-2">'Osion tunniste' (BT-13716-notice) ei ole sallittu, kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-141(a)-notice-1">'Muutosten kuvaus' (BT-141(a)-notice) on pakollinen, paitsi kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-141(a)-notice-2">'Muutosten kuvaus' (BT-141(a)-notice) ei ole sallittu, kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-14-Lot-1">FI-E3-BT-14-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-14-Part-1">FI-E3-BT-14-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-17-Lot-1">FI-E3-BT-17-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-23-Part-1">FI-E3-BT-23-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-262-Part-1">FI-E3-BT-262-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-40-Lot-1">'Soveltuvuusvaatimusta k‰ytet‰‰n valittaessa menettelyjen j‰lkimm‰iseen vaiheeseen kutsuttavia ehdokkaita' (BT-40-Lot) on pakollinen, paitsi kun: 'Valintaperusteet' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee per‰kk‰isiss‰ vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyll‰' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen j‰lkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', tai 'Rajoitettu' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-40-Lot-2">'Soveltuvuusvaatimusta k‰ytet‰‰n valittaessa menettelyjen j‰lkimm‰iseen vaiheeseen kutsuttavia ehdokkaita' (BT-40-Lot) ei ole sallittu, kun: 'Valintaperusteet' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee per‰kk‰isiss‰ vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyll‰' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen j‰lkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', tai 'Rajoitettu' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-501-Organization-Company-1">FI-E3-BT-501-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-506-Organization-Company-1">'S‰hkˆposti' (BT-506-Organization-Company) on pakollinen, kun: organisaatio (OPT-200-Organization-Company) on Ostaja (OPT-300-Procedure-Buyer) ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-507-Organization-Company-1">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on pakollinen, paitsi kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-507-Organization-Company-2">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) ei ole sallittu, kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-513-Organization-Company-1">FI-E3-BT-513-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-52-Lot-1">'Menettely etenee per‰kk‰isiss‰ vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) on pakollinen, kun: 'Menettelytyyppi' (BT-105) ei ole joko 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus'; 'Tarjouskilpailukutsun julkaisemisen j‰lkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-539-Lot-1">FI-E3-BT-539-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-539-LotsGroup-1">'Tyyppi' (BT-539-LotsGroup) on pakollinen, paitsi kun: Osan ID:t‰ ei ole t‰ytetty('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-539-LotsGroup-2">'Tyyppi' (BT-539-LotsGroup) ei ole sallittu, kun: Osan ID:t‰ ei ole t‰ytetty ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-60-Lot-1">FI-E3-BT-60-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-630(d)-Lot-1">'Kiinnostusilmaisujen vastaanottamisen m‰‰r‰aika' (BT-630(d)-Lot) ei ole sallittu ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-630(t)-Lot-1">'Kiinnostusilmaisujen vastaanottamisen m‰‰r‰aika' (BT-630(t)-Lot) ei ole sallittu ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-661-Lot-1">'Menettelyn j‰lkimm‰iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm‰ism‰‰r‰' (BT-661-Lot) on pakollinen, paitsi kun: 'Menettelyn tyyppi' (BT-105) on 'Avoin' tai 'Muu yksivaiheinen menettely' tai 'Neuvottelumenettely ilman edelt‰v‰‰ tarjouskilpailukutsua' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-661-Lot-2">'Menettelyn j‰lkimm‰iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm‰ism‰‰r‰' (BT-661-Lot) ei ole sallittu, kun: 'Menettelyn tyyppi' (BT-105) on 'Avoin' tai 'Muu yksivaiheinen menettely' tai 'Neuvottelumenettely ilman edelt‰v‰‰ tarjouskilpailukutsua' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-71-Lot-1">FI-E3-BT-71-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-71-Part-1">FI-E3-BT-71-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-736-Lot-1">FI-E3-BT-736-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-736-Part-1">FI-E3-BT-736-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-745-Lot-1">'Kuvaus' (BT-745-Lot) on pakollinen kun: Tarjousten s‰hkˆinen j‰tt‰minen on 'ei sallittu' tai 'sallittu' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-750-Lot-1">'Kuvaus' (BT-750-Lot) on pakollinen, paitsi kun: Olevan valintakriteerin (BT-809) koodia ei ole ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-750-Lot-2">'Kuvaus' (BT-750-Lot) ei ole sallittu, kun: Olevan valintakriteerin (BT-809) koodia ei ole ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-751-Lot-1">FI-E3-BT-751-Lot-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-752-Lot-ThresholdNumber-1">{ND-SecondStageWeightCriterionParameter} ${(BT-7531-Lot is present or BT-7532-Lot is present)}</entry>
-    <entry key="rule|text|FI-E3-BT-758-notice-1">FI-E3-BT-758-notice-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-765-Lot-1">FI-E3-BT-765-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-765-Part-1">FI-E3-BT-765-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-766-Lot-1">FI-E3-BT-766-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-766-Part-1">FI-E3-BT-766-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-767-Lot-1">FI-E3-BT-767-Lot-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E3-BT-758-notice-1">FI-E3-BT-758-notice-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-765-Lot-1">FI-E3-BT-765-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-765-Part-1">FI-E3-BT-765-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-766-Lot-1">FI-E3-BT-766-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-766-Part-1">FI-E3-BT-766-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-767-Lot-1">FI-E3-BT-767-Lot-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-88-Procedure-1">count(cbc:Description) &gt; 0 or not(cbc:ProcedureCode/normalize-space(text()) = ('oth-mult','oth-single'))</entry>
-    <entry key="rule|text|FI-E3-BT-97-Lot-1">FI-E3-BT-97-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-FI-11-1">FI-E3-FI-11-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-FI-20-1">FI-E3-FI-20-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-FI-30-1">FI-E3-FI-30-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E3-BT-97-Lot-1">FI-E3-BT-97-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-FI-11-1">FI-E3-FI-11-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-FI-20-1">FI-E3-FI-20-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-FI-30-1">FI-E3-FI-30-1 - on pakollinen.</entry>
     <!-- E4 -->
-    <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-2">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
-    <entry key="rule|text|FI-E4-BT-1118-NoticeResult-1">'Approximate value of the framework agreements' (BT-1118-NoticeResult) is mandatory, except when: No winner was chosen; It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-1118-NoticeResult-2">'Approximate value of the framework agreements' (BT-1118-NoticeResult) is not allowed when: No winner was chosen; It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-118-NoticeResult-1">'Maximum value of the framework agreements in this notice' (BT-118-NoticeResult) is mandatory, except when: No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-118-NoticeResult-2">'Maximum value of the framework agreements in this notice' (BT-118-NoticeResult) is not allowed when: No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-11-Procedure-Buyer-1">FI-E4-BT-11-Procedure-Buyer-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-13716-notice-1">'Section identifier' (BT-13716-notice) is mandatory, except when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-13716-notice-2">'Section identifier' (BT-13716-notice) is not allowed when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-141(a)-notice-1">'Description of changes' (BT-141(a)-notice) is mandatory, except when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-141(a)-notice-2">'Description of changes' (BT-141(a)-notice) is not allowed when: 'Section identifier' (BT-13716-notice) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-144-LotResult-1">'The reason why a winner was not chosen' (BT-144-LotResult) is mandatory, except when: 'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.' (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-144-LotResult-2">'The reason why a winner was not chosen' (BT-144-LotResult) is not allowed when: 'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.' (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-161-NoticeResult-1">'Value of all contracts awarded in this notice' (BT-161-NoticeResult) is mandatory, except when: No winner was chosen; It is not a framework contract (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-161-NoticeResult-2">'Value of all contracts awarded in this notice' (BT-161-NoticeResult) is not allowed when: No winner was chosen; It is not a framework contract (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-262-Part-1">FI-E4-BT-262-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-501-Organization-Company-1">FI-E4-BT-501-Organization-Company-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-506-Organization-Company-1">'Email' (BT-506-Organization-Company) is mandatory when: the organisation (OPT-200-Organization-Company) is a Buyer (OPT-300-Procedure-Buyer) (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-507-Organization-Company-1">'Country subdivision (NUTS)' (BT-507-Organization-Company) is mandatory, except when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-507-Organization-Company-2">'Country subdivision (NUTS)' (BT-507-Organization-Company) is not allowed when: 'Country' (BT-514-Organization-Company) does not have NUTS codes (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-539-Lot-1">FI-E4-BT-539-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-539-LotsGroup-1">'Type' (BT-539-LotsGroup) is mandatory, except when: Lot ID is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-539-LotsGroup-2">'Type' (BT-539-LotsGroup) is not allowed when: Lot ID is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-60-Lot-1">FI-E4-BT-60-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-758-notice-1">FI-E4-BT-758-notice-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-760-LotResult-1">'Type of received submissions' (BT-760-LotResult) is mandatory, except when: 'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.' (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-760-LotResult-2">'Type of received submissions' (BT-760-LotResult) is not allowed when: 'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.' (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-765-Lot-1">FI-E4-BT-765-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-765-Part-1">FI-E4-BT-765-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-766-Lot-1">FI-E4-BT-766-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-766-Part-1">FI-E4-BT-766-Part-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-767-Lot-1">FI-E4-BT-767-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-BT-773-Tender-1">'Subcontracting' (BT-773-Tender) is mandatory, except when: 'Technical ID of the tender' (OPT-321-Tender) is not filled in (in 'E4')</entry>
-    <entry key="rule|text|FI-E4-BT-773-Tender-2">'Subcontracting' (BT-773-Tender) is not allowed when: 'Technical ID of the tender' (OPT-321-Tender) is not filled in (in 'E4')</entry>
+    <entry key="rule|text|FI-E4-BT-1118-NoticeResult-1">'Puitej‰rjestelyjen likim‰‰r‰inen arvo' (BT-1118-NoticeResult) on pakollinen, paitsi kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus; 'Puitej‰rjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-1118-NoticeResult-2">'Puitej‰rjestelyjen likim‰‰r‰inen arvo' (BT-1118-NoticeResult) ei ole sallittu, kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus; 'Puitej‰rjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-118-NoticeResult-1">'Puitej‰rjestelyjen enimm‰isarvo t‰ss‰ ilmoituksessa' (BT-118-NoticeResult) on pakollinen, paitsi kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus; 'Puitej‰rjestelyn enimm‰isarvo' (BT-709-LotResult) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-118-NoticeResult-2">'Puitej‰rjestelyjen enimm‰isarvo t‰ss‰ ilmoituksessa' (BT-118-NoticeResult) ei ol sallittu, kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus; 'Puitej‰rjestelyn enimm‰isarvo' (BT-709-LotResult) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-11-Procedure-Buyer-1">FI-E4-BT-11-Procedure-Buyer-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-13716-notice-1">'Osion tunniste' (BT-13716-notice) on pakollinen, paitsi kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-13716-notice-2">'Osion tunniste' (BT-13716-notice) ei ole sallittu, kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-141(a)-notice-1">'Muutosten kuvaus' (BT-141(a)-notice) on pakollinen, paitsi kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-141(a)-notice-2">'Muutosten kuvaus' (BT-141(a)-notice) ei ole sallittu, kun: 'Osion tunniste' (BT-13716-notice) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-144-LotResult-1">'Syy, miksi voittajaa ei ole valittu' (BT-144-LotResult) on pakollinen, paitsi kun: 'Voittajan valinnan tila' (BT-142-LotResult) ei ole 'Voittajaa ei valittu ja kilpailu on suljettu.' ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-144-LotResult-2">'Syy, miksi voittajaa ei ole valittu' (BT-144-LotResult) ei ole sallittu, kun: 'Voittajan valinnan tila' (BT-142-LotResult) ei ole 'Voittajaa ei valittu ja kilpailu on suljettu.' ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-161-NoticeResult-1">'Kaikkien t‰ll‰ ilmoituksella ilmoitettujen sopimusten arvo' (BT-161-NoticeResult) on pakollinen, paitsi kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-161-NoticeResult-2">'Kaikkien t‰ll‰ ilmoituksella ilmoitettujen sopimusten arvo' (BT-161-NoticeResult) ei ole sallittu, kun: Voittajaa ei ole valittu; Kyseess‰ ei ole puitesopimus ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-262-Part-1">FI-E4-BT-262-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-501-Organization-Company-1">FI-E4-BT-501-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-506-Organization-Company-1">'S‰hkˆposti' (BT-506-Organization-Company) on pakollinen, kun: Organisaatio (OPT-200-Organization-Company) on Ostaja (OPT-300-Procedure-Buyer) ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-507-Organization-Company-1">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on pakollinen, paitsi kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-507-Organization-Company-2">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) ei ole sallittu, kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-539-Lot-1">FI-E4-BT-539-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-539-LotsGroup-1">'Tyyppi' (BT-539-LotsGroup) on pakollinen, paitsi kun: Osan ID:t‰ ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-539-LotsGroup-2">'Tyyppi' (BT-539-LotsGroup) ei ole sallittu, kun: Osan ID:t‰ ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-60-Lot-1">FI-E4-BT-60-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-758-notice-1">FI-E4-BT-758-notice-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-760-LotResult-1">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) on pakollinen, paitsi kun: 'Voittajan valinnan tila' (BT-142-LotResult) on 'Voittajaa ei ole viel‰ valittu, ja kilpailu on edelleen kesken' ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-760-LotResult-2">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) ei ole sallittu, kun: 'Voittajan valinnan tila' (BT-142-LotResult) on 'Voittajaa ei ole viel‰ valittu, ja kilpailu on edelleen kesken.' ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-765-Lot-1">FI-E4-BT-765-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-765-Part-1">FI-E4-BT-765-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-766-Lot-1">FI-E4-BT-766-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-766-Part-1">FI-E4-BT-766-Part-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-767-Lot-1">FI-E4-BT-767-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-BT-773-Tender-1">'Alihankinta' (BT-773-Tender) on pakollinen, paitsi kun: 'Tarjousten tekninen ID' (OPT-321-Tender) ei ole t‰ytetty ('E4')</entry>
+    <entry key="rule|text|FI-E4-BT-773-Tender-2">'Alihankinta' (BT-773-Tender) ei ole sallittu, kun: 'Tarjousten tekninen ID' (OPT-321-Tender) ei ole t‰ytetty ('E4')</entry>
     <entry key="rule|text|FI-E4-BT-88-Procedure-1">count(cbc:Description) &gt; 0 or not(cbc:ProcedureCode/normalize-space(text()) = ('oth-mult','oth-single'))</entry>
-    <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - is forbidden.</entry>
-    <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - on kielletty.</entry>
+    <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - on kielletty.</entry>
     <!-- E5 -->
-    <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-E5-FI-30-1">FI-E5-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E5-FI-30-1">FI-E5-FI-30-1 - ei ole sallittu.</entry>
     <!-- E6 -->
-    <entry key="rule|text|FI-E6-FI-11-1">FI-E6-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-E6-FI-20-1">FI-E6-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-E6-FI-30-1">FI-E6-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-E6-FI-11-1">FI-E6-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E6-FI-20-1">FI-E6-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E6-FI-30-1">FI-E6-FI-30-1 - ei ole sallittu.</entry>
     <!-- CEI -->
-    <entry key="rule|text|FI-CEI-FI-11-1">FI-CEI-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-CEI-FI-20-1">FI-CEI-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-CEI-FI-30-1">FI-CEI-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-CEI-FI-11-1">FI-CEI-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-CEI-FI-20-1">FI-CEI-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-CEI-FI-30-1">FI-CEI-FI-30-1 - ei ole sallittu.</entry>
     <!-- T01 -->
-    <entry key="rule|text|FI-T01-FI-11-1">FI-T01-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-T01-FI-20-1">FI-T01-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-T01-FI-30-1">FI-T01-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-T01-FI-11-1">FI-T01-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T01-FI-20-1">FI-T01-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T01-FI-30-1">FI-T01-FI-30-1 - ei ole sallittu.</entry>
     <!-- T02 -->
-    <entry key="rule|text|FI-T02-FI-11-1">FI-T02-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-T02-FI-20-1">FI-T02-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-T02-FI-30-1">FI-T02-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-T02-FI-11-1">FI-T02-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T02-FI-20-1">FI-T02-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T02-FI-30-1">FI-T02-FI-30-1 - ei ole sallittu.</entry>
     <!-- X01 -->
-    <entry key="rule|text|FI-X01-FI-11-1">FI-X01-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-X01-FI-20-1">FI-X01-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-X01-FI-30-1">FI-X01-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-X01-FI-11-1">FI-X01-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-X01-FI-20-1">FI-X01-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-X01-FI-30-1">FI-X01-FI-30-1 - ei ole sallittu.</entry>
     <!-- X02 -->
-    <entry key="rule|text|FI-X02-FI-11-1">FI-X02-FI-11-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-X02-FI-20-1">FI-X02-FI-20-1 - is not allowed.</entry>
-    <entry key="rule|text|FI-X02-FI-30-1">FI-X02-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-X02-FI-11-1">FI-X02-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-X02-FI-20-1">FI-X02-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-X02-FI-30-1">FI-X02-FI-30-1 - ei ole sallittu.</entry>
 </properties>
