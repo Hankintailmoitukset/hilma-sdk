@@ -19,46 +19,6 @@
     "value" : false
   }
 },{
-  "id" : "BT-23-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E1", "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-},{
-  "id" : "BT-262-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E1", "E3", "E4" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
   "id" : "BT-60-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -155,27 +115,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-71-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-736-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -195,27 +135,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-736-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-539-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -275,27 +195,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-765-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3", "E4" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-766-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -315,27 +215,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-766-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3", "E4" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-767-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -375,27 +255,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-14-Part",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-17-Lot",
   "forbidden" : {
     "constraints" : [ {
@@ -435,47 +295,7 @@
     "severity" : "",
     "value" : false
   }
-}, {
-  "id" : "BT-630(d)-Lot",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
-  "id" : "BT-630(t)-Lot",
-  "forbidden" : {
-    "constraints" : [ {
-      "noticeTypes" : [ "E3" ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  },
-  "mandatory" : {
-    "constraints" : [ {
-      "noticeTypes" : [ ],
-      "severity" : "ERROR",
-      "value" : true
-    } ],
-    "severity" : "",
-    "value" : false
-  }
-}, {
+},{
   "id" : "BT-751-Lot",
   "forbidden" : {
     "constraints" : [ {
