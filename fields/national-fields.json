@@ -21,7 +21,7 @@
       "parentNodeId": "ND-NationalProcurementProject",
       "name": "Applicable legislation",
       "btId": "FI-11",
-      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:ProcurementProject/hilma:ApplicableLegislation",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:ProcurementProject/hilma:ApplicableLegislationCode",
       "xpathRelative": "hilma:ApplicableLegislationCode",
       "type": "code",
       "businessEntityId": "procedure",
