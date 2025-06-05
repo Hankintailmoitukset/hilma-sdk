@@ -21,9 +21,9 @@
             elementFormDefault="qualified"
             attributeFormDefault="unqualified"
             version="2.3">
-   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="../../Sdk/1.13/schemas/common/UBL-CommonAggregateComponents-2.3.xsd"/>
-   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="../../Sdk/1.13/schemas/common/UBL-CommonBasicComponents-2.3.xsd"/>
-   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="../../Sdk/1.13/schemas/common/UBL-CommonExtensionComponents-2.3.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonAggregateComponents-2.3.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonBasicComponents-2.3.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonExtensionComponents-2.3.xsd"/>
 
    <!-- Ours -->
    <xsd:import namespace="urn:hanselHilma:NationalNoticeExtension" schemaLocation="./NationalNoticeExtension.xsd"/>
