@@ -798,4 +798,288 @@
     "severity" : "",
     "value" : false
   }
-}]
+},{
+  "id": "BT-740-Procedure-Buyer",
+  "forbidden": {
+    "constraints": [
+      {
+        "noticeTypes": ["E1", "E3", "E4"],
+        "value": true,
+        "severity": "ERROR"
+      }
+    ]
+  },
+  "mandatory": {
+    "constraints": []
+  }
+},
+  {
+    "id": "BT-718-notice",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E1"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-719-notice",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E1"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-141(a)-notice",
+    "forbidden": {
+      "constraints": []
+    },
+    "mandatory": {
+      "constraints": [
+        {
+          "noticeTypes": ["E1", "E3", "E4"],
+          "condition" : "{ND-ChangedSection} ${BT-13716-notice is present}",
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-13716-notice",
+    "forbidden": {
+      "constraints": []
+    },
+    "mandatory": {
+      "constraints": [
+        {
+          "noticeTypes": ["E1", "E3", "E4"],
+          "condition" : "{ND-ChangedSection} ${BT-758-notice is present}",
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-630(d)-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-630(t)-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-1711-Tender",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E4"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-193-Tender",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E4"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-710-LotResult",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E4"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-711-LotResult",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E4"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-132(d)-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-132(t)-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-64-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-65-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-729-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "BT-19-Lot",
+    "forbidden": {},
+    "mandatory": {
+      "value": false,
+      "severity": "ERROR",
+      "constraints": [
+        {
+          "noticeTypes": ["E1"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-750-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-750-Lot-Language",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": ["E3"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BT-762-notice",
+    "forbidden": {
+      "constraints": []
+    },
+    "mandatory": {
+      "constraints": [
+        {
+          "noticeTypes": ["16"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  }
+]
