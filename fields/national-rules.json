@@ -1066,4 +1066,20 @@
         }
       ]
     }
-  }]
+  },
+  {
+    "id": "BT-762-notice",
+    "forbidden": {
+      "constraints": []
+    },
+    "mandatory": {
+      "constraints": [
+        {
+          "noticeTypes": ["16"],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    }
+  }
+]
