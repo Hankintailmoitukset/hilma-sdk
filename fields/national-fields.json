@@ -41,7 +41,13 @@
         "value": false,
         "severity": "ERROR",
         "constraints": [
-          { "noticeTypes": ["E3"], "value": true, "severity": "ERROR" }
+          {
+            "noticeTypes": [
+              "E3"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          }
         ]
       },
       "forbidden": {
@@ -120,7 +126,13 @@
         "value": false,
         "severity": "ERROR",
         "constraints": [
-          { "noticeTypes": ["E3"], "value": true, "severity": "ERROR" }
+          {
+            "noticeTypes": [
+              "E3"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          }
         ]
       },
       "forbidden": {
@@ -199,7 +211,15 @@
         "value": false,
         "severity": "ERROR",
         "constraints": [
-          { "noticeTypes": ["E1", "E3", "E4"], "value": true, "severity": "ERROR" }
+          {
+            "noticeTypes": [
+              "E1",
+              "E3",
+              "E4"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          }
         ]
       },
       "forbidden": {
