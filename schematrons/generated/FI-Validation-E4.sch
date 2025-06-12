@@ -7,6 +7,7 @@
 <assert id="FI-E4-BT-10-Procedure-Buyer-1" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))">rule|text|FI-E4-BT-10-Procedure-Buyer-1</assert>
 <assert id="FI-E4-BT-10-Procedure-Buyer-2" role="ERROR" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))">rule|text|FI-E4-BT-10-Procedure-Buyer-2</assert>
 <assert id="FI-E4-BT-11-Procedure-Buyer-1" role="ERROR" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">rule|text|FI-E4-BT-11-Procedure-Buyer-1</assert>
+<assert id="FI-E4-BT-740-Procedure-Buyer-1" role="ERROR" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) = 0">rule|text|FI-E4-BT-740-Procedure-Buyer-1</assert>
 </rule>
 <rule context="/*/cac:TenderingProcess[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-105-Procedure-1" role="ERROR" test="count(cbc:ProcedureCode) &gt; 0">rule|text|FI-E4-BT-105-Procedure-1</assert>
@@ -31,11 +32,16 @@
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-144-LotResult-1" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) &gt; 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|FI-E4-BT-144-LotResult-1</assert>
 <assert id="FI-E4-BT-144-LotResult-2" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|FI-E4-BT-144-LotResult-2</assert>
+<assert id="FI-E4-BT-710-LotResult-1" role="ERROR" test="count(cbc:LowerTenderAmount) = 0">rule|text|FI-E4-BT-710-LotResult-1</assert>
+<assert id="FI-E4-BT-711-LotResult-1" role="ERROR" test="count(cbc:HigherTenderAmount) = 0">rule|text|FI-E4-BT-711-LotResult-1</assert>
 <assert id="FI-E4-BT-760-LotResult-1" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or cbc:TenderResultCode/normalize-space(text()) = 'open-nw'">rule|text|FI-E4-BT-760-LotResult-1</assert>
 <assert id="FI-E4-BT-760-LotResult-2" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'open-nw')">rule|text|FI-E4-BT-760-LotResult-2</assert>
 </rule>
-<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-262-Part-1" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|FI-E4-BT-262-Part-1</assert>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-1711-Tender-1" role="ERROR" test="count(efbc:TenderRankedIndicator) = 0">rule|text|FI-E4-BT-1711-Tender-1</assert>
+<assert id="FI-E4-BT-193-Tender-1" role="ERROR" test="count(efbc:TenderVariantIndicator) = 0">rule|text|FI-E4-BT-193-Tender-1</assert>
+<assert id="FI-E4-BT-773-Tender-1" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) &gt; 0 or not(cbc:ID)">rule|text|FI-E4-BT-773-Tender-1</assert>
+<assert id="FI-E4-BT-773-Tender-2" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) = 0 or (cbc:ID)">rule|text|FI-E4-BT-773-Tender-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E4-BT-501-Organization-Company-1</assert>
@@ -61,21 +67,11 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement'][$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-765-Lot-1" role="ERROR" test="count(cbc:ContractingSystemTypeCode) &gt; 0">rule|text|FI-E4-BT-765-Lot-1</assert>
 </rule>
-<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement'][$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-765-Part-1" role="ERROR" test="count(cbc:ContractingSystemTypeCode) &gt; 0">rule|text|FI-E4-BT-765-Part-1</assert>
-</rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage'][$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-766-Lot-1" role="ERROR" test="count(cbc:ContractingSystemTypeCode) &gt; 0">rule|text|FI-E4-BT-766-Lot-1</assert>
 </rule>
-<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage'][$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-766-Part-1" role="ERROR" test="count(cbc:ContractingSystemTypeCode) &gt; 0">rule|text|FI-E4-BT-766-Part-1</assert>
-</rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-767-Lot-1" role="ERROR" test="count(cbc:AuctionConstraintIndicator) &gt; 0">rule|text|FI-E4-BT-767-Lot-1</assert>
-</rule>
-<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-773-Tender-1" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) &gt; 0 or not(cbc:ID)">rule|text|FI-E4-BT-773-Tender-1</assert>
-<assert id="FI-E4-BT-773-Tender-2" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) = 0 or (cbc:ID)">rule|text|FI-E4-BT-773-Tender-2</assert>
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = 'E4']">
 <assert id="FI-E4-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-E4-FI-11-1</assert>

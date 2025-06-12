@@ -6,6 +6,13 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList[$noticeSubType = '16']">
 <assert id="FI-16-BT-50-Lot-1" role="ERROR" test="count(cbc:MinimumQuantity) &gt; 0 or not(cbc:LimitationDescription = true())">rule|text|FI-16-BT-50-Lot-1</assert>
 </rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress[$noticeSubType = '16']">
+<assert id="FI-16-BT-512-Organization-Company-1" role="ERROR" test="count(cbc:PostalZone) &gt; 0">rule|text|FI-16-BT-512-Organization-Company-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason[$noticeSubType = '16']">
+<assert id="FI-16-BT-762-notice-1" role="ERROR" test="count(efbc:ReasonDescription) &gt; 0 or not(cbc:ReasonCode)">rule|text|FI-16-BT-762-notice-1</assert>
+<assert id="FI-16-BT-762-notice-2" role="ERROR" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|FI-16-BT-762-notice-2</assert>
+</rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = '16']">
 <assert id="FI-16-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-16-FI-11-1</assert>
 <assert id="FI-16-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-16-FI-30-1</assert>

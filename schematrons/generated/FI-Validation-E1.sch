@@ -5,6 +5,7 @@
 <pattern id="FI-validation-E1" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/cac:ContractingParty[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-11-Procedure-Buyer-1" role="ERROR" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">rule|text|FI-E1-BT-11-Procedure-Buyer-1</assert>
+<assert id="FI-E1-BT-740-Procedure-Buyer-1" role="ERROR" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) = 0">rule|text|FI-E1-BT-740-Procedure-Buyer-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-13716-notice-1" role="ERROR" test="count(efbc:ChangedSectionIdentifier) &gt; 0 or not(../../efbc:ChangedNoticeIdentifier)">rule|text|FI-E1-BT-13716-notice-1</assert>
@@ -13,15 +14,13 @@
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-141_a_-notice-1" role="ERROR" test="count(efbc:ChangeDescription) &gt; 0 or not(efac:ChangedSection/efbc:ChangedSectionIdentifier)">rule|text|FI-E1-BT-141(a)-notice-1</assert>
 <assert id="FI-E1-BT-141_a_-notice-2" role="ERROR" test="count(efbc:ChangeDescription) = 0 or (efac:ChangedSection/efbc:ChangedSectionIdentifier)">rule|text|FI-E1-BT-141(a)-notice-2</assert>
+<assert id="FI-E1-BT-718-notice-1" role="ERROR" test="count(efbc:ProcurementDocumentsChangeIndicator) = 0">rule|text|FI-E1-BT-718-notice-1</assert>
+<assert id="FI-E1-BT-719-notice-1" role="ERROR" test="count(efbc:ProcurementDocumentsChangeDate) = 0">rule|text|FI-E1-BT-719-notice-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-17-Lot-1" role="ERROR" test="count(cbc:SubmissionMethodCode[@listName='esubmission']) &gt; 0">rule|text|FI-E1-BT-17-Lot-1</assert>
-</rule>
-<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject[$noticeSubType = 'E1']">
-<assert id="FI-E1-BT-23-Part-1" role="ERROR" test="count(cbc:ProcurementTypeCode[@listName='contract-nature']) &gt; 0">rule|text|FI-E1-BT-23-Part-1</assert>
-</rule>
-<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = 'E1']">
-<assert id="FI-E1-BT-262-Part-1" role="ERROR" test="count(cbc:ItemClassificationCode) &gt; 0">rule|text|FI-E1-BT-262-Part-1</assert>
+<assert id="FI-E1-BT-19-Lot-1" role="ERROR" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|FI-E1-BT-19-Lot-1</assert>
+<assert id="FI-E1-BT-19-Lot-2" role="ERROR" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = '-allowed')">rule|text|FI-E1-BT-19-Lot-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E1-BT-501-Organization-Company-1</assert>
