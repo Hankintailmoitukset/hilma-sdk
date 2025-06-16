@@ -39,7 +39,6 @@
 <assert id="FI-E3-BT-40-Lot-2" role="ERROR" test="count(efbc:SecondStageIndicator) = 0 or not((not(cbc:TendererRequirementTypeCode)) or not(../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) or not(../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted')))">rule|text|FI-E3-BT-40-Lot-2</assert>
 <assert id="FI-E3-BT-750-Lot-1" role="ERROR" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode)">rule|text|FI-E3-BT-750-Lot-1</assert>
 <assert id="FI-E3-BT-750-Lot-2" role="ERROR" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode)">rule|text|FI-E3-BT-750-Lot-2</assert>
-<assert id="FI-E3-BT-750-Lot-Language-1" role="ERROR" test="count(cbc:Description/@languageID) = 0">rule|text|FI-E3-BT-750-Lot-Language-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E3-BT-501-Organization-Company-1</assert>

@@ -1382,34 +1382,6 @@
     }
   },
   {
-    "id": "BT-750-Lot",
-    "forbidden": {
-      "constraints": [
-        {
-          "noticeTypes": [
-            "E3"
-          ],
-          "value": true,
-          "severity": "ERROR"
-        }
-      ]
-    }
-  },
-  {
-    "id": "BT-750-Lot-Language",
-    "forbidden": {
-      "constraints": [
-        {
-          "noticeTypes": [
-            "E3"
-          ],
-          "value": true,
-          "severity": "ERROR"
-        }
-      ]
-    }
-  },
-  {
     "id": "BT-762-notice",
     "forbidden": {
       "constraints": []
