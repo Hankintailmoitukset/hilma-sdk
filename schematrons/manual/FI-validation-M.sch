@@ -6,7 +6,7 @@
     </rule>
 
     
-    <rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = ('14', '15', '16', '17', '19', '20', '21', '23', '24')]">
+    <rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = ('14', '15', '16', '17', '19', '20', '21', '23', '24') and cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']]">
         <let name="grounds" value="('exg-crim-part','exg-crim-corrpt','exg-crim-fraud','exg-crim-terror','exg-crim-laund','exg-crim-traffick','exg-pmt-bre-tax','exg-pmt-bre-ssc','exg-natl')"/>
         <let name="actual" value="cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='exclusion-ground']/normalize-space()"/>
         <let name="missing" value="$grounds[not(. = $actual)]"/>
