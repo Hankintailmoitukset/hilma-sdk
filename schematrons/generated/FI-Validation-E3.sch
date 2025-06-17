@@ -70,6 +70,9 @@
 <assert id="FI-E3-BT-65-Lot-1" role="ERROR" test="count(cbc:SubcontractingConditionsCode) = 0">rule|text|FI-E3-BT-65-Lot-1</assert>
 <assert id="FI-E3-BT-729-Lot-1" role="ERROR" test="count(cbc:MaximumPercent) = 0">rule|text|FI-E3-BT-729-Lot-1</assert>
 </rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:TenderSubcontractingRequirements[$noticeSubType = 'E3']">
+<assert id="FI-E3-BT-651-Lot-1" role="ERROR" test="count(efbc:TenderSubcontractingRequirementsCode) = 0">rule|text|FI-E3-BT-651-Lot-1</assert>
+</rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-661-Lot-1" role="ERROR" test="count(cbc:LimitationDescription) &gt; 0 or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call'">rule|text|FI-E3-BT-661-Lot-1</assert>
 <assert id="FI-E3-BT-661-Lot-2" role="ERROR" test="count(cbc:LimitationDescription) = 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|FI-E3-BT-661-Lot-2</assert>
