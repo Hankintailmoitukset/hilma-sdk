@@ -1457,5 +1457,22 @@
         }
       ]
     }
+  },
+  {
+    "id": "BT-651-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": [
+            "E3"
+          ],
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
   }
 ]
