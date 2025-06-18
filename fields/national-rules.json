@@ -735,6 +735,15 @@
       "constraints": [
         {
           "noticeTypes": [
+            "23",
+            "24",
+            "19"
+          ],
+          "value": true,
+          "severity": "ERROR"
+        },
+        {
+          "noticeTypes": [
             "E3",
             "E4"
           ],
