@@ -6,6 +6,9 @@
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress[$noticeSubType = '19']">
 <assert id="FI-19-BT-512-Organization-Company-1" role="ERROR" test="count(cbc:PostalZone) &gt; 0">rule|text|FI-19-BT-512-Organization-Company-1</assert>
 </rule>
+<rule context="/*/cac:TenderingProcess[$noticeSubType = '19']">
+<assert id="FI-19-BT-88-Procedure-1" role="ERROR" test="count(cbc:Description) &gt; 0">rule|text|FI-19-BT-88-Procedure-1</assert>
+</rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = '19']">
 <assert id="FI-19-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-19-FI-11-1</assert>
 <assert id="FI-19-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-19-FI-30-1</assert>
