@@ -1068,7 +1068,7 @@
           "noticeTypes": [
             "E3"
           ],
-          "condition": "{ND-SecondStageWeightCriterionParameter} ${(BT-7531-Lot is present or BT-7532-Lot is present)}",
+          "condition": "{ND-SelectionCriteria} ${BT-7532-Lot is present}",
           "value": true,
           "severity": "ERROR"
         }
@@ -1076,7 +1076,33 @@
       "severity": "",
       "value": false
     }
+  },{
+  "id": "BT-752-Lot-WeightNumber",
+  "forbidden": {
+    "constraints": [
+      {
+        "noticeTypes": [],
+        "severity": "ERROR",
+        "value": true
+      }
+    ],
+    "severity": "",
+    "value": false
   },
+  "mandatory": {
+    "constraints": [
+      {
+        "noticeTypes": [
+          "E3"
+        ],
+        "condition": "{ND-SelectionCriteria} ${BT-7531-Lot is present}",
+        "value": true,
+        "severity": "ERROR"
+      }
+    ],
+    "severity": "",
+    "value": false
+  }},
   {
     "id": "BT-50-Lot",
     "forbidden": {

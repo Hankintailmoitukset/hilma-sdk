@@ -267,7 +267,8 @@
     <entry key="rule|text|FI-E3-BT-750-Lot-1">'Kuvaus' (BT-750-Lot) on pakollinen, paitsi kun: Olevan valintakriteerin (BT-809) koodia ei ole ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-750-Lot-2">'Kuvaus' (BT-750-Lot) ei ole sallittu, kun: Olevan valintakriteerin (BT-809) koodia ei ole ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-751-Lot-1">FI-E3-BT-751-Lot-1 - on pakollinen.</entry>
-    <entry key="rule|text|FI-E3-BT-752-Lot-ThresholdNumber-1">{ND-SecondStageWeightCriterionParameter} ${(BT-7531-Lot is present or BT-7532-Lot is present)}</entry>
+    <entry key="rule|text|FI-E3-BT-752-Lot-ThresholdNumber-1">'Valintaperusteen luku' (BT-752-Lot-ThresholdNumber) on pakollinen, kun: 'Luku on tyypiltään kynnysarvo' (BT-7532-Lot) on täytetty (in 'E3')</entry>
+    <entry key="rule|text|FI-E3-BT-752-Lot-WeightNumber-1">'Valintaperusteen luku' (BT-752-Lot-WeightNumber) on pakollinen, kun: 'Luku on tyypiltään painotus' (BT-7531-Lot) on täytetty (in 'E3')</entry>
     <entry key="rule|text|FI-E3-BT-758-notice-1">FI-E3-BT-758-notice-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-765-Lot-1">FI-E3-BT-765-Lot-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-765-Part-1">FI-E3-BT-765-Part-1 - on pakollinen.</entry>
