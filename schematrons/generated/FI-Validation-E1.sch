@@ -20,7 +20,7 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-17-Lot-1" role="ERROR" test="count(cbc:SubmissionMethodCode[@listName='esubmission']) &gt; 0">rule|text|FI-E1-BT-17-Lot-1</assert>
 <assert id="FI-E1-BT-19-Lot-1" role="ERROR" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|FI-E1-BT-19-Lot-1</assert>
-<assert id="FI-E1-BT-19-Lot-2" role="ERROR" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = '-allowed')">rule|text|FI-E1-BT-19-Lot-2</assert>
+<assert id="FI-E1-BT-19-Lot-2" role="ERROR" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|FI-E1-BT-19-Lot-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E1']">
 <assert id="FI-E1-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E1-BT-501-Organization-Company-1</assert>
