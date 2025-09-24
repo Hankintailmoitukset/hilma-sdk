@@ -294,7 +294,7 @@
       "id" : "FI-125",
       "parentNodeId" : "ND-LotPreviousPlanning",
       "name" : "Previous Planning Identifier",
-      "btId" : "BT-125",
+      "btId" : "FI-125",
       "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/hilma:PreviousPlanningIdentifier/cbc:ID",
       "xpathRelative" : "cbc:ID",
       "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
