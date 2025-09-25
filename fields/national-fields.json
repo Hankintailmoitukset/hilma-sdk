@@ -292,7 +292,7 @@
     },
     {
       "id": "FI-125",
-      "parentNodeId": "ND-LotPreviousPlanning",
+      "parentNodeId": "ND-NationalTenderingProcess",
       "name": "Previous Planning Identifier",
       "btId": "FI-125",
       "xpathAbsolute": "/*/hilma:NationalExtension/hilma:TenderingProcess/hilma:PreviousPlanningIdentifier/cbc:ID",
