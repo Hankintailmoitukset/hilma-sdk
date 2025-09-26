@@ -2,6 +2,9 @@
     <!-- Manual -->
     <entry key="rule|text|FI-M-FI-0001">FI-0001 - NationalExtension is mandatory on E1, E3 and E4.</entry>
     <entry key="rule|text|FI-M-FI-0002">FI-0002 - Mandatory Exclusion Ground (BT-67(a)) is missing entries: </entry>
+   	<entry key="rule|text|FI-M-FI-0003">When BT-723 is 'Bus' (m3), BT-715, BT-716 and BT-725 must be set</entry>
+	<entry key="rule|text|FI-M-FI-0004">When BT-723 contains either 'Light-duty Vehicles' (m1, m2, n1) or 'Truck' (n2-n3), BT-715 and BT-716 must be set</entry>
+	<entry key="rule|text|FI-M-FI-0005">When BT-723 contains either 'Light-duty Vehicles' (m1, m2, n1) or 'Truck' (n2-n3), BT-725 is forbidden</entry>
     <!-- Shared -->
     <entry key="rule|text|FI-11-1">FI-11-1 - There cannot be multiple instances of FI-11.</entry>
     <entry key="rule|text|FI-20-1">FI-20-1 - There cannot be multiple instances of FI-11.</entry>
@@ -153,36 +156,71 @@
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-FI-30-1">FI-29-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-BT-512-Organization-Company-1">FI-29-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-29-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-29-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-29-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-29-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-30-1">FI-30-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-BT-512-Organization-Company-1">FI-30-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-30-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-30-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-30-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-30-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-30-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-30-1">FI-31-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-BT-512-Organization-Company-1">FI-31-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-31-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-31-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-31-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-31-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-31-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-BT-512-Organization-Company-1">FI-32-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-32-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-32-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-32-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-32-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-32-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 33 -->
     <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-BT-512-Organization-Company-1">FI-33-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-33-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-33-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-33-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-33-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-33-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 34 -->
     <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-FI-30-1">FI-34-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-BT-512-Organization-Company-1">FI-34-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-34-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-34-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-34-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-34-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-34-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-BT-512-Organization-Company-1">FI-35-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-35-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-35-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-35-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-35-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-35-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 36 -->
     <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - is not allowed.</entry>
@@ -267,8 +305,7 @@
     <entry key="rule|text|FI-E3-BT-750-Lot-1">'Description' (BT-750-Lot) is mandatory, except when: The selection criterion (BT-809) code does not exist (in 'E3')</entry>
     <entry key="rule|text|FI-E3-BT-750-Lot-2">'Description' (BT-750-Lot) is not allowed when: The selection criterion (BT-809) code does not exist (in 'E3')</entry>
     <entry key="rule|text|FI-E3-BT-751-Lot-1">FI-E3-BT-751-Lot-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-752-Lot-ThresholdNumber-1">'Selection Criteria Second Stage Invite Threshold Number' (BT-752-Lot-ThresholdNumber) is mandatory when: 'Selection Criteria Second Stage Invite Number Threshold' (BT-7532-Lot) is present (in 'E3')</entry>
-    <entry key="rule|text|FI-E3-BT-752-Lot-WeightNumber-1">'Selection Criteria Second Stage Invite Weight Number' (BT-752-Lot-WeightNumber) is mandatory when: 'Selection Criteria Second Stage Invite Number Weight' (BT-7531-Lot) is present (in 'E3')</entry>
+    <entry key="rule|text|FI-E3-BT-752-Lot-ThresholdNumber-1">{ND-SecondStageWeightCriterionParameter} ${(BT-7531-Lot is present or BT-7532-Lot is present)}</entry>
     <entry key="rule|text|FI-E3-BT-758-notice-1">FI-E3-BT-758-notice-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-765-Lot-1">FI-E3-BT-765-Lot-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-765-Part-1">FI-E3-BT-765-Part-1 - is mandatory.</entry>
@@ -280,7 +317,6 @@
     <entry key="rule|text|FI-E3-FI-11-1">FI-E3-FI-11-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-FI-20-1">FI-E3-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-FI-30-1">FI-E3-FI-30-1 - is mandatory.</entry>
-    <entry key="rule|text|FI-E3-BT-651-1">'Subcontracting Tender Indication' (BT-651-Lot) - is not allowed.</entry>
     <!-- E4 -->
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
@@ -321,6 +357,11 @@
     <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - is forbidden.</entry>
     <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
+	<entry key="rule|text|FI-E4-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
+	<entry key="rule|text|FI-E4-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
+	<entry key="rule|text|FI-E4-BT-717-Lot-1">BT-717 is mandatory</entry>
+	<entry key="rule|text|FI-e4-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - is not allowed.</entry>
