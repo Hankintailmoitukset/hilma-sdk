@@ -34,6 +34,7 @@
 <assert id="FI-E4-BT-144-LotResult-2" role="ERROR" test="count(efac:DecisionReason/efbc:DecisionReasonCode) = 0 or (cbc:TenderResultCode/normalize-space(text()) = 'clos-nw')">rule|text|FI-E4-BT-144-LotResult-2</assert>
 <assert id="FI-E4-BT-710-LotResult-1" role="ERROR" test="count(cbc:LowerTenderAmount) = 0">rule|text|FI-E4-BT-710-LotResult-1</assert>
 <assert id="FI-E4-BT-711-LotResult-1" role="ERROR" test="count(cbc:HigherTenderAmount) = 0">rule|text|FI-E4-BT-711-LotResult-1</assert>
+<assert id="FI-E4-BT-735-LotResult-1" role="ERROR" test="count(efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode) &gt; 0 or not(../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|FI-E4-BT-735-LotResult-1</assert>
 <assert id="FI-E4-BT-760-LotResult-1" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) &gt; 0 or cbc:TenderResultCode/normalize-space(text()) = 'open-nw'">rule|text|FI-E4-BT-760-LotResult-1</assert>
 <assert id="FI-E4-BT-760-LotResult-2" role="ERROR" test="count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) = 0 or not(cbc:TenderResultCode/normalize-space(text()) = 'open-nw')">rule|text|FI-E4-BT-760-LotResult-2</assert>
 </rule>
@@ -61,6 +62,13 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-60-Lot-1" role="ERROR" test="count(cbc:FundingProgramCode[@listName='eu-funded']) &gt; 0">rule|text|FI-E4-BT-60-Lot-1</assert>
 </rule>
+<rule context="/*/cac:ProcurementProject[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-717-Lot-1" role="ERROR" test="count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efbc:ApplicableLegalBasis) &gt; 0 or not(cac:MainCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()) = ('60000000','60112000','60130000','60140000','90511000','60160000','60161000','64121100','64121200','60100000','90510000','64121000','34100000') or starts-with(cac:MainCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3411') or starts-with(cac:MainCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3412') or starts-with(cac:MainCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3413') or starts-with(cac:MainCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3414') or cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()) = ('60000000','60112000','60130000','60140000','90511000','60160000','60161000','64121100','64121200','60100000','90510000','64121000','34100000') or starts-with(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3411') or starts-with(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3412') or starts-with(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3413') or starts-with(cac:AdditionalCommodityClassification/cbc:ItemClassificationCode/normalize-space(text()), '3414'))">rule|text|FI-E4-BT-717-Lot-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-723-LotResult-1" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) &gt; 0 or not((efbc:ProcurementCategoryCode))">rule|text|FI-E4-BT-723-LotResult-1</assert>
+<assert id="FI-E4-BT-723-LotResult-2" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or not(efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n3')">rule|text|FI-E4-BT-723-LotResult-2</assert>
+</rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-758-notice-1" role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &gt; 0">rule|text|FI-E4-BT-758-notice-1</assert>
 </rule>
@@ -72,6 +80,9 @@
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-767-Lot-1" role="ERROR" test="count(cbc:AuctionConstraintIndicator) &gt; 0">rule|text|FI-E4-BT-767-Lot-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = 'E4']">
+<assert id="FI-E4-OPT-156-LotResult-1" role="ERROR" test="count(efbc:StatisticsNumeric) &gt; 0 or not(efbc:StatisticsCode)">rule|text|FI-E4-OPT-156-LotResult-1</assert>
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = 'E4']">
 <assert id="FI-E4-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-E4-FI-11-1</assert>
