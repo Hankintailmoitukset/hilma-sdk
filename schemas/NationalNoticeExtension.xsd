@@ -15,7 +15,10 @@
 
     <xsd:element name="ApplicableLegislationCode"
         type="ApplicableLegislationCodeType"/>
-  
+        
+    <xsd:element name="PreviousPlanningIdentifier"
+      type="PreviousPlanningIdentifierIdentifierType"/>
+
     <xsd:complexType name="PredictedValueConstraintIndicatorType">
       <xsd:simpleContent>
         <xsd:restriction base="udt:IndicatorType"/>
@@ -32,7 +35,13 @@
     <xsd:simpleContent>
       <xsd:restriction base="udt:CodeType"/>
     </xsd:simpleContent>
-  </xsd:complexType>  
+  </xsd:complexType>
+
+  <xsd:complexType name="PreviousPlanningIdentifierIdentifierType">
+      <xsd:simpleContent>
+        <xsd:restriction base="udt:IdentifierType"/>
+    </xsd:simpleContent>  
+  </xsd:complexType>
   
     <xsd:element name="NationalExtension">
         <xsd:complexType>
@@ -50,6 +59,14 @@
                             <xsd:element ref="IsEUApplicableConstraintIndicator" minOccurs="0" maxOccurs="1"/>
                         </xsd:sequence>
                     </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="TenderingProcess">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <!-- FI-125 -->
+                      <xsd:element ref="PreviousPlanningIdentifier" minOccurs="0" maxOccurs="1" />
+                    </xsd:sequence>  
+                  </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
         </xsd:complexType>
