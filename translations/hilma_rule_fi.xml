@@ -2,6 +2,9 @@
     <!-- Manual -->
     <entry key="rule|text|FI-M-FI-0001">FI-0001 - Kansallinen laajennus on pakollinen ilmoituksissa E1, E3 and E4.</entry>
     <entry key="rule|text|FI-M-FI-0002">FI-0002 - Pakollisesta poissulkemisperusteesta (BT-67(a)) puuttuu merkint�j�: </entry>
+    <entry key="rule|text|FI-M-FI-0003">Kun BT-723 on valittu 'Linja-auto' (m3), pitää kentät BT-715, BT-716 ja BT-725 täyttää</entry>
+	<entry key="rule|text|FI-M-FI-0004">Kun BT-723 on valittu joko 'Kevyt hyötyajoneuvo' (m1, m2, n1) tai 'Kuorma-auto' (n2-n3), pitää kentät BT-715 ja BT-716 täyttää</entry>
+	<entry key="rule|text|FI-M-FI-0005">Kun BT-723 on valittu joko 'Kevyt hyötyajoneuvo' (m1, m2, n1) tai 'Kuorma-auto' (n2-n3), BT-725 ei ole sallittu</entry>
     <!-- Shared -->
     <entry key="rule|text|FI-11-1">FI-11-1 - FI-11-instansseja ei voi olla useita.</entry>
     <entry key="rule|text|FI-20-1">FI-20-1 - FI-11-instansseja ei voi olla useita.</entry>
@@ -153,36 +156,71 @@
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-29-FI-30-1">FI-29-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-29-BT-512-Organization-Company-1">FI-29-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-29-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-29-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-29-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-29-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-30-FI-30-1">FI-30-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-30-BT-512-Organization-Company-1">FI-30-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-30-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-30-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-30-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-30-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-30-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-31-FI-30-1">FI-31-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-31-BT-512-Organization-Company-1">FI-31-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-31-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-31-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-31-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-31-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-31-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-32-BT-512-Organization-Company-1">FI-32-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-32-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-32-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-32-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-32-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-32-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 33 -->
     <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-33-BT-512-Organization-Company-1">FI-33-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-33-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-33-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-33-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-33-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-33-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 34 -->
     <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-34-FI-30-1">FI-34-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-34-BT-512-Organization-Company-1">FI-34-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-34-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-34-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-34-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-34-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-34-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-35-BT-512-Organization-Company-1">FI-35-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-35-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-35-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-35-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-35-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-35-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- 36 -->
     <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - ei ole sallittu.</entry>
@@ -321,6 +359,11 @@
     <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - on kielletty.</entry>
     <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - on kielletty.</entry>
+    <entry key="rule|text|FI-E4-BT-735-LotResult-1">BT-735 on pakollinen, kun BT-717 on 'kyllä'</entry>
+	<entry key="rule|text|FI-E4-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
+	<entry key="rule|text|FI-E4-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
+	<entry key="rule|text|FI-E4-BT-717-Lot-1">BT-717 on pakollinen</entry>
+	<entry key="rule|text|FI-E4-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - ei ole sallittu.</entry>
