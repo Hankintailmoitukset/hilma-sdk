@@ -62,7 +62,7 @@
       "constraints": [
         {
           "noticeTypes": ["29", "30", "31", "32", "33", "34", "35", "E4"],
-		  "condition": "{ND-LotResult} ${(BT-717-Lot == 'true' and BT-142-LotResult in ('clos-nw', 'open-nw'))}",
+		  "condition": "{ND-LotResult} ${(BT-717-Lot == 'true' and not(BT-142-LotResult == 'selec-w'))}",
           "severity": "ERROR",
           "value": true
         }
