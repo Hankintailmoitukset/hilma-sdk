@@ -12,4 +12,7 @@
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject/hilma:IsEUApplicableConstraintIndicator">
 <assert id="FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) &lt; 2">rule|text|FI-20-1</assert>
 </rule>
+<rule context="/*/hilma:NationalExtension/hilma:TenderingProcess/hilma:PreviousPlanningIdentifier/cbc:ID">
+<assert id="FI-125-1" role="ERROR" test="count(cbc:ID) &lt; 2">rule|text|FI-125-1</assert>
+</rule>
 </pattern>
