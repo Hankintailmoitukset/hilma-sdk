@@ -1509,5 +1509,41 @@
     "mandatory": {
       "constraints": []
     }
-  }
+  },
+  {
+    "id": "BT-125(i)-Lot",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": [
+            "E3"
+          ],
+          "condition": "{ND-NationalProcurementProject} ${(FI-20 == FALSE)}",          
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  },
+  {
+    "id": "FI-125",
+    "forbidden": {
+      "constraints": [
+        {
+          "noticeTypes": [
+            "E3"
+          ],
+          "condition": "{ND-NationalProcurementProject} ${(FI-20 == TRUE)}",
+          "value": true,
+          "severity": "ERROR"
+        }
+      ]
+    },
+    "mandatory": {
+      "constraints": []
+    }
+  }  
 ]
