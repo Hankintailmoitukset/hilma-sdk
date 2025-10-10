@@ -6,4 +6,7 @@
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject/hilma:ApplicableLegislationCode">
 <assert id="FI-11-2" role="ERROR" test="normalize-space(.) = ('procurement-legislation', 'defence-legislation')">rule|text|FI-11-2</assert>
 </rule>
+<rule context="/*/hilma:NationalExtension/hilma:TenderingProcess/hilma:PreviousPlanningIdentifier">
+<assert id="FI-125-2" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(19|20)\d\d-(\d{1,8}))$')">rule|text|FI-125-2</assert>
+</rule>
 </pattern>
