@@ -10,147 +10,177 @@
     <entry key="rule|text|FI-20-1">FI-20-1 - There cannot be multiple instances of FI-11.</entry>
     <entry key="rule|text|FI-30-1">FI-30-1 - There cannot be multiple instances of FI-11.</entry>
     <entry key="rule|text|FI-11-2">FI-11-2 - Can only be a valid value of ApplicableLegislationNational.</entry>
+    <entry key="rule|text|FI-125-1">FI-125-1 - There cannot be multiple instances of FI-125.</entry>
+    <entry key="rule|text|FI-125-2">"FI-125-2 - FI-125 format has to be 2025-12345678 or 00000000-0000-0000-0000-000000000000-XX</entry>    
     <!-- 1 -->
     <entry key="rule|text|FI-1-FI-11-1">FI-1-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-1-FI-20-1">FI-1-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-1-FI-30-1">FI-1-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-1-BT-512-Organization-Company-1">FI-1-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-1-FI-125-1">FI-1-FI-125-1 - is not allowed.</entry>
     <!-- 2 -->
     <entry key="rule|text|FI-2-FI-11-1">FI-2-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-2-FI-20-1">FI-2-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-2-FI-30-1">FI-2-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-2-BT-512-Organization-Company-1">FI-2-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-2-FI-125-1">FI-2-FI-125-1 - is not allowed.</entry>
     <!-- 3 -->
     <entry key="rule|text|FI-3-FI-11-1">FI-3-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-3-FI-20-1">FI-3-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-3-FI-30-1">FI-3-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-3-BT-512-Organization-Company-1">FI-3-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-3-FI-125-1">FI-3-FI-125-1 - is not allowed.</entry>
     <!-- 4 -->
     <entry key="rule|text|FI-4-FI-11-1">FI-4-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-4-FI-20-1">FI-4-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-4-FI-30-1">FI-4-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-4-BT-512-Organization-Company-1">FI-4-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-4-FI-125-1">FI-4-FI-125-1 - is not allowed.</entry>
     <!-- 5 -->
     <entry key="rule|text|FI-5-FI-11-1">FI-5-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-5-FI-20-1">FI-5-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-5-FI-30-1">FI-5-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-5-BT-512-Organization-Company-1">FI-5-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-5-FI-125-1">FI-5-FI-125-1 - is not allowed.</entry>
     <!-- 6 -->
     <entry key="rule|text|FI-6-FI-11-1">FI-6-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-6-FI-20-1">FI-6-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-6-FI-30-1">FI-6-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-6-BT-512-Organization-Company-1">FI-6-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-6-FI-125-1">FI-6-FI-125-1 - is not allowed.</entry>
     <!-- 7 -->
     <entry key="rule|text|FI-7-FI-11-1">FI-7-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-7-FI-20-1">FI-7-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-7-FI-30-1">FI-7-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-7-BT-512-Organization-Company-1">FI-7-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-7-FI-125-1">FI-7-FI-125-1 - is not allowed.</entry>
     <!-- 8 -->
     <entry key="rule|text|FI-8-FI-11-1">FI-8-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-8-FI-20-1">FI-8-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-8-FI-30-1">FI-8-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-8-BT-512-Organization-Company-1">FI-8-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-8-FI-125-1">FI-8-FI-125-1 - is not allowed.</entry>
     <!-- 9 -->
     <entry key="rule|text|FI-9-FI-11-1">FI-9-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-9-FI-20-1">FI-9-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-9-FI-30-1">FI-9-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-9-BT-512-Organization-Company-1">FI-9-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-9-FI-125-1">FI-9-FI-125-1 - is not allowed.</entry>
     <!-- 10 -->
     <entry key="rule|text|FI-10-FI-11-1">FI-10-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-10-FI-20-1">FI-10-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-10-FI-30-1">FI-10-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-10-BT-512-Organization-Company-1">FI-10-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-10-FI-125-1">FI-10-FI-125-1 - is not allowed.</entry>
     <!-- 11 -->
     <entry key="rule|text|FI-11-FI-11-1">FI-11-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-FI-20-1">FI-11-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-FI-30-1">FI-11-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-BT-512-Organization-Company-1">FI-11-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-11-FI-125-1">FI-11-FI-125-1 - is not allowed.</entry>
     <!-- 12 -->
     <entry key="rule|text|FI-12-FI-11-1">FI-12-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-BT-512-Organization-Company-1">FI-12-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-12-FI-125-1">FI-12-FI-125-1 - is not allowed.</entry>
     <!-- 13 -->
     <entry key="rule|text|FI-13-FI-11-1">FI-13-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-FI-20-1">FI-13-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-FI-30-1">FI-13-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-BT-512-Organization-Company-1">FI-13-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-13-FI-125-1">FI-13-FI-125-1 - is not allowed.</entry>
     <!-- 14 -->
     <entry key="rule|text|FI-14-FI-11-1">FI-14-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-FI-20-1">FI-14-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-BT-512-Organization-Company-1">FI-14-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-14-FI-125-1">FI-14-FI-125-1 - is not allowed.</entry>
     <!-- 15 -->
     <entry key="rule|text|FI-15-FI-11-1">FI-15-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-FI-20-1">FI-15-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-FI-30-1">FI-15-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-BT-512-Organization-Company-1">FI-15-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-15-FI-125-1">FI-15-FI-125-1 - is not allowed.</entry>
     <!-- 16 -->
     <entry key="rule|text|FI-16-FI-11-1">FI-16-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-FI-20-1">FI-16-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-BT-50-Lot-1">'Minimum Candidates' (BT-50-Lot) is mandatory when: 'Maximum Candidates Indicator' (BT-661-Lot) is 'true'</entry>
     <entry key="rule|text|FI-16-BT-512-Organization-Company-1">FI-16-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-16-FI-125-1">FI-16-FI-125-1 - is not allowed.</entry>
     <!-- 17 -->
     <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-FI-20-1">FI-17-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-BT-512-Organization-Company-1">FI-17-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-17-FI-125-1">FI-17-FI-125-1 - is not allowed.</entry>
     <!-- 18 -->
     <entry key="rule|text|FI-18-FI-11-1">FI-18-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-FI-20-1">FI-18-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-BT-512-Organization-Company-1">FI-18-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-18-FI-125-1">FI-18-FI-125-1 - is not allowed.</entry>
     <!-- 19 -->
     <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-19-FI-30-1">FI-19-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-19-BT-512-Organization-Company-1">FI-19-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-19-FI-125-1">FI-19-FI-125-1 - is not allowed.</entry>
     <!-- 20 -->
     <entry key="rule|text|FI-20-FI-11-1">FI-20-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-FI-20-1">FI-20-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-BT-512-Organization-Company-1">FI-20-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-20-FI-125-1">FI-20-FI-125-1 - is not allowed.</entry>
     <!-- 21 -->
     <entry key="rule|text|FI-21-FI-11-1">FI-21-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-FI-20-1">FI-21-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-BT-512-Organization-Company-1">FI-21-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-21-FI-125-1">FI-21-FI-125-1 - is not allowed.</entry>
     <!-- 22 -->
     <entry key="rule|text|FI-22-FI-11-1">FI-22-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-FI-20-1">FI-22-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-BT-512-Organization-Company-1">FI-22-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-22-FI-125-1">FI-22-FI-125-1 - is not allowed.</entry>
     <!-- 23 -->
     <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-23-FI-30-1">FI-23-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-23-BT-512-Organization-Company-1">FI-23-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-23-FI-125-1">FI-23-FI-125-1 - is not allowed.</entry>
     <!-- 24 -->
     <entry key="rule|text|FI-24-FI-11-1">FI-24-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-24-FI-20-1">FI-24-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-24-FI-30-1">FI-24-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-24-BT-512-Organization-Company-1">FI-24-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-24-FI-125-1">FI-24-FI-125-1 - is not allowed.</entry>
     <!-- 25 -->
     <entry key="rule|text|FI-25-FI-11-1">FI-25-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-25-FI-20-1">FI-25-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-25-BT-512-Organization-Company-1">FI-25-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-25-FI-125-1">FI-25-FI-125-1 - is not allowed.</entry>
     <!-- 26 -->
     <entry key="rule|text|FI-26-FI-11-1">FI-26-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-FI-20-1">FI-26-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-BT-512-Organization-Company-1">FI-26-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-26-FI-125-1">FI-26-FI-125-1 - is not allowed.</entry>
     <!-- 27 -->
     <entry key="rule|text|FI-27-FI-11-1">FI-27-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-FI-20-1">FI-27-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-BT-512-Organization-Company-1">FI-27-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-27-FI-125-1">FI-27-FI-125-1 - is not allowed.</entry>
     <!-- 28 -->
     <entry key="rule|text|FI-28-FI-11-1">FI-28-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-FI-20-1">FI-28-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-BT-512-Organization-Company-1">FI-28-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-28-FI-125-1">FI-28-FI-125-1 - is not allowed.</entry>
     <!-- 29 -->
     <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - is not allowed.</entry>
@@ -162,6 +192,7 @@
 	<entry key="rule|text|FI-29-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-29-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+    <entry key="rule|text|FI-29-FI-125-1">FI-29-FI-125-1 - is not allowed.</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - is not allowed.</entry>
@@ -173,6 +204,7 @@
 	<entry key="rule|text|FI-30-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-30-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-30-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+    <entry key="rule|text|FI-30-FI-125-1">FI-30-FI-125-1 - is not allowed.</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - is not allowed.</entry>
@@ -184,11 +216,13 @@
 	<entry key="rule|text|FI-31-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-31-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-31-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+    <entry key="rule|text|FI-31-FI-125-1">FI-31-FI-125-1 - is not allowed.</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-BT-512-Organization-Company-1">FI-32-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-32-FI-125-1">FI-32-FI-125-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
 	<entry key="rule|text|FI-32-BT-735-LotResult-2">BT-375 is only accepted when winner is selected (BT-142)</entry>
 	<entry key="rule|text|FI-32-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
@@ -200,6 +234,7 @@
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-BT-512-Organization-Company-1">FI-33-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-33-FI-125-1">FI-33-FI-125-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
 	<entry key="rule|text|FI-33-BT-735-LotResult-2">BT-375 is only accepted when winner is selected (BT-142)</entry>
 	<entry key="rule|text|FI-33-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
@@ -217,11 +252,13 @@
 	<entry key="rule|text|FI-34-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-34-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-34-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+    <entry key="rule|text|FI-34-FI-125-1">FI-34-FI-125-1 - is not allowed.</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-BT-512-Organization-Company-1">FI-35-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-35-FI-125-1">FI-35-FI-125-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
 	<entry key="rule|text|FI-35-BT-735-LotResult-2">BT-375 is only accepted when winner is selected (BT-142)</entry>
 	<entry key="rule|text|FI-35-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
@@ -233,26 +270,31 @@
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-FI-30-1">FI-36-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-BT-512-Organization-Company-1">FI-36-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-36-FI-125-1">FI-36-FI-125-1 - is not allowed.</entry>
     <!-- 37 -->
     <entry key="rule|text|FI-37-FI-11-1">FI-37-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-37-FI-20-1">FI-37-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-37-FI-30-1">FI-37-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-37-BT-512-Organization-Company-1">FI-37-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-37-FI-125-1">FI-37-FI-125-1 - is not allowed.</entry>
     <!-- 38 -->
     <entry key="rule|text|FI-38-FI-11-1">FI-38-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-38-FI-20-1">FI-38-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-38-BT-512-Organization-Company-1">FI-38-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-38-FI-125-1">FI-38-FI-125-1 - is not allowed.</entry>
     <!-- 39 -->
     <entry key="rule|text|FI-39-FI-11-1">FI-39-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-FI-20-1">FI-39-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-BT-512-Organization-Company-1">FI-39-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-39-FI-125-1">FI-39-FI-125-1 - is not allowed.</entry>
     <!-- 40 -->
     <entry key="rule|text|FI-40-FI-11-1">FI-40-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-FI-20-1">FI-40-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-BT-512-Organization-Company-1">FI-40-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-40-FI-125-1">FI-40-FI-125-1 - is not allowed.</entry>
     <!-- E1 -->
     <entry key="rule|text|FI-E1-BT-11-Procedure-Buyer-1">FI-E1-BT-11-Procedure-Buyer-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E1-BT-13716-notice-1">'Section identifier' (BT-13716-notice) is mandatory, except when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E1')</entry>
@@ -272,6 +314,7 @@
     <entry key="rule|text|FI-E1-FI-11-1">FI-E1-FI-11-1 - is forbidden.</entry>
     <entry key="rule|text|FI-E1-FI-20-1">FI-E1-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E1-FI-30-1">FI-E1-FI-30-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E1-FI-125-1">FI-E1-FI-125-1 - is not allowed.</entry>
     <!-- E3 -->
     <entry key="rule|text|FI-E3-BT-105-Procedure-1">FI-E3-BT-105-Procedure-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-109-Lot-1">'Justification for the duration of the framework agreement' (BT-109-Lot) is mandatory, except when: Duration of the lot must be greater than 4 years (in 'E3')</entry>
@@ -372,36 +415,44 @@
 	<entry key="rule|text|FI-E4-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-E4-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-e4-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+    <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - is not allowed.</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E5-FI-30-1">FI-E5-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-E5-FI-125-1">FI-E5-FI-125-1 - is not allowed.</entry>
     <!-- E6 -->
     <entry key="rule|text|FI-E6-FI-11-1">FI-E6-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E6-FI-20-1">FI-E6-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E6-FI-30-1">FI-E6-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E6-BT-512-Organization-Company-1">FI-E6-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-E6-FI-125-1">FI-E6-FI-125-1 - is not allowed.</entry>
     <!-- CEI -->
     <entry key="rule|text|FI-CEI-FI-11-1">FI-CEI-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-CEI-FI-20-1">FI-CEI-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-CEI-FI-30-1">FI-CEI-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-CEI-BT-512-Organization-Company-1">FI-CEI-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-CEI-FI-125-1">FI-CEI-FI-125-1 - is not allowed.</entry>
     <!-- T01 -->
     <entry key="rule|text|FI-T01-FI-11-1">FI-T01-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T01-FI-20-1">FI-T01-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T01-FI-30-1">FI-T01-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T01-BT-512-Organization-Company-1">FI-T01-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-T01-FI-125-1">FI-T01-FI-125-1 - is not allowed.</entry>
     <!-- T02 -->
     <entry key="rule|text|FI-T02-FI-11-1">FI-T02-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-FI-20-1">FI-T02-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-FI-30-1">FI-T02-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-BT-512-Organization-Company-1">FI-T02-BT-512-Organization-Company-1 - is mandatory.</entry>
+    <entry key="rule|text|FI-T02-FI-125-1">FI-T02-FI-125-1 - is not allowed.</entry>
     <!-- X01 -->
     <entry key="rule|text|FI-X01-FI-11-1">FI-X01-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-X01-FI-20-1">FI-X01-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-X01-FI-30-1">FI-X01-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-X01-FI-125-1">FI-X01-FI-125-1 - is not allowed.</entry>
     <!-- X02 -->
     <entry key="rule|text|FI-X02-FI-11-1">FI-X02-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-X02-FI-20-1">FI-X02-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-X02-FI-30-1">FI-X02-FI-30-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-X02-FI-125-1">FI-X02-FI-125-1 - is not allowed.</entry>
 </properties>

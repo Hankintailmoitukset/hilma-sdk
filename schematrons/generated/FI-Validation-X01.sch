@@ -9,6 +9,6 @@
 <assert id="FI-X01-FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) = 0">rule|text|FI-X01-FI-20-1</assert>
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:TenderingProcess[$noticeSubType = 'X01']">
-<assert id="FI-X01-FI-125-1" role="ERROR" test="count(cbc:ID) = 0">rule|text|FI-X01-FI-125-1</assert>
+<assert id="FI-X01-FI-125-1" role="ERROR" test="count(hilma:PreviousPlanningIdentifier) = 0">rule|text|FI-X01-FI-125-1</assert>
 </rule>
 </pattern>

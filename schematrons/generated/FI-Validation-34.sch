@@ -25,4 +25,7 @@
 <assert id="FI-34-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-34-FI-30-1</assert>
 <assert id="FI-34-FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) = 0">rule|text|FI-34-FI-20-1</assert>
 </rule>
+<rule context="/*/hilma:NationalExtension/hilma:TenderingProcess[$noticeSubType = '34']">
+<assert id="FI-34-FI-125-1" role="ERROR" test="count(hilma:PreviousPlanningIdentifier) = 0">rule|text|FI-34-FI-125-1</assert>
+</rule>
 </pattern>
