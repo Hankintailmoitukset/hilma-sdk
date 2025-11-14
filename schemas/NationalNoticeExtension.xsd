@@ -5,6 +5,8 @@
             xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
+   <xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1"
+               schemaLocation="../../../Sdk/1.13.0/schemas/common/BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
 
   
     <xsd:element name="PredictedValueConstraintIndicator"
@@ -68,6 +70,26 @@
                     </xsd:sequence>  
                   </xsd:complexType>
                 </xsd:element>
+				<xsd:element name="ReadOnlyFields">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="ProcurementIdentifiers">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="ProcurementIdentifier" maxOccurs="unbounded">
+											<xsd:complexType>
+												<xsd:sequence>
+													<xsd:element name="ParentObject" type="xsd:string" />
+													<xsd:element name="Identifier" type="xsd:string" />
+												</xsd:sequence>
+											</xsd:complexType>
+										</xsd:element>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
             </xsd:sequence>
         </xsd:complexType>
     </xsd:element>
