@@ -38,6 +38,28 @@ easily maintainable and transparent set of rules (`national-rules.json` and `nat
 
 National validator is used to validate all notices submitted to Hilma using SDK version 1.13.
 
+### About API versioning
+
+> The current API versions are v1 (stable) and v2 (vnext).
+
+The Hilma National Validator supports API versioning in order to provide stability for external API consumers while allowing the validation rules to evolve over time. The versioning mechanic enables external systems to test upcoming changes before they are made the default rules in Hilma.
+
+The apiVersion parameter is an optional query parameter that allows you to target specific versions of the validation rules. When specified, the validator will apply the validation rules corresponding to that version. If omitted, the latest stable version is used automatically.
+
+Specify the ```apiVersion``` query parameter in your API requests, for example
+```bash
+?apiVersion=v2
+```
+
+When to Use
+- Production environments: Omit the parameter to always target the current default rules in Hilma
+- Test environments: Use a specific version when a new upcoming version is announced
+
+Version options
+- v2, v3, etc. Target a specific version of the validation rules. Only specifically announced versions are supported. After a grace period, an old version is simply depracated and cannot be used anymore.
+- vnext. Automatically target the current upcoming version with the latest changes (not recommended for systems outside of Hilma)
+- Omit the parameter. Uses the latest stable version automatically
+
 ## National Rules And Fields
 
 The files described below can be used in conjunction with TED-OP SDK to understand the validation constraints
