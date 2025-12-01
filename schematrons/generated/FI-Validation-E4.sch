@@ -82,6 +82,32 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-767-Lot-1" role="ERROR" test="count(cbc:AuctionConstraintIndicator) &gt; 0">rule|text|FI-E4-BT-767-Lot-1</assert>
 </rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope'][$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-810-Lot-1" role="ERROR" test="count(efbc:ApplicableLegalBasis) = 0">rule|text|FI-E4-BT-810-Lot-1</assert>
+</rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E4-BT-811(a)-Lot-1</assert>
+<assert id="FI-E4-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E4-BT-811(b)-Lot-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E4-BT-811(a)-LotResult-1</assert>
+<assert id="FI-E4-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E4-BT-811(b)-LotResult-1</assert>
+<assert id="FI-E4-BT-814-LotResult-1" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) &gt; 0 or (efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-1</assert>
+<assert id="FI-E4-BT-814-LotResult-2" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) = 0 or not(efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-2</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-812-LotResult-1" role="ERROR" test="count(efbc:LabelCode) = 0">rule|text|FI-E4-BT-812-LotResult-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-con-yr'][$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-813-LotResult-1" role="ERROR" test="count(efbc:AssetMetricNumeric) = 0">rule|text|FI-E4-BT-813-LotResult-1</assert>
+<assert id="FI-E4-OPT-080-LotResult-1" role="ERROR" test="count(efbc:AssetMetricCode) = 0">rule|text|FI-E4-OPT-080-LotResult-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-815-LotResult-1" role="ERROR" test="count(efbc:StatisticsNumeric) = 0">rule|text|FI-E4-BT-815-LotResult-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr'][$noticeSubType = 'E4']">
+<assert id="FI-E4-OPT-081-LotResult-1" role="ERROR" test="count(efbc:AssetMetricCode) = 0">rule|text|FI-E4-OPT-081-LotResult-1</assert>
+</rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = 'E4']">
 <assert id="FI-E4-OPT-156-LotResult-1" role="ERROR" test="count(efbc:StatisticsNumeric) &gt; 0 or not(efbc:StatisticsCode)">rule|text|FI-E4-OPT-156-LotResult-1</assert>
 </rule>
