@@ -2,63 +2,13 @@
 
 ---
 
-### About
+## About
 
-Hilma-SDK is the version control of our National Validator rules and XML data structure.
-For more information about see below.
-
----
-
-## Table Of Contents
-
-- [National Validator](#national-validator)
-  - [About National Validator](#about-national-validator)
-  - [Current Usage In Hilma](#current-usage-in-hilma)
-  - [National Rules And Fields](#national-rules-and-fields)
-  - [How It Works Behind The Scenes](#how-does-it-work)
-
-- [XDS Schemas and National fields](#xml-notice-structure-and-national-specific-fields)
-  - [National fields](#national-fields)
-  - [XSD and XML structure](#xsd-and-xml-structure)
-
-- [Other](#other)
-  - [Glossary](#glossary)
-  - [Attributions](#attributions)
+Hilma-SDK provides the resources needed to understand eForms XML data structure and validation rules in Hilma. Hilma SDK extends the eForms data structure defined in TED SDK and therefore cannot be used as a standalone reference for creating valid eForms notices.
+ 
+For more in-depth information see below.
 
 ---
-
-# National Validator
-
-## About National Validator
-
-The national validator is Hilma's self-hosted XML validator. The national validator unifies our validation logic into an
-easily maintainable and transparent set of rules (`national-rules.json` and `national-fields.json`).
-
-## Current Usage In Hilma
-
-National validator is used to validate all notices submitted to Hilma using SDK version 1.13.
-
-### About API versioning
-
-> The current API versions are v1 (stable) and v2 (vnext).
-
-The Hilma National Validator supports API versioning in order to provide stability for external API consumers while allowing the validation rules to evolve over time. The versioning mechanic enables external systems to test upcoming changes before they are made the default rules in Hilma.
-
-The apiVersion parameter is an optional query parameter that allows you to target specific versions of the validation rules. When specified, the validator will apply the validation rules corresponding to that version. If omitted, the latest stable version is used automatically.
-
-Specify the ```apiVersion``` query parameter in your API requests, for example
-```bash
-?apiVersion=v2
-```
-
-When to Use
-- Production environments: Omit the parameter to always target the current default rules in Hilma
-- Test environments: Use a specific version when a new upcoming version is announced
-
-Version options
-- v2, v3, etc. Target a specific version of the validation rules. Only specifically announced versions are supported. After a grace period, an old version is simply depracated and cannot be used anymore.
-- vnext. Automatically target the current upcoming version with the latest changes (not recommended for systems outside of Hilma)
-- Omit the parameter. Uses the latest stable version automatically
 
 ## National Rules And Fields
 
@@ -67,97 +17,59 @@ when using Hilma API.
 
 ### nationalRules.json
 
-`nationalRules.json` is a list of "condensed versions" of TED-OP fields.json field object:
+`nationalRules.json` is an array of national tailorings for fields defined in TED-OP fields.json. These rules override the corresponding rules defined by TED, following a logical priority pattern. National tailorings can only implement stricter rules than originally defined by TED.
 
-```
-[
-    {
-        "id" : < ID of fields matching fields.json >,
-        "forbidden" : {
-            "constraints" :
-            [
-                {
-                "noticeTypes" : < Array of String >,
-                "severity" : "ERROR",
-                "value" : true
-                },¨
-                ....
-            ],
-        },
-        "mandatory" : {
-            "constraints" :
-            [
-                {
-                  "noticeTypes" : < Array of String >,
-                  "severity" : "ERROR",
-                  "value" : true
-                },
-                ....
-            ],
-        }
-        ....
-]
-```
+For example:
+- Hilma can define optional fields as mandatory
+- Hilma cannot define mandatory fields as optional
 
 ### nationalFields.json
 
-`nationalFields.json` is an implementation of TED-OP fields.json, see TED-OP field.json for example field object.
-
-## How does it work
-
-The Validator uses TED-OP schematron files as a base and appends Finnish national rules on top.
-This process consists of multiple parts:
-
-- `ted-field`: original field extracted from fields.json
-- `national-rule`: ruleset extracted from nationalRules.json
-- `national-field`: field extracted from nationalFields.json
-- `enriched-fields`: abstract term used to describe the mutated `ted-field` data
-
-This process consists of multiple stages:
-
-- Each `ted-field` gets a `national-field` merged into it.
-- Each `national-field` get appended to fields.json
-
-This process results in an end product referred to as `enriched-fields`.
-An `enriched-field` is a `ted-field` that has undergone some mutation via the above described process.
-
-After the `enriched-fields` have been produced they are parsed into schematron and then compiled into xsl stylesheets.
-
-The generated xsl stylesheets are hosted on our national validator.
+`nationalFields.json` contains the definitions of national fields not defined in TED SDK. The structure is much like the fields.json in TED-OP, it contains both the field XML paths and field validation rules, among other metadata. This file can be used in conjuction with the XML structure below to better understand Hilma's extended eForms notice structure.
 
 ---
 
-# XML Notice Structure And National Specific fields
+## XML Notice Structure And National Specific Fields
 
-As noted above, we are not only modifying `fields.json`, we are also appending new fields and the result of this means we need to communicate the new expected data structure (XML) to our users,
-for this reason we are including modified xsd files in the `schema` directory.
+As noted above, we are not only modifying TEDs `fields.json`, we are also appending new national fields. The xsd files in the `schema` directory are the result of merging TED-OP xsd schemas with Hilma national xsd schema.
+- NationalNoticeExtension.xsd (describes the national field nodes)
 
-## National Fields
-
-National Fields refers to any fields that are not native to `fields.json`.
-Details regarding these fields can be ascertained from `national-fields.json` and xsd files described below.
-
-The description of the national fields (extensions of TED's notice-types) is currently a WIP.
-
-## XSD and XML structure
-
-The `schemas` directory contains the XSD descriptions of `national notices` (E1, E3 and E4). These XSD files are modified versions
-of TED's XSD's. Since `national fields` are currently only accepted on `national notices` we decided to create modified copies of the XSD's'
-rather than extend the originals.
-
-The complete XML data structure can be ascertained from the provided XSD files.
+Below files are based on TED-OP xsd schemas, augmented with NationalNoticeExtension.xsd
+- National-BusinessRegistrationInformationNotice.xsd 
+- National-ContractAwardNotice-2.3.xsd
+- National-PriorInformationNotice-2.3.xsd
+- NationalContractNotice.xsd
 
 ---
 
-# Other
+## Hilma API
+This chapter describes the relationship between Hilma SDK and Hilma API.
+
+Hilma API Portal: https://hns-hilma-prod-apim.developer.azure-api.net/
+
+### Notice validation
+
+The eForm notices submitted to Hilma via Hilma API are validated against validation rules defined by Hilma SDK, which themselves are an extension of validation rules defined by TED. When backwards incompatible changes to validation rules are introduced in Hilma, a new major version pre-release of Hilma SDK is published. 
+
+In order to test the Hilma SDK pre-release validation rules, you can target the pre-release version validation rules by adding the ```hilmaSdkVersion``` query parameter to your Hilma API requests. For example:
+
+```
+?hilmaSdkVersion=v2
+```
+
+The version number should only include the major version part of the Hilma SDK release version, e.g. ```1.13.0-v2``` or ```1.13.0-v2.1``` should be targeted as ```v2```.
+
+Examples of Hilma API endpoints that support the ```hilmaSdkVersion``` query parameter are:
+- [Publish notice](https://hns-hilma-prod-apim.developer.azure-api.net/api-details#api=ets-write-eforms-api&operation=post-external-write-v1-procedure-procedureid-notice-etsidentifier)
+- [Validate notice](https://hns-hilma-prod-apim.developer.azure-api.net/api-details#api=ets-write-eforms-api&operation=post-external-write-v1-validate)
+
+---
 
 ## Glossary
 
 - `fields.json`: Is a reference to TED-OP fields.json.
-- `national validator`: Hilma's self-hosted XML validator.
 - `national rules`: Hilma's national rules.
 - `national fields`: Hilma's national fields.
-- `national notices`: E1, E3, E4 notice subtypes.
 
 ## Attributions
 
