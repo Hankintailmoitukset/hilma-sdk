@@ -45,6 +45,24 @@ Below files are based on TED-OP xsd schemas, augmented with NationalNoticeExtens
 ## Hilma API
 This chapter describes the relationship between Hilma SDK and Hilma API.
 
+Hilma API Portal: https://hns-hilma-prod-apim.developer.azure-api.net/
+
+### Notice validation
+
+The eForm notices submitted to Hilma via Hilma API are validated against validation rules defined by Hilma SDK, which themselves are an extension of validation rules defined by TED. When backwards incompatible changes to validation rules are introduced in Hilma, a new major version pre-release of Hilma SDK is published. 
+
+In order to test the Hilma SDK pre-release validation rules, you can target the pre-release version validation rules by adding the ```hilmaSdkVersion``` query parameter to your Hilma API requests. For example:
+
+```
+?hilmaSdkVersion=v2
+```
+
+The version number should only include the major version part of the Hilma SDK release version, e.g. ```1.13.0-v2``` or ```1.13.0-v2.1``` should be targeted as ```v2```.
+
+Examples of Hilma API endpoints that support the ```hilmaSdkVersion``` query parameter are:
+- [Publish notice](https://hns-hilma-prod-apim.developer.azure-api.net/api-details#api=ets-write-eforms-api&operation=post-external-write-v1-procedure-procedureid-notice-etsidentifier)
+- [Validate notice](https://hns-hilma-prod-apim.developer.azure-api.net/api-details#api=ets-write-eforms-api&operation=post-external-write-v1-validate)
+
 ---
 
 ## Glossary
