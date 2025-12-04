@@ -1509,5 +1509,170 @@
     "mandatory": {
       "constraints": []
     }
+  },
+    {
+      "id" : "BT-810-Lot",
+      "forbidden" : {
+        "value" : false,
+        "severity" : "ERROR",
+        "constraints" : [ {
+          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "value" : true,
+          "severity" : "ERROR"
+        } ]
+      },
+      "mandatory": {
+        "constraints": []
+      }
+    },
+    {
+      "id" : "BT-811(a)-Lot",
+      "forbidden" : {
+        "value" : false,
+        "severity" : "ERROR",
+        "constraints" : [ {
+          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "value" : true,
+          "severity" : "ERROR"
+        }]
+      },
+      "mandatory": {
+        "constraints": []
+      }
+    },
+    {
+      "id" : "BT-811(b)-Lot",
+      "forbidden" : {
+        "value" : false,
+        "severity" : "ERROR",
+        "constraints" : [ {
+          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "value" : true,
+          "severity" : "ERROR"
+        }]
+      },
+      "mandatory" : {
+        "constraints" : []
+      }
+    },
+    {
+    "id" : "BT-811(a)-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  },
+  {
+    "id" : "BT-811(b)-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "BT-812-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "BT-813-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "OPT-080-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "BT-814-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "OPT-081-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
+  }, 
+  {
+    "id" : "BT-815-LotResult",
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "value" : true,
+        "severity" : "ERROR"
+      }]
+    },
+    "mandatory" : {
+        "constraints" : []
+    }
   }
 ]
