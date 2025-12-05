@@ -103,6 +103,13 @@
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-767-Lot-1" role="ERROR" test="count(cbc:AuctionConstraintIndicator) &gt; 0">rule|text|FI-E3-BT-767-Lot-1</assert>
 </rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope'][$noticeSubType = 'E3']">
+<assert id="FI-E3-BT-810-Lot-1" role="ERROR" test="count(efbc:ApplicableLegalBasis) = 0">rule|text|FI-E3-BT-810-Lot-1</assert>
+</rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E3']">
+<assert id="FI-E3-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E3-BT-811(a)-Lot-1</assert>
+<assert id="FI-E3-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E3-BT-811(b)-Lot-1</assert>
+</rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-97-Lot-1" role="ERROR" test="count(cbc:ID) &gt; 0">rule|text|FI-E3-BT-97-Lot-1</assert>
 </rule>

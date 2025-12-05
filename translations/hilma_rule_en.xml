@@ -369,6 +369,9 @@
     <entry key="rule|text|FI-E3-FI-20-1">FI-E3-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-FI-30-1">FI-E3-FI-30-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E3-BT-651-1">'Subcontracting Tender Indication' (BT-651-Lot) - is not allowed.</entry>
+    <entry key="rule|text|FI-E3-BT-810-Lot-1">FI-E3-BT-810-Lot-1 is forbidden.</entry>
+    <entry key="rule|text|FI-E3-BT-811_a_-Lot-1">FI-E3-BT-811_a_-Lot-1 is forbidden.</entry>
+    <entry key="rule|text|FI-E3-BT-811_b_-Lot-1">FI-E3-BT-811_b_-Lot-1 is forbidden.</entry>
     <!-- E4 -->
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
@@ -409,6 +412,19 @@
     <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - is forbidden.</entry>
     <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - is not allowed.</entry>
+    <entry key="rule|text|FI-E4-BT-810-Lot-1">FI-E4-BT-810-Lot-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-811_a_-Lot-1">FI-E4-BT-811_a_-Lot-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-811_b_-Lot-1">FI-E4-BT-811_b_-Lot-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-811_a_-LotResult-1">FI-E4-BT-811_a_-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-811_b_-LotResult-1">FI-E4-BT-811_b_-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-814-LotResult-1">FI-E4-BT-814-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-814-LotResult-2">FI-E4-BT-814-LotResult-2 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-812-LotResult-1">FI-E4-BT-812-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-813-LotResult-1">FI-E4-BT-813-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-OPT-080-LotResult-1">FI-E4-OPT-080-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-BT-815-LotResult-1">FI-E4-BT-815-LotResult-1 - is forbidden.</entry>
+    <entry key="rule|text|FI-E4-OPT-081-LotResult-1">FI-E4-OPT-081-LotResult-1 - is forbidden.</entry>
     <entry key="rule|text|FI-E4-BT-735-LotResult-1">BT-735 is mandatory when BT-717 is 'yes'</entry>
 	<entry key="rule|text|FI-E4-BT-735-LotResult-2">BT-375 is only accepted when winner is selected (BT-142)</entry>
 	<entry key="rule|text|FI-E4-BT-723-LotResult-1">BT-723 is mandatory when BT-735 is set</entry>
