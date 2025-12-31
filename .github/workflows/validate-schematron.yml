@@ -33,6 +33,137 @@ jobs:
           ref: ${{ env.TED_SDK_VERSION }}
           path: eforms-sdk
       
+      - name: Validate translation coverage
+        run: |
+          cd hilma-sdk
+          
+          echo "Validating that all assert rule keys have translations..."
+          echo ""
+          
+          # Extract all rule|text|* keys from assert element content (both generated and manual)
+          RULE_KEYS=$(grep -rh '<assert' schematrons/generated/*.sch schematrons/manual/*.sch 2>/dev/null | \
+                     sed -n 's/.*>\(rule|text|[^<]*\)<.*/\1/p' | \
+                     sort -u)
+          
+          RULE_COUNT=$(echo "$RULE_KEYS" | wc -l)
+          echo "Found ${RULE_COUNT} unique rule keys in schematron files (generated + manual)"
+          
+          # Extract translation keys from English XML file (format: key="rule|text|...")
+          EN_KEYS=$(grep -o 'key="rule|text|[^"]*"' translations/hilma_rule_en.xml | \
+                   sed 's/key="//g' | \
+                   sed 's/"//g' | \
+                   sort -u)
+          
+          EN_COUNT=$(echo "$EN_KEYS" | wc -l)
+          echo "Found ${EN_COUNT} translation keys in hilma_rule_en.xml"
+          
+          # Extract translation keys from Finnish XML file
+          FI_KEYS=$(grep -o 'key="rule|text|[^"]*"' translations/hilma_rule_fi.xml | \
+                   sed 's/key="//g' | \
+                   sed 's/"//g' | \
+                   sort -u)
+          
+          FI_COUNT=$(echo "$FI_KEYS" | wc -l)
+          echo "Found ${FI_COUNT} translation keys in hilma_rule_fi.xml"
+          echo ""
+          
+          # Check for missing translations
+          MISSING_EN=()
+          MISSING_FI=()
+          
+          while IFS= read -r rule_key; do
+            if ! echo "$EN_KEYS" | grep -qx "$rule_key"; then
+              MISSING_EN+=("$rule_key")
+            fi
+            if ! echo "$FI_KEYS" | grep -qx "$rule_key"; then
+              MISSING_FI+=("$rule_key")
+            fi
+          done <<< "$RULE_KEYS"
+          
+          # Report results
+          if [ ${#MISSING_EN[@]} -gt 0 ]; then
+            echo "❌ ERROR: Missing English translations for ${#MISSING_EN[@]} rule key(s):"
+            printf '  - %s\n' "${MISSING_EN[@]}"
+            echo ""
+            EXIT_CODE=1
+          else
+            echo "✅ All rule keys have English translations"
+          fi
+          
+          if [ ${#MISSING_FI[@]} -gt 0 ]; then
+            echo "❌ ERROR: Missing Finnish translations for ${#MISSING_FI[@]} rule key(s):"
+            printf '  - %s\n' "${MISSING_FI[@]}"
+            echo ""
+            EXIT_CODE=1
+          else
+            echo "✅ All rule keys have Finnish translations"
+          fi
+          
+          # Check for unused translations (warnings only)
+          UNUSED_EN=()
+          UNUSED_FI=()
+          
+          while IFS= read -r en_key; do
+            if ! echo "$RULE_KEYS" | grep -qx "$en_key"; then
+              UNUSED_EN+=("$en_key")
+            fi
+          done <<< "$EN_KEYS"
+          
+          while IFS= read -r fi_key; do
+            if ! echo "$RULE_KEYS" | grep -qx "$fi_key"; then
+              UNUSED_FI+=("$fi_key")
+            fi
+          done <<< "$FI_KEYS"
+          
+          # Check if EN and FI have same count
+          if [ "$EN_COUNT" -ne "$FI_COUNT" ]; then
+            echo "⚠️  WARNING: Translation count mismatch between languages"
+            echo "    English translations: ${EN_COUNT}"
+            echo "    Finnish translations: ${FI_COUNT}"
+            echo "    Difference: $((EN_COUNT - FI_COUNT))"
+            echo ""
+          fi
+          
+          # Report unused translations
+          if [ ${#UNUSED_EN[@]} -gt 0 ]; then
+            echo "⚠️  WARNING: Found ${#UNUSED_EN[@]} unused English translation(s) not referenced in schematron files:"
+            printf '  - %s\n' "${UNUSED_EN[@]}" | head -20
+            if [ ${#UNUSED_EN[@]} -gt 20 ]; then
+              echo "  ... and $((${#UNUSED_EN[@]} - 20)) more"
+            fi
+            echo ""
+          fi
+          
+          if [ ${#UNUSED_FI[@]} -gt 0 ]; then
+            echo "⚠️  WARNING: Found ${#UNUSED_FI[@]} unused Finnish translation(s) not referenced in schematron files:"
+            printf '  - %s\n' "${UNUSED_FI[@]}" | head -20
+            if [ ${#UNUSED_FI[@]} -gt 20 ]; then
+              echo "  ... and $((${#UNUSED_FI[@]} - 20)) more"
+            fi
+            echo ""
+          fi
+          
+          # Summary
+          echo "════════════════════════════════════════"
+          echo "Translation Validation Summary:"
+          echo "  Schematron rule keys: ${RULE_COUNT}"
+          echo "  English translations: ${EN_COUNT}"
+          echo "  Finnish translations: ${FI_COUNT}"
+          if [ ${#UNUSED_EN[@]} -gt 0 ] || [ ${#UNUSED_FI[@]} -gt 0 ]; then
+            echo "  Unused translations: ${#UNUSED_EN[@]} EN, ${#UNUSED_FI[@]} FI"
+          fi
+          echo "════════════════════════════════════════"
+          echo ""
+          
+          if [ -n "$EXIT_CODE" ]; then
+            echo "❌ Translation validation failed. Please add the missing translations to:"
+            echo "  - translations/hilma_rule_en.xml"
+            echo "  - translations/hilma_rule_fi.xml"
+            exit 1
+          fi
+          
+          echo "✅ Translation validation passed (with ${#UNUSED_EN[@]} warnings)"
+      
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
