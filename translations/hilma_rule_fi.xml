@@ -2,6 +2,8 @@
     <!-- Manual -->
     <entry key="rule|text|FI-M-FI-0001">FI-0001 - Kansallinen laajennus on pakollinen ilmoituksissa E1, E3 and E4.</entry>
     <entry key="rule|text|FI-M-FI-0002">FI-0002 - Pakollisesta poissulkemisperusteesta (BT-67(a)) puuttuu merkint�j�: </entry>
+    <entry key="rule|text|FI-M-FI-0002a">FI-M-FI-0002a - Pakollinen poissulkuperuste (BT-67(a)) on oltava merkintöjä.</entry>
+    <entry key="rule|text|FI-M-FI-0002b">FI-M-FI-0002b - Pakollinen poissulkuperuste (BT-67(a)) on oltava kelvolliset merkinnät.</entry>
     <entry key="rule|text|FI-M-FI-0003">Kun BT-723 on valittu 'Linja-auto' (m3), pitää kentät BT-715, BT-716 ja BT-725 täyttää</entry>
 	<entry key="rule|text|FI-M-FI-0004">Kun BT-723 on valittu joko 'Kevyt hyötyajoneuvo' (m1, m2, n1) tai 'Kuorma-auto' (n2-n3), pitää kentät BT-715 ja BT-716 täyttää</entry>
 	<entry key="rule|text|FI-M-FI-0005">Kun BT-723 on valittu joko 'Kevyt hyötyajoneuvo' (m1, m2, n1) tai 'Kuorma-auto' (n2-n3), BT-725 ei ole sallittu</entry>
@@ -108,6 +110,8 @@
     <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-BT-50-Lot-1">'Menettelyn j�lkimm�iseen vaiheeseen kutsuttavien ehdokkaiden v�himm�ism��r�' (BT-50-Lot) on pakollinen, kun: 'Menettelyn j�lkimm�iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm�ism��r�' (BT-661-Lot) on 'kyll�'</entry>
     <entry key="rule|text|FI-16-BT-512-Organization-Company-1">FI-16-BT-512-Organization-Company-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-16-BT-762-notice-1">FI-16-BT-762-notice-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-BT-762-notice-2">FI-16-BT-762-notice-2 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-FI-125-1">FI-16-FI-125-1 - ei ole sallittu</entry>
     <!-- 17 -->
     <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - ei ole sallittu.</entry>
@@ -125,6 +129,7 @@
     <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-30-1">FI-19-FI-30-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-19-BT-88-Procedure-1">FI-19-BT-88-Procedure-1 - on pakollinen kun menettelyn koodi vaatii kuvauksen.</entry>
     <entry key="rule|text|FI-19-BT-512-Organization-Company-1">FI-19-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-19-FI-125-1">FI-19-FI-125-1 - ei ole sallittu</entry>
     <!-- 20 -->
@@ -149,12 +154,14 @@
     <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-30-1">FI-23-FI-30-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-23-BT-88-Procedure-1">FI-23-BT-88-Procedure-1 - on pakollinen kun menettelyn koodi vaatii kuvauksen.</entry>
     <entry key="rule|text|FI-23-BT-512-Organization-Company-1">FI-23-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-23-FI-125-1">FI-23-FI-125-1 - ei ole sallittu</entry>
     <!-- 24 -->
     <entry key="rule|text|FI-24-FI-11-1">FI-24-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-24-FI-20-1">FI-24-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-24-FI-30-1">FI-24-FI-30-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-24-BT-88-Procedure-1">FI-24-BT-88-Procedure-1 - on pakollinen kun menettelyn koodi vaatii kuvauksen.</entry>
     <entry key="rule|text|FI-24-BT-512-Organization-Company-1">FI-24-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-24-FI-125-1">FI-24-FI-125-1 - ei ole sallittu</entry>
     <!-- 25 -->
@@ -309,12 +316,22 @@
     <entry key="rule|text|FI-E1-BT-507-Organization-Company-1">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on pakollinen, paitsi kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E1')</entry>
     <entry key="rule|text|FI-E1-BT-507-Organization-Company-2">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) ei ole sallittu, kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E1')</entry>
     <entry key="rule|text|FI-E1-BT-513-Organization-Company-1">FI-E1-BT-513-Organization-Company-1 - on pakollinen.</entry>
-    <entry key="rule|text|FI-E3-BT-745-Lot-1">'Kuvaus' (BT-745-Lot) on pakollinen, kun: Tarjousten s�hk�inen j�tt�minen on 'ei sallittu' tai 'sallittu' ('E3')</entry>
+    <entry key="rule|text|FI-E1-BT-19-Lot-1">FI-E1-BT-19-Lot-1 - on pakollinen kun sähköinen jättäminen ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E1-BT-19-Lot-2">FI-E1-BT-19-Lot-2 - ei ole sallittu kun sähköinen jättäminen on sallittu.</entry>
+    <entry key="rule|text|FI-E1-BT-718-notice-1">FI-E1-BT-718-notice-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E1-BT-719-notice-1">FI-E1-BT-719-notice-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E1-BT-740-Procedure-Buyer-1">FI-E1-BT-740-Procedure-Buyer-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E1-BT-745-Lot-1">FI-E1-BT-745-Lot-1 - on pakollinen kun sähköinen jättäminen ei ole sallittu tai on sallittu.</entry>
     <entry key="rule|text|FI-E1-BT-758-notice-1">FI-E1-BT-758-notice-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E1-FI-11-1">FI-E1-FI-11-1 - on kielletty.</entry>
     <entry key="rule|text|FI-E1-FI-20-1">FI-E1-FI-20-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E1-FI-30-1">FI-E1-FI-30-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E1-FI-125-1">FI-E1-FI-125-1 - ei ole sallittu</entry>
+    <!-- E2 -->
+    <entry key="rule|text|FI-E2-FI-11-1">FI-E2-FI-11-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E2-FI-20-1">FI-E2-FI-20-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E2-FI-30-1">FI-E2-FI-30-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E2-FI-125-1">FI-E2-FI-125-1 - ei ole sallittu.</entry>
     <!-- E3 -->
     <entry key="rule|text|FI-E3-BT-105-Procedure-1">FI-E3-BT-105-Procedure-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-109-Lot-1">'Puitej�rjestelyn poikkeuksellisen pitk�� kestoa koskevat perustelut' (BT-109-Lot) on pakollinen, paitsi kun: Osan keston on oltava yli 4 vuotta ('E3')</entry>
@@ -338,13 +355,20 @@
     <entry key="rule|text|FI-E3-BT-507-Organization-Company-1">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on pakollinen, paitsi kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-507-Organization-Company-2">'Maaryhmittely (NUTS)' (BT-507-Organization-Company) ei ole sallittu, kun: 'Maa' (BT-514-Organization-Company) ei ole NUTS-koodeja ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-513-Organization-Company-1">FI-E3-BT-513-Organization-Company-1 - on pakollinen.</entry>
-    <entry key="rule|text|FI-E3-BT-52-Lot-1">'Menettely etenee per�kk�isiss� vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) on pakollinen, kun: 'Menettelytyyppi' (BT-105) ei ole joko 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus'; 'Tarjouskilpailukutsun julkaisemisen j�lkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely' ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-52-Lot-1">'Menettely etenee per�kk�isiss� vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) on pakollinen, kun: 'Menettelyn tyyppi' (BT-105) ei ole joko 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus'; 'Tarjouskilpailukutsun julkaisemisen j�lkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely' ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-539-Lot-1">FI-E3-BT-539-Lot-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-539-LotsGroup-1">'Tyyppi' (BT-539-LotsGroup) on pakollinen, paitsi kun: Osan ID:t� ei ole t�ytetty('E3')</entry>
     <entry key="rule|text|FI-E3-BT-539-LotsGroup-2">'Tyyppi' (BT-539-LotsGroup) ei ole sallittu, kun: Osan ID:t� ei ole t�ytetty ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-60-Lot-1">FI-E3-BT-60-Lot-1 - on pakollinen.</entry>
+    <entry key="rule|text|FI-E3-BT-64-Lot-1">FI-E3-BT-64-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-65-Lot-1">FI-E3-BT-65-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-132(d)-Lot-1">FI-E3-BT-132(d)-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-132(t)-Lot-1">FI-E3-BT-132(t)-Lot-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-630(d)-Lot-1">'Kiinnostusilmaisujen vastaanottamisen m��r�aika' (BT-630(d)-Lot) ei ole sallittu ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-630(t)-Lot-1">'Kiinnostusilmaisujen vastaanottamisen m��r�aika' (BT-630(t)-Lot) ei ole sallittu ('E3')</entry>
+    <entry key="rule|text|FI-E3-BT-651-Lot-1">FI-E3-BT-651-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-729-Lot-1">FI-E3-BT-729-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-740-Procedure-Buyer-1">FI-E3-BT-740-Procedure-Buyer-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-661-Lot-1">'Menettelyn j�lkimm�iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm�ism��r�' (BT-661-Lot) on pakollinen, paitsi kun: 'Menettelyn tyyppi' (BT-105) on 'Avoin' tai 'Muu yksivaiheinen menettely' tai 'Neuvottelumenettely ilman edelt�v�� tarjouskilpailukutsua' ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-661-Lot-2">'Menettelyn j�lkimm�iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm�ism��r�' (BT-661-Lot) ei ole sallittu, kun: 'Menettelyn tyyppi' (BT-105) on 'Avoin' tai 'Muu yksivaiheinen menettely' tai 'Neuvottelumenettely ilman edelt�v�� tarjouskilpailukutsua' ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-71-Lot-1">FI-E3-BT-71-Lot-1 - on pakollinen.</entry>
@@ -370,8 +394,8 @@
     <entry key="rule|text|FI-E3-FI-30-1">FI-E3-FI-30-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-651-1">'Subcontracting Tender Indication' (BT-651-Lot) - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-810-Lot-1">FI-E3-BT-810-Lot-1 is ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E3-BT-811_a_-Lot-1">FI-E3-BT-811_a_-Lot-1 is ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E3-BT-811_b_-Lot-1">FI-E3-BT-811_b_-Lot-1 is ei ole sallittu.</entry>    
+    <entry key="rule|text|FI-E3-BT-811(a)-Lot-1">FI-E3-BT-811(a)-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-BT-811(b)-Lot-1">FI-E3-BT-811(b)-Lot-1 - ei ole sallittu.</entry>    
     <!-- E4 -->
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
@@ -409,15 +433,21 @@
     <entry key="rule|text|FI-E4-BT-773-Tender-1">'Alihankinta' (BT-773-Tender) on pakollinen, paitsi kun: 'Tarjousten tekninen ID' (OPT-321-Tender) ei ole t�ytetty ('E4')</entry>
     <entry key="rule|text|FI-E4-BT-773-Tender-2">'Alihankinta' (BT-773-Tender) ei ole sallittu, kun: 'Tarjousten tekninen ID' (OPT-321-Tender) ei ole t�ytetty ('E4')</entry>
     <entry key="rule|text|FI-E4-BT-88-Procedure-1">count(cbc:Description) &gt; 0 or not(cbc:ProcedureCode/normalize-space(text()) = ('oth-mult','oth-single'))</entry>
+    <entry key="rule|text|FI-E4-BT-193-Tender-1">FI-E4-BT-193-Tender-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-1711-Tender-1">FI-E4-BT-1711-Tender-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-710-LotResult-1">FI-E4-BT-710-LotResult-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-711-LotResult-1">FI-E4-BT-711-LotResult-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-740-Procedure-Buyer-1">FI-E4-BT-740-Procedure-Buyer-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-OPT-156-LotResult-1">FI-E4-OPT-156-LotResult-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E4-FI-11-1">FI-E4-FI-11-1 - on kielletty.</entry>
     <entry key="rule|text|FI-E4-FI-20-1">FI-E4-FI-20-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E4-FI-30-1">FI-E4-FI-30-1 - on kielletty.</entry>
     <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - ei ole sallittu</entry>
     <entry key="rule|text|FI-E4-BT-810-Lot-1">FI-E4-BT-810-Lot-1 - ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E4-BT-811_a_-Lot-1">FI-E4-BT-811_a_-Lot-1 - ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E4-BT-811_b_-Lot-1">FI-E4-BT-811_b_-Lot-1 - ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E4-BT-811_a_-LotResult-1">FI-E4-BT-811_a_-LotResult-1 - ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E4-BT-811_b_-LotResult-1">FI-E4-BT-811_b_-LotResult-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-811(a)-Lot-1">FI-E4-BT-811(a)-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-811(b)-Lot-1">FI-E4-BT-811(b)-Lot-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-811(a)-LotResult-1">FI-E4-BT-811(a)-LotResult-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E4-BT-811(b)-LotResult-1">FI-E4-BT-811(b)-LotResult-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E4-BT-814-LotResult-1">FI-E4-BT-814-LotResult-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E4-BT-814-LotResult-2">FI-E4-BT-814-LotResult-2 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E4-BT-812-LotResult-1">FI-E4-BT-812-LotResult-1 - ei ole sallittu.</entry>
