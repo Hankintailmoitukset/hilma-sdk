@@ -33,6 +33,83 @@ jobs:
           ref: ${{ env.TED_SDK_VERSION }}
           path: eforms-sdk
       
+      - name: Validate translation coverage
+        run: |
+          cd hilma-sdk
+          
+          echo "Validating that all assert IDs have translations..."
+          echo ""
+          
+          # Extract all assert IDs from generated and manual schematron files
+          ASSERT_IDS=$(grep -rh 'assert id="' schematrons/generated/*.sch schematrons/manual/*.sch 2>/dev/null | \
+                      sed -n 's/.*assert id="\([^"]*\)".*/\1/p' | \
+                      sort -u)
+          
+          ASSERT_COUNT=$(echo "$ASSERT_IDS" | wc -l)
+          echo "Found ${ASSERT_COUNT} unique assert IDs in schematron files (generated + manual)"
+          
+          # Extract translation keys from English XML file
+          EN_KEYS=$(grep -o 'key="rule|text|[^"]*"' translations/hilma_rule_en.xml | \
+                   sed 's/key="rule|text|//g' | \
+                   sed 's/"//g' | \
+                   sort -u)
+          
+          EN_COUNT=$(echo "$EN_KEYS" | wc -l)
+          echo "Found ${EN_COUNT} translation keys in hilma_rule_en.xml"
+          
+          # Extract translation keys from Finnish XML file
+          FI_KEYS=$(grep -o 'key="rule|text|[^"]*"' translations/hilma_rule_fi.xml | \
+                   sed 's/key="rule|text|//g' | \
+                   sed 's/"//g' | \
+                   sort -u)
+          
+          FI_COUNT=$(echo "$FI_KEYS" | wc -l)
+          echo "Found ${FI_COUNT} translation keys in hilma_rule_fi.xml"
+          echo ""
+          
+          # Check for missing translations
+          MISSING_EN=()
+          MISSING_FI=()
+          
+          while IFS= read -r assert_id; do
+            if ! echo "$EN_KEYS" | grep -qx "$assert_id"; then
+              MISSING_EN+=("$assert_id")
+            fi
+            if ! echo "$FI_KEYS" | grep -qx "$assert_id"; then
+              MISSING_FI+=("$assert_id")
+            fi
+          done <<< "$ASSERT_IDS"
+          
+          # Report results
+          if [ ${#MISSING_EN[@]} -gt 0 ]; then
+            echo "❌ ERROR: Missing English translations for ${#MISSING_EN[@]} assert ID(s):"
+            printf '  - %s\n' "${MISSING_EN[@]}"
+            echo ""
+            EXIT_CODE=1
+          else
+            echo "✅ All assert IDs have English translations"
+          fi
+          
+          if [ ${#MISSING_FI[@]} -gt 0 ]; then
+            echo "❌ ERROR: Missing Finnish translations for ${#MISSING_FI[@]} assert ID(s):"
+            printf '  - %s\n' "${MISSING_FI[@]}"
+            echo ""
+            EXIT_CODE=1
+          else
+            echo "✅ All assert IDs have Finnish translations"
+          fi
+          
+          if [ -n "$EXIT_CODE" ]; then
+            echo ""
+            echo "Translation validation failed. Please add the missing translations to:"
+            echo "  - translations/hilma_rule_en.xml"
+            echo "  - translations/hilma_rule_fi.xml"
+            exit 1
+          fi
+          
+          echo ""
+          echo "✓ Translation validation passed"
+      
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
