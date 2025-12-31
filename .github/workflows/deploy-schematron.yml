@@ -1,0 +1,287 @@
+name: Deploy Schematron Stylesheets
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+-[0-9]+.[0-9]+.[0-9]+'
+
+env:
+  SAXON_VERSION: ${{ vars.SAXON_VERSION}}
+  SCHXSLT_VERSION: ${{ vars.SCHXSLT_VERSION}}
+
+jobs:
+  deploy-stylesheets:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Extract versions from tag
+        id: versions
+        run: |
+          # Parse composite tag format: vHILMA_VERSION-TED_VERSION (e.g., v2.4-1.13.2)
+          SDK_TAG="${{ github.ref_name }}"
+          
+          if [[ $SDK_TAG =~ ^v([0-9]+\.[0-9]+)-([0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
+            HILMA_VERSION="v${BASH_REMATCH[1]}"
+            TED_VERSION="${BASH_REMATCH[2]}"
+          else
+            echo "ERROR: Invalid tag format."
+            echo "Expected format: vHILMA_VERSION-TED_VERSION"
+            echo "Example: v2.4-1.13.2"
+            echo "Provided: ${SDK_TAG}"
+            echo ""
+            echo "Make sure to select a properly formatted tag when running this workflow."
+            exit 1
+          fi
+          
+          echo "ted_version=${TED_VERSION}" >> $GITHUB_OUTPUT
+          echo "hilma_version=${HILMA_VERSION}" >> $GITHUB_OUTPUT
+          
+          echo "Selected tag: ${SDK_TAG}"
+          echo "TED SDK version: ${TED_VERSION}"
+          echo "Hilma SDK version: ${HILMA_VERSION}"
+      
+      - name: Checkout hilma-sdk
+        uses: actions/checkout@v4
+      
+      - name: Checkout TED eForms SDK
+        uses: actions/checkout@v4
+        with:
+          repository: OP-TED/eForms-SDK
+          ref: ${{ steps.versions.outputs.ted_version }}
+          path: eforms-sdk
+      
+      - name: Setup Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      
+      - name: Cache Saxon and schxslt
+        id: cache-tools
+        uses: actions/cache@v4
+        with:
+          path: |
+            tools/saxon
+            tools/schxslt
+          key: schematron-tools-saxon-${{ env.SAXON_VERSION }}-schxslt-${{ env.SCHXSLT_VERSION }}
+      
+      - name: Download Saxon HE
+        if: steps.cache-tools.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tools/saxon
+          SAXON_TAG=$(echo "${{ env.SAXON_VERSION }}" | tr '.' '-')
+          wget -q https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE${SAXON_TAG}/SaxonHE${SAXON_TAG}J.zip
+          unzip -q SaxonHE${SAXON_TAG}J.zip -d tools/saxon
+          rm SaxonHE${SAXON_TAG}J.zip
+          echo "✓ Downloaded Saxon HE ${{ env.SAXON_VERSION }} (with all dependencies)"
+      
+      - name: Download schxslt
+        if: steps.cache-tools.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p tools
+          wget -q https://codeberg.org/SchXslt/schxslt/releases/download/v${{ env.SCHXSLT_VERSION }}/schxslt-${{ env.SCHXSLT_VERSION }}-xslt-only.zip
+          unzip -q schxslt-${{ env.SCHXSLT_VERSION }}-xslt-only.zip
+          mv schxslt-${{ env.SCHXSLT_VERSION }}/2.0 tools/schxslt
+          rm -rf schxslt-${{ env.SCHXSLT_VERSION }} schxslt-${{ env.SCHXSLT_VERSION }}-xslt-only.zip
+          echo "✓ Downloaded schxslt v${{ env.SCHXSLT_VERSION }} from Codeberg"
+      
+      - name: Extract phase names
+        id: phases
+        run: |
+          cd schematrons
+          echo "Extracting phases from hilma-validation.sch..."
+          PHASES=$(grep '<phase id=' hilma-validation.sch | grep -o 'id="[^"]*"' | cut -d'"' -f2 | tr '\n' ' ')
+          PHASE_COUNT=$(echo "$PHASES" | wc -w)
+          
+          if [ -z "$PHASES" ]; then
+            echo "ERROR: No phases found in hilma-validation.sch"
+            exit 1
+          fi
+          
+          echo "phases=${PHASES}" >> $GITHUB_OUTPUT
+          echo "phase_count=${PHASE_COUNT}" >> $GITHUB_OUTPUT
+          echo "Found ${PHASE_COUNT}"
+      
+      - name: Prepare schematron with SDK path
+        run: |
+          cd schematrons
+          
+          # SDK path relative to schematron file location
+          SDK_PATH="../eforms-sdk"
+          sed "s|{sdk-path}|${SDK_PATH}|g" hilma-validation.sch > temp-hilma-validation.sch
+          echo "✓ SDK path placeholder replaced with: ${SDK_PATH}"
+      
+      - name: Generate XSL stylesheets
+        run: |
+          cd schematrons
+          
+          # Create output directory
+          TIMESTAMP=$(date +%Y%m%d_%H%M)
+          OUTPUT_DIR="output/${TIMESTAMP}_${{ steps.versions.outputs.hilma_version }}_${{ steps.versions.outputs.ted_version }}"
+          mkdir -p "$OUTPUT_DIR"
+          
+          echo "Output directory: ${OUTPUT_DIR}"
+          echo ""
+          
+          # Step 1: Include
+          echo "[1/4] Including schematron files..."
+          java -cp "../tools/saxon/*" net.sf.saxon.Transform \
+            -s:temp-hilma-validation.sch \
+            -xsl:../tools/schxslt/include.xsl \
+            -o:temp1.xsl
+          
+          if [ $? -ne 0 ]; then
+            echo "ERROR: Include transformation failed"
+            exit 1
+          fi
+          
+          # Step 2: Expand
+          echo "[2/4] Expanding schematron..."
+          java -cp "../tools/saxon/*" net.sf.saxon.Transform \
+            -s:temp1.xsl \
+            -xsl:../tools/schxslt/expand.xsl \
+            -o:temp2.xsl
+          
+          if [ $? -ne 0 ]; then
+            echo "ERROR: Expand transformation failed"
+            exit 1
+          fi
+          
+          # Step 3: Compile all phases
+          echo "[3/4] Compiling ${{ steps.phases.outputs.phase_count }} phases to XSLT..."
+          PHASES="${{ steps.phases.outputs.phases }}"
+          FAILED_PHASES=""
+          SUCCESS_COUNT=0
+          
+          for PHASE in $PHASES; do
+            # Generate output filename
+            HILMA_ITERATION=""
+            if [[ "${{ steps.versions.outputs.hilma_version }}" =~ v([0-9]+\.[0-9]+) ]]; then
+              HILMA_ITERATION="-v${BASH_REMATCH[1]}"
+            fi
+            OUTPUT_FILE="${PHASE}_${{ steps.versions.outputs.ted_version }}${HILMA_ITERATION}.xsl"
+            
+            # Compile phase
+            java -cp "../tools/saxon/*" net.sf.saxon.Transform \
+              -s:temp2.xsl \
+              -xsl:../tools/schxslt/compile-for-svrl.xsl \
+              -o:"${OUTPUT_DIR}/${OUTPUT_FILE}" \
+              phase="${PHASE}" 2>&1
+            
+            if [ $? -ne 0 ]; then
+              echo "  ✗ ${PHASE} FAILED"
+              FAILED_PHASES="${FAILED_PHASES} ${PHASE}"
+            else
+              echo "  ✓ ${PHASE} -> ${OUTPUT_FILE}"
+              SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+            fi
+          done
+          
+          echo ""
+          echo "[4/4] Compilation complete: ${SUCCESS_COUNT}/${{ steps.phases.outputs.phase_count }} phases succeeded"
+          
+          # Cleanup temp files
+          rm -f temp-hilma-validation.sch temp1.xsl temp2.xsl
+          
+          # Check for failures
+          if [ -n "$FAILED_PHASES" ]; then
+            echo ""
+            echo "ERROR: Some phases failed to compile:${FAILED_PHASES}"
+            exit 1
+          fi
+          
+          echo "output_dir=${OUTPUT_DIR}" >> $GITHUB_ENV
+      
+      - name: Create deployment metadata
+        run: |
+          cd schematrons
+          
+          cat > "${output_dir}/DEPLOYMENT.md" << EOF
+          # Schematron XSL Stylesheets - Release Package
+          
+          **Generated:** $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          **SDK Tag:** ${{ github.ref_name }}
+          **Hilma SDK Version:** ${{ steps.versions.outputs.hilma_version }}
+          **TED SDK Version:** ${{ steps.versions.outputs.ted_version }}
+          **Saxon Version:** ${{ env.SAXON_VERSION }}
+          **schxslt Version:** ${{ env.SCHXSLT_VERSION }}
+          **Workflow Run:** ${{ github.run_number }}
+          
+          ## Contents
+          
+          This package contains ${{ steps.phases.outputs.phase_count }} compiled XSLT stylesheets for validating eForms notices against Hilma national rules.
+          
+          **Phases included:**
+          ${{ steps.phases.outputs.phases }}
+          
+          ## Source
+          
+          - **Repository:** ${{ github.repository }}
+          - **Tag:** ${{ github.ref_name }}
+          - **Commit:** ${{ github.sha }}
+          - **Triggered by:** ${{ github.actor }}
+          EOF
+      
+      - name: Upload deployment package
+        uses: actions/upload-artifact@v4
+        with:
+          name: schematron-deployment-${{ steps.versions.outputs.hilma_version }}-${{ steps.versions.outputs.ted_version }}
+          path: schematrons/${{ env.output_dir }}
+          retention-days: 90
+      
+      - name: Create release package
+        run: |
+          cd schematrons
+          
+          # Create a clean directory structure for the release
+          RELEASE_DIR="schematron-deployment-${{ steps.versions.outputs.hilma_version }}-${{ steps.versions.outputs.ted_version }}"
+          mkdir -p "${RELEASE_DIR}/stylesheets"
+          
+          # Copy XSL files to stylesheets folder
+          cp ${{ env.output_dir }}/*.xsl "${RELEASE_DIR}/stylesheets/"
+          
+          # Copy DEPLOYMENT.md to root of release package
+          cp ${{ env.output_dir }}/DEPLOYMENT.md "${RELEASE_DIR}/"
+          
+          # Create zip archive
+          zip -r "${RELEASE_DIR}.zip" "${RELEASE_DIR}"
+          
+          echo "✓ Created release package: ${RELEASE_DIR}.zip"
+      
+      - name: Create GitHub Release with deployment package
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true
+          files: schematrons/schematron-deployment-${{ steps.versions.outputs.hilma_version }}-${{ steps.versions.outputs.ted_version }}.zip
+          body: |
+            # Schematron XSL Stylesheets - ${{ steps.versions.outputs.hilma_version }}
+            
+            **TED SDK Version:** ${{ steps.versions.outputs.ted_version }}
+            **Hilma SDK Version:** ${{ steps.versions.outputs.hilma_version }}
+            **Phases Compiled:** ${{ steps.phases.outputs.phase_count }}
+            
+            ## Tools Used
+            
+            - Saxon HE: ${{ env.SAXON_VERSION }}
+            - schxslt: ${{ env.SCHXSLT_VERSION }}
+            
+            ## Contents
+            
+            This release includes all ${{ steps.phases.outputs.phase_count }} compiled XSL validation stylesheets for eForms notices.
+      
+      - name: Deployment summary
+        run: |
+          echo "## ✓ Deployment Package Generated" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**SDK Tag:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Hilma SDK Version:** ${{ steps.versions.outputs.hilma_version }}" >> $GITHUB_STEP_SUMMARY
+          echo "**TED SDK Version:** ${{ steps.versions.outputs.ted_version }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Saxon:** v${{ env.SAXON_VERSION }}" >> $GITHUB_STEP_SUMMARY
+          echo "**schxslt:** v${{ env.SCHXSLT_VERSION }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Phases compiled:** ${{ steps.phases.outputs.phase_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Artifact" >> $GITHUB_STEP_SUMMARY
+          echo "Download package: \`schematron-deployment-${{ steps.versions.outputs.hilma_version }}-${{ steps.versions.outputs.ted_version }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "See **DEPLOYMENT.md** in artifact for instructions." >> $GITHUB_STEP_SUMMARY
+
