@@ -157,9 +157,9 @@ jobs:
             # Generate output filename
             HILMA_ITERATION=""
             if [[ "${{ steps.versions.outputs.hilma_version }}" =~ v([0-9]+\.[0-9]+) ]]; then
-              HILMA_ITERATION="-v${BASH_REMATCH[1]}"
+              HILMA_ITERATION="v${BASH_REMATCH[1]}"
             fi
-            OUTPUT_FILE="${PHASE}_${{ steps.versions.outputs.ted_version }}${HILMA_ITERATION}.xsl"
+            OUTPUT_FILE="${PHASE}_${HILMA_ITERATION}-${{ steps.versions.outputs.ted_version }}.xsl"
             
             # Compile phase
             java -cp "../tools/saxon/*" net.sf.saxon.Transform \
