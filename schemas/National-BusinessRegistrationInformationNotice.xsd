@@ -20,11 +20,11 @@ xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponent
 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 xmlns:hilma="urn:hanselHilma:NationalNoticeExtension"
 targetNamespace="http://data.europa.eu/p27/eforms-business-registration-information-notice/1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.3">
-	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonAggregateComponents-2.3.xsd"/>
-	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonBasicComponents-2.3.xsd"/>
-	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="../../../Sdk/1.13/schemas/common/UBL-CommonExtensionComponents-2.3.xsd"/>
-	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" schemaLocation="../../../Sdk/1.13/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"/>
-	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" schemaLocation="../../../Sdk/1.13/schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" schemaLocation="../ted/sdk/schemas/common/UBL-CommonAggregateComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" schemaLocation="../ted/sdk/schemas/common/UBL-CommonBasicComponents-2.3.xsd"/>
+	<xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" schemaLocation="../ted/sdk/schemas/common/UBL-CommonExtensionComponents-2.3.xsd"/>
+	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" schemaLocation="../ted/sdk/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd"/>
+	<xsd:import namespace="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" schemaLocation="../ted/sdk/schemas/common/EFORMS-ExtensionBasicComponents-2.3.xsd"/>
 
    <xsd:import namespace="urn:hanselHilma:NationalNoticeExtension" schemaLocation="./NationalNoticeExtension.xsd"/>
 
