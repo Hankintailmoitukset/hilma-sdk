@@ -57,7 +57,7 @@ In order to test the Hilma SDK pre-release validation rules, you can target the 
 ?hilmaSdkVersion=v2
 ```
 
-The version number should only include the major version part of the Hilma SDK release version, e.g. ```1.13.0-v2``` or ```1.13.0-v2.1``` should be targeted as ```v2```.
+The version number should only include the major version part of the Hilma SDK release version, e.g. ```v2.0-1.13.0``` or ```v2.1-1.13.0``` should be targeted as ```v2```.
 
 Examples of Hilma API endpoints that support the ```hilmaSdkVersion``` query parameter are:
 - [Publish notice](https://hns-hilma-prod-apim.developer.azure-api.net/api-details#api=ets-write-eforms-api&operation=post-external-write-v1-procedure-procedureid-notice-etsidentifier)
