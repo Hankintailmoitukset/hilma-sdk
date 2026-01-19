@@ -6,7 +6,7 @@
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
    <xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1"
-               schemaLocation="../../../Sdk/1.13.0/schemas/common/BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
+               schemaLocation="../ted/sdk/schemas/common/BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
 
   
     <xsd:element name="PredictedValueConstraintIndicator"

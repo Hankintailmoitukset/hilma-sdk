@@ -1,0 +1,3 @@
+[submodule "ted/sdk"]
+	path = ted/sdk
+	url = https://github.com/OP-TED/eForms-SDK
