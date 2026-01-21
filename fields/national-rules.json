@@ -1514,23 +1514,6 @@
     }
   },
   {
-    "id": "BT-19-Lot",
-    "forbidden": {},
-    "mandatory": {
-      "value": false,
-      "severity": "ERROR",
-      "constraints": [
-        {
-          "noticeTypes": [
-            "E1"
-          ],
-          "value": true,
-          "severity": "ERROR"
-        }
-      ]
-    }
-  },
-  {
     "id": "BT-762-notice",
     "forbidden": {
       "constraints": []
