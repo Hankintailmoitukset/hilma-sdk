@@ -68,7 +68,7 @@
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-723-LotResult-1" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) &gt; 0 or not((efbc:ProcurementCategoryCode))">rule|text|FI-E4-BT-723-LotResult-1</assert>
-<assert id="FI-E4-BT-723-LotResult-2" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or not(efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n3')">rule|text|FI-E4-BT-723-LotResult-2</assert>
+<assert id="FI-E4-BT-723-LotResult-2" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or not((efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n3'))">rule|text|FI-E4-BT-723-LotResult-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-758-notice-1" role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &gt; 0">rule|text|FI-E4-BT-758-notice-1</assert>
@@ -93,7 +93,7 @@
 <assert id="FI-E4-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E4-BT-811(a)-LotResult-1</assert>
 <assert id="FI-E4-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E4-BT-811(b)-LotResult-1</assert>
 <assert id="FI-E4-BT-814-LotResult-1" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) &gt; 0 or (efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-1</assert>
-<assert id="FI-E4-BT-814-LotResult-2" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) = 0 or not(efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-2</assert>
+<assert id="FI-E4-BT-814-LotResult-2" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) = 0 or not((efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab'))">rule|text|FI-E4-BT-814-LotResult-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-812-LotResult-1" role="ERROR" test="count(efbc:LabelCode) = 0">rule|text|FI-E4-BT-812-LotResult-1</assert>
@@ -118,5 +118,13 @@
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:TenderingProcess[$noticeSubType = 'E4']">
 <assert id="FI-E4-FI-125-1" role="ERROR" test="count(hilma:PreviousPlanningIdentifier) = 0">rule|text|FI-E4-FI-125-1</assert>
+</rule>
+<rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract[$noticeSubType = 'E4']">
+<assert id="FI-E4-FI-70-1" role="ERROR" test="count(hilma:ContractValueAmount) &gt; 0 or ../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')">rule|text|FI-E4-FI-70-1</assert>
+<assert id="FI-E4-FI-70-2" role="ERROR" test="count(hilma:ContractValueAmount) = 0 or not(../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc'))">rule|text|FI-E4-FI-70-2</assert>
+<assert id="FI-E4-FI-70-4" role="ERROR" test="count(hilma:ContractValueAmount) = 0 or not(../../../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efbc:DPSTerminationIndicator = true())">rule|text|FI-E4-FI-70-4</assert>
+<assert id="FI-E4-FI-70-Contract-1" role="ERROR" test="count(cbc:ID) &gt; 0 or ../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')">rule|text|FI-E4-FI-70-Contract-1</assert>
+<assert id="FI-E4-FI-70-Contract-2" role="ERROR" test="count(cbc:ID) = 0 or not(../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc'))">rule|text|FI-E4-FI-70-Contract-2</assert>
+<assert id="FI-E4-FI-70-Contract-4" role="ERROR" test="count(cbc:ID) = 0 or not(../../../../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efbc:DPSTerminationIndicator = true())">rule|text|FI-E4-FI-70-Contract-4</assert>
 </rule>
 </pattern>

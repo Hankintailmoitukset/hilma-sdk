@@ -118,4 +118,8 @@
 <assert id="FI-E3-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) &gt; 0">rule|text|FI-E3-FI-30-1</assert>
 <assert id="FI-E3-FI-20-1" role="ERROR" test="count(hilma:IsEUApplicableConstraintIndicator) &gt; 0">rule|text|FI-E3-FI-20-1</assert>
 </rule>
+<rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract[$noticeSubType = 'E3']">
+<assert id="FI-E3-FI-70-1" role="ERROR" test="count(hilma:ContractValueAmount) = 0">rule|text|FI-E3-FI-70-1</assert>
+<assert id="FI-E3-FI-70-Contract-1" role="ERROR" test="count(cbc:ID) = 0">rule|text|FI-E3-FI-70-Contract-1</assert>
+</rule>
 </pattern>

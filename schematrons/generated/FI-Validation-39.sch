@@ -14,4 +14,8 @@
 <rule context="/*/hilma:NationalExtension/hilma:TenderingProcess[$noticeSubType = '39']">
 <assert id="FI-39-FI-125-1" role="ERROR" test="count(hilma:PreviousPlanningIdentifier) = 0">rule|text|FI-39-FI-125-1</assert>
 </rule>
+<rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract[$noticeSubType = '39']">
+<assert id="FI-39-FI-70-1" role="ERROR" test="count(hilma:ContractValueAmount) = 0">rule|text|FI-39-FI-70-1</assert>
+<assert id="FI-39-FI-70-Contract-1" role="ERROR" test="count(cbc:ID) = 0">rule|text|FI-39-FI-70-Contract-1</assert>
+</rule>
 </pattern>
