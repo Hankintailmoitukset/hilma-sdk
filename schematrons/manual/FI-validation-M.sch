@@ -41,4 +41,28 @@
             rule|text|FI-M-FI-0005 [Forbidden vehicle stat used: vehicles-zero-emission]
         </assert>
     </rule>
+
+    <!-- FI-70 -->
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = ('29','30','31','32','33','34','35','36','37','E4')]">
+        <let name="faLotIds"       value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')]/normalize-space(text())"/>
+        <let name="allLotResults"  value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
+        <let name="hilmaContracts" value="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract"/>
+        <let name="contractIds"    value="efac:SettledContract/cbc:ID/normalize-space(text())"/>
+
+        <!-- Mandatory when not exempt -->
+        <assert id="FI-M-FI-70-1" test="
+            every $cid in $contractIds satisfies
+                let $isExempt  := exists($allLotResults[efac:SettledContract/cbc:ID/normalize-space(text()) = $cid and (efbc:DPSTerminationIndicator = true() or efac:TenderLot/cbc:ID/normalize-space(text()) = $faLotIds)]),
+                    $hasValue  := exists($hilmaContracts[cbc:ID/normalize-space(text()) = $cid]/hilma:ContractValueAmount)
+                return ($isExempt or $hasValue)
+        ">rule|text|FI-M-FI-70-1</assert>
+
+        <!-- Forbidden when exempt -->
+        <assert id="FI-M-FI-70-2" test="
+            every $cid in $contractIds satisfies
+                let $isExempt  := exists($allLotResults[efac:SettledContract/cbc:ID/normalize-space(text()) = $cid and (efbc:DPSTerminationIndicator = true() or efac:TenderLot/cbc:ID/normalize-space(text()) = $faLotIds)]),
+                    $hasValue  := exists($hilmaContracts[cbc:ID/normalize-space(text()) = $cid]/hilma:ContractValueAmount)
+                return (not($isExempt) or not($hasValue))
+        ">rule|text|FI-M-FI-70-2</assert>
+    </rule>
 </pattern>

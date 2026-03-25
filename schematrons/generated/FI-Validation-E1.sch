@@ -47,6 +47,6 @@
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract[$noticeSubType = 'E1']">
 <assert id="FI-E1-FI-70-1" role="ERROR" test="count(hilma:ContractValueAmount) = 0">rule|text|FI-E1-FI-70-1</assert>
-<assert id="FI-E1-FI-70-Contract-1" role="ERROR" test="count(cbc:ID) = 0">rule|text|FI-E1-FI-70-Contract-1</assert>
+<assert id="FI-E1-FI-OPT-100-Contract-1" role="ERROR" test="count(cbc:ID) = 0">rule|text|FI-E1-FI-OPT-100-Contract-1</assert>
 </rule>
 </pattern>
