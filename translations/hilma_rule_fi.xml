@@ -18,6 +18,8 @@
     <entry key="rule|text|FI-70-1">FI-70 - Sopimuksen arvo ei voi toistua.</entry>
     <entry key="rule|text|FI-70-Contract-1">FI-70-Contract - Sopimuksen tunniste ei voi toistua.</entry>
     <entry key="rule|text|FI-70-Contract-2">FI-70-Contract - Sopimuksen tunniste on vastattava seuraavaa mallia: ID.</entry>
+    <entry key="rule|text|FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei voi toistua.</entry>
+    <entry key="rule|text|FI-OPT-100-Contract-2">FI-OPT-100 - Sopimuksen tunnisteen on vastattava mallia: CON-XXXX.</entry>
     <!-- 1 -->
     <entry key="rule|text|FI-1-FI-70-1">FI-70 - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-1-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>

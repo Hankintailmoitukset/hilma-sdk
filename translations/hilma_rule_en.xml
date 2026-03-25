@@ -18,6 +18,8 @@
     <entry key="rule|text|FI-70-1">FI-70 - Contract Value Amount cannot be repeated.</entry>
     <entry key="rule|text|FI-70-Contract-1">FI-70-Contract - Contract ID cannot be repeated.</entry>
     <entry key="rule|text|FI-70-Contract-2">FI-70-Contract - Contract ID must match the following pattern: ID.</entry>
+    <entry key="rule|text|FI-OPT-100-Contract-1">FI-OPT-100 - Contract ID cannot be repeated.</entry>
+    <entry key="rule|text|FI-OPT-100-Contract-2">FI-OPT-100 - Contract ID must match the following pattern: CON-XXXX.</entry>
     <!-- 1 -->
     <entry key="rule|text|FI-1-FI-70-1">FI-70 - is not allowed.</entry>
     <entry key="rule|text|FI-1-FI-OPT-100-Contract-1">FI-OPT-100 - Contract ID is not allowed.</entry>
