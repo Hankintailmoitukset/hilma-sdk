@@ -250,11 +250,8 @@
     <entry key="rule|text|FI-28-FI-125-1">FI-28-FI-125-1 - is not allowed.</entry>
     <!-- 29 -->
     <entry key="rule|text|FI-29-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-29-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-29-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-29-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-29-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-29-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-29-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-29-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-FI-30-1">FI-29-FI-30-1 - is not allowed.</entry>
@@ -268,11 +265,8 @@
     <entry key="rule|text|FI-29-FI-125-1">FI-29-FI-125-1 - is not allowed.</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-30-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-30-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-30-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-30-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-30-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-30-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-30-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-30-1">FI-30-FI-30-1 - is not allowed.</entry>
@@ -286,11 +280,8 @@
     <entry key="rule|text|FI-30-FI-125-1">FI-30-FI-125-1 - is not allowed.</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-31-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-31-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-31-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-31-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-31-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-31-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-31-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-30-1">FI-31-FI-30-1 - is not allowed.</entry>
@@ -304,11 +295,8 @@
     <entry key="rule|text|FI-31-FI-125-1">FI-31-FI-125-1 - is not allowed.</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-32-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-32-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-32-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-32-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-32-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-32-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-32-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-30-1">FI-32-FI-30-1 - is not allowed.</entry>
@@ -322,11 +310,8 @@
 	<entry key="rule|text|FI-32-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 33 -->
     <entry key="rule|text|FI-33-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-33-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-33-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-33-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-33-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-33-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-33-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-33-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-30-1">FI-33-FI-30-1 - is not allowed.</entry>
@@ -340,11 +325,8 @@
 	<entry key="rule|text|FI-33-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 34 -->
     <entry key="rule|text|FI-34-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-34-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-34-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-34-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-34-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-34-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-34-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-34-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-FI-30-1">FI-34-FI-30-1 - is not allowed.</entry>
@@ -358,11 +340,8 @@
     <entry key="rule|text|FI-34-FI-125-1">FI-34-FI-125-1 - is not allowed.</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-35-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-35-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-35-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-35-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-35-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-35-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-35-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-30-1">FI-35-FI-30-1 - is not allowed.</entry>
@@ -376,11 +355,8 @@
 	<entry key="rule|text|FI-35-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <!-- 36 -->
     <entry key="rule|text|FI-36-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-36-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-36-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-36-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-36-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-36-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-36-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-36-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-FI-30-1">FI-36-FI-30-1 - is not allowed.</entry>
@@ -388,11 +364,8 @@
     <entry key="rule|text|FI-36-FI-125-1">FI-36-FI-125-1 - is not allowed.</entry>
     <!-- 37 -->
     <entry key="rule|text|FI-37-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-37-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-37-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-37-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-37-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-37-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-37-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-37-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-37-FI-11-1">FI-37-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-37-FI-20-1">FI-37-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-37-FI-30-1">FI-37-FI-30-1 - is not allowed.</entry>
@@ -524,11 +497,8 @@
     <entry key="rule|text|FI-E3-BT-811(b)-Lot-1">FI-E3-BT-811(b)-Lot-1 is forbidden.</entry>
     <!-- E4 -->
     <entry key="rule|text|FI-E4-FI-70-1">FI-70 - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-E4-FI-70-4">FI-70 - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
-    <entry key="rule|text|FI-E4-FI-70-Contract-1">FI-70-Contract - is mandatory.</entry>
-    <entry key="rule|text|FI-E4-FI-70-Contract-2">FI-70-Contract - is not allowed when BT-765 (Framework agreement) is set.</entry>
-    <entry key="rule|text|FI-E4-FI-70-Contract-4">FI-70-Contract - is not allowed when BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-E4-FI-70-2">FI-70 - is not allowed when BT-765 (Framework agreement) is set or BT-119 (Dynamic Purchasing System Termination) is true.</entry>
+    <entry key="rule|text|FI-E4-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste on pakollinen, kun voittaja on valittu (BT-142)</entry>
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-2">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>

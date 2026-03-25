@@ -10,6 +10,6 @@
 <assert id="FI-125-2" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(19|20)\d\d-(\d{1,8}))$')">rule|text|FI-125-2</assert>
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/cbc:ID">
-<assert id="FI-70-Contract-2" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|FI-70-Contract-2</assert>
+<assert id="FI-OPT-100-Contract-2" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|FI-OPT-100-Contract-2</assert>
 </rule>
 </pattern>

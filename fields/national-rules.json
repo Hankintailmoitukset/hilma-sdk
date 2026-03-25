@@ -1085,7 +1085,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value": "{ND-Root} ${BT-161-NoticeResult == sum(FI-70)}",
+        "value": "{ND-LotResult} ${not(BT-142-LotResult == 'selec-w') or (BT-161-NoticeResult == sum(FI-70))}",
         "severity": "ERROR"
       } ]
     }

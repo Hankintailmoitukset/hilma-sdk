@@ -483,24 +483,7 @@
               "37",
               "E4"
             ],
-            "condition": "{ND-NationalSettledContract} ${BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')}",
-            "value": true,
-            "severity": "ERROR"
-          },
-          {
-            "noticeTypes": [
-              "29",
-              "30",
-              "31",
-              "32",
-              "33",
-              "34",
-              "35",
-              "36",
-              "37",
-              "E4"
-            ],
-            "condition": "{ND-NationalSettledContract} ${BT-119-LotResult == TRUE}",
+            "condition": "{ND-NationalSettledContract} ${(BT-119-LotResult == TRUE) or (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))}",
             "value": true,
             "severity": "ERROR"
           }
@@ -531,14 +514,14 @@
       }
     },
     {
-      "id": "FI-70-Contract",
+      "id": "FI-OPT-100-Contract",
       "parentNodeId": "ND-NationalSettledContract",
       "name": "Contract Identifier Reference",
-      "btId": "FI-70",
+      "btId": "FI-OPT-100",
       "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/cbc:ID",
       "xpathRelative": "cbc:ID",
       "type": "id-ref",
-      "businessEntityId": "lot",
+      "businessEntityId": "contract",
       "idSchemes": ["CON"],
       "repeatable": {
         "value": false,
@@ -565,6 +548,7 @@
               "37",
               "E4"
             ],
+            "condition": "{ND-SettledContract} ${BT-142-LotResult == 'selec-w'}",
             "value": true,
             "severity": "ERROR"
           }
@@ -619,52 +603,6 @@
             ],
             "value": true,
             "severity": "ERROR"
-          },
-          {
-            "noticeTypes": [
-              "29",
-              "30",
-              "31",
-              "32",
-              "33",
-              "34",
-              "35",
-              "36",
-              "37",
-              "E4"
-            ],
-            "condition": "{ND-NationalSettledContract} ${BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')}",
-            "value": true,
-            "severity": "ERROR"
-          },
-          {
-            "noticeTypes": [
-              "29",
-              "30",
-              "31",
-              "32",
-              "33",
-              "34",
-              "35",
-              "36",
-              "37",
-              "E4"
-            ],
-            "condition": "{ND-NationalSettledContract} ${BT-119-LotResult == TRUE}",
-            "value": true,
-            "severity": "ERROR"
-          }
-        ]
-      },
-      "assert": {
-        "value": "{ND-Root} ${TRUE}",
-        "severity": "ERROR",
-        "constraints": [
-          {
-            "condition": "{ND-NationalNoticeResult} ${FI-70-Contract is present}",
-            "value": "{ND-NationalNoticeResult} ${every text:$contract in FI-70-Contract satisfies ($contract in OPT-316-Contract)}",
-            "severity": "ERROR",
-            "message": "rule|text|FI-BT-00070-0002"
           }
         ]
       }
