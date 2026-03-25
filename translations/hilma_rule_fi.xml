@@ -20,7 +20,7 @@
     <entry key="rule|text|FI-70-Contract-2">FI-70-Contract - Sopimuksen tunniste on vastattava seuraavaa mallia: ID.</entry>
     <!-- 1 -->
     <entry key="rule|text|FI-1-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-1-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-1-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-1-FI-11-1">FI-1-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-1-FI-20-1">FI-1-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-1-FI-30-1">FI-1-FI-30-1 - ei ole sallittu.</entry>
@@ -28,7 +28,7 @@
     <entry key="rule|text|FI-1-FI-125-1">FI-1-FI-125-1 - ei ole sallittu</entry>
     <!-- 2 -->
     <entry key="rule|text|FI-2-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-2-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-2-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-2-FI-11-1">FI-2-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-2-FI-20-1">FI-2-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-2-FI-30-1">FI-2-FI-30-1 - ei ole sallittu.</entry>
@@ -36,7 +36,7 @@
     <entry key="rule|text|FI-2-FI-125-1">FI-2-FI-125-1 - ei ole sallittu</entry>
     <!-- 3 -->
     <entry key="rule|text|FI-3-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-3-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-3-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-3-FI-11-1">FI-3-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-3-FI-20-1">FI-3-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-3-FI-30-1">FI-3-FI-30-1 - ei ole sallittu.</entry>
@@ -44,7 +44,7 @@
     <entry key="rule|text|FI-3-FI-125-1">FI-3-FI-125-1 - ei ole sallittu</entry>
     <!-- 4 -->
     <entry key="rule|text|FI-4-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-4-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-4-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-4-FI-11-1">FI-4-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-4-FI-20-1">FI-4-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-4-FI-30-1">FI-4-FI-30-1 - ei ole sallittu.</entry>
@@ -52,7 +52,7 @@
     <entry key="rule|text|FI-4-FI-125-1">FI-4-FI-125-1 - ei ole sallittu</entry>
     <!-- 5 -->
     <entry key="rule|text|FI-5-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-5-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-5-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-5-FI-11-1">FI-5-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-5-FI-20-1">FI-5-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-5-FI-30-1">FI-5-FI-30-1 - ei ole sallittu.</entry>
@@ -60,7 +60,7 @@
     <entry key="rule|text|FI-5-FI-125-1">FI-5-FI-125-1 - ei ole sallittu</entry>
     <!-- 6 -->
     <entry key="rule|text|FI-6-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-6-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-6-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-6-FI-11-1">FI-6-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-6-FI-20-1">FI-6-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-6-FI-30-1">FI-6-FI-30-1 - ei ole sallittu.</entry>
@@ -68,7 +68,7 @@
     <entry key="rule|text|FI-6-FI-125-1">FI-6-FI-125-1 - ei ole sallittu</entry>
     <!-- 7 -->
     <entry key="rule|text|FI-7-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-7-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-7-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-7-FI-11-1">FI-7-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-7-FI-20-1">FI-7-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-7-FI-30-1">FI-7-FI-30-1 - ei ole sallittu.</entry>
@@ -76,7 +76,7 @@
     <entry key="rule|text|FI-7-FI-125-1">FI-7-FI-125-1 - ei ole sallittu</entry>
     <!-- 8 -->
     <entry key="rule|text|FI-8-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-8-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-8-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-8-FI-11-1">FI-8-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-8-FI-20-1">FI-8-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-8-FI-30-1">FI-8-FI-30-1 - ei ole sallittu.</entry>
@@ -84,7 +84,7 @@
     <entry key="rule|text|FI-8-FI-125-1">FI-8-FI-125-1 - ei ole sallittu</entry>
     <!-- 9 -->
     <entry key="rule|text|FI-9-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-9-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-9-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-9-FI-11-1">FI-9-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-9-FI-20-1">FI-9-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-9-FI-30-1">FI-9-FI-30-1 - ei ole sallittu.</entry>
@@ -92,7 +92,7 @@
     <entry key="rule|text|FI-9-FI-125-1">FI-9-FI-125-1 - ei ole sallittu</entry>
     <!-- 10 -->
     <entry key="rule|text|FI-10-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-10-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-10-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-10-FI-11-1">FI-10-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-10-FI-20-1">FI-10-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-10-FI-30-1">FI-10-FI-30-1 - ei ole sallittu.</entry>
@@ -100,7 +100,7 @@
     <entry key="rule|text|FI-10-FI-125-1">FI-10-FI-125-1 - ei ole sallittu</entry>
     <!-- 11 -->
     <entry key="rule|text|FI-11-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-11-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-11-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-11-FI-11-1">FI-11-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-11-FI-20-1">FI-11-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-11-FI-30-1">FI-11-FI-30-1 - ei ole sallittu.</entry>
@@ -108,7 +108,7 @@
     <entry key="rule|text|FI-11-FI-125-1">FI-11-FI-125-1 - ei ole sallittu</entry>
     <!-- 12 -->
     <entry key="rule|text|FI-12-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-12-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-12-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-12-FI-11-1">FI-12-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - ei ole sallittu.</entry>
@@ -116,7 +116,7 @@
     <entry key="rule|text|FI-12-FI-125-1">FI-12-FI-125-1 - ei ole sallittu</entry>    
     <!-- 13 -->
     <entry key="rule|text|FI-13-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-13-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-13-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-13-FI-11-1">FI-13-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-13-FI-20-1">FI-13-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-13-FI-30-1">FI-13-FI-30-1 - ei ole sallittu.</entry>
@@ -124,7 +124,7 @@
     <entry key="rule|text|FI-13-FI-125-1">FI-13-FI-125-1 - ei ole sallittu</entry>
     <!-- 14 -->
     <entry key="rule|text|FI-14-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-14-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-14-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-14-FI-11-1">FI-14-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-14-FI-20-1">FI-14-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - ei ole sallittu.</entry>
@@ -132,7 +132,7 @@
     <entry key="rule|text|FI-14-FI-125-1">FI-14-FI-125-1 - ei ole sallittu</entry>
     <!-- 15 -->
     <entry key="rule|text|FI-15-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-15-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-15-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-15-FI-11-1">FI-15-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-15-FI-20-1">FI-15-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-15-FI-30-1">FI-15-FI-30-1 - ei ole sallittu.</entry>
@@ -140,7 +140,7 @@
     <entry key="rule|text|FI-15-FI-125-1">FI-15-FI-125-1 - ei ole sallittu</entry>
     <!-- 16 -->
     <entry key="rule|text|FI-16-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-16-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-FI-11-1">FI-16-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-FI-20-1">FI-16-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - ei ole sallittu.</entry>
@@ -151,7 +151,7 @@
     <entry key="rule|text|FI-16-FI-125-1">FI-16-FI-125-1 - ei ole sallittu</entry>
     <!-- 17 -->
     <entry key="rule|text|FI-17-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-17-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-17-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-17-FI-20-1">FI-17-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - ei ole sallittu.</entry>
@@ -159,7 +159,7 @@
     <entry key="rule|text|FI-17-FI-125-1">FI-17-FI-125-1 - ei ole sallittu</entry>
     <!-- 18 -->
     <entry key="rule|text|FI-18-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-18-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-18-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-18-FI-11-1">FI-18-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-18-FI-20-1">FI-18-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - ei ole sallittu.</entry>
@@ -167,7 +167,7 @@
     <entry key="rule|text|FI-18-FI-125-1">FI-18-FI-125-1 - ei ole sallittu</entry>
     <!-- 19 -->
     <entry key="rule|text|FI-19-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-19-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-19-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-30-1">FI-19-FI-30-1 - ei ole sallittu.</entry>
@@ -176,7 +176,7 @@
     <entry key="rule|text|FI-19-FI-125-1">FI-19-FI-125-1 - ei ole sallittu</entry>
     <!-- 20 -->
     <entry key="rule|text|FI-20-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-20-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-20-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-20-FI-11-1">FI-20-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-20-FI-20-1">FI-20-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - ei ole sallittu.</entry>
@@ -184,7 +184,7 @@
     <entry key="rule|text|FI-20-FI-125-1">FI-20-FI-125-1 - ei ole sallittu</entry>
     <!-- 21 -->
     <entry key="rule|text|FI-21-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-21-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-21-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-21-FI-11-1">FI-21-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-21-FI-20-1">FI-21-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - ei ole sallittu.</entry>
@@ -192,7 +192,7 @@
     <entry key="rule|text|FI-21-FI-125-1">FI-21-FI-125-1 - ei ole sallittu</entry>
     <!-- 22 -->
     <entry key="rule|text|FI-22-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-22-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-22-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-22-FI-11-1">FI-22-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-22-FI-20-1">FI-22-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - ei ole sallittu.</entry>
@@ -200,7 +200,7 @@
     <entry key="rule|text|FI-22-FI-125-1">FI-22-FI-125-1 - ei ole sallittu</entry>
     <!-- 23 -->
     <entry key="rule|text|FI-23-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-23-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-23-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-30-1">FI-23-FI-30-1 - ei ole sallittu.</entry>
@@ -209,7 +209,7 @@
     <entry key="rule|text|FI-23-FI-125-1">FI-23-FI-125-1 - ei ole sallittu</entry>
     <!-- 24 -->
     <entry key="rule|text|FI-24-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-24-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-24-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-24-FI-11-1">FI-24-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-24-FI-20-1">FI-24-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-24-FI-30-1">FI-24-FI-30-1 - ei ole sallittu.</entry>
@@ -218,7 +218,7 @@
     <entry key="rule|text|FI-24-FI-125-1">FI-24-FI-125-1 - ei ole sallittu</entry>
     <!-- 25 -->
     <entry key="rule|text|FI-25-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-25-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-25-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-25-FI-11-1">FI-25-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-25-FI-20-1">FI-25-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - ei ole sallittu.</entry>
@@ -226,7 +226,7 @@
     <entry key="rule|text|FI-25-FI-125-1">FI-25-FI-125-1 - ei ole sallittu</entry>
     <!-- 26 -->
     <entry key="rule|text|FI-26-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-26-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-26-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-26-FI-11-1">FI-26-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-26-FI-20-1">FI-26-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - ei ole sallittu.</entry>
@@ -234,7 +234,7 @@
     <entry key="rule|text|FI-26-FI-125-1">FI-26-FI-125-1 - ei ole sallittu</entry>
     <!-- 27 -->
     <entry key="rule|text|FI-27-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-27-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-27-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-27-FI-11-1">FI-27-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-27-FI-20-1">FI-27-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - ei ole sallittu.</entry>
@@ -242,7 +242,7 @@
     <entry key="rule|text|FI-27-FI-125-1">FI-27-FI-125-1 - ei ole sallittu</entry>
     <!-- 28 -->
     <entry key="rule|text|FI-28-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-28-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-28-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-28-FI-11-1">FI-28-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-28-FI-20-1">FI-28-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - ei ole sallittu.</entry>
@@ -373,7 +373,7 @@
     <entry key="rule|text|FI-37-FI-125-1">FI-37-FI-125-1 - ei ole sallittu</entry>
     <!-- 38 -->
     <entry key="rule|text|FI-38-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-38-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-38-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-38-FI-11-1">FI-38-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-38-FI-20-1">FI-38-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - ei ole sallittu.</entry>
@@ -381,7 +381,7 @@
     <entry key="rule|text|FI-38-FI-125-1">FI-38-FI-125-1 - ei ole sallittu</entry>
     <!-- 39 -->
     <entry key="rule|text|FI-39-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-39-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-39-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-39-FI-11-1">FI-39-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-39-FI-20-1">FI-39-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - ei ole sallittu.</entry>
@@ -389,7 +389,7 @@
     <entry key="rule|text|FI-39-FI-125-1">FI-39-FI-125-1 - ei ole sallittu</entry>
     <!-- 40 -->
     <entry key="rule|text|FI-40-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-40-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-40-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-40-FI-11-1">FI-40-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-40-FI-20-1">FI-40-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - ei ole sallittu.</entry>
@@ -397,7 +397,7 @@
     <entry key="rule|text|FI-40-FI-125-1">FI-40-FI-125-1 - ei ole sallittu</entry>
     <!-- E1 -->
     <entry key="rule|text|FI-E1-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E1-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E1-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-E1-BT-11-Procedure-Buyer-1">FI-E1-BT-11-Procedure-Buyer-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E1-BT-13716-notice-1">'Osion tunniste' (BT-13716-notice) on pakollinen, paitsi kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t�ytetty ('E1')</entry>
     <entry key="rule|text|FI-E1-BT-13716-notice-2">'Osion tunniste' (BT-13716-notice) ei ole sallittu, kun: 'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole t�ytetty ('E1')</entry>
@@ -424,14 +424,14 @@
     <entry key="rule|text|FI-E1-FI-125-1">FI-E1-FI-125-1 - ei ole sallittu</entry>
     <!-- E2 -->
     <entry key="rule|text|FI-E2-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E2-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E2-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-E2-FI-11-1">FI-E2-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E2-FI-20-1">FI-E2-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E2-FI-30-1">FI-E2-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E2-FI-125-1">FI-E2-FI-125-1 - ei ole sallittu.</entry>
     <!-- E3 -->
     <entry key="rule|text|FI-E3-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E3-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E3-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-105-Procedure-1">FI-E3-BT-105-Procedure-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E3-BT-109-Lot-1">'Puitej�rjestelyn poikkeuksellisen pitk�� kestoa koskevat perustelut' (BT-109-Lot) on pakollinen, paitsi kun: Osan keston on oltava yli 4 vuotta ('E3')</entry>
     <entry key="rule|text|FI-E3-BT-109-Lot-2">'Puitej�rjestelyn poikkeuksellisen pitk�� kestoa koskevat perustelut' (BT-109-Lot) ei ole sallittu, kun: Osan keston on oltava yli 4 vuotta ('E3')</entry>
@@ -566,14 +566,14 @@
     <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - ei ole sallittu</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E5-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E5-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-30-1">FI-E5-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-125-1">FI-E5-FI-125-1 - ei ole sallittu</entry>
     <!-- E6 -->
     <entry key="rule|text|FI-E6-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E6-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-E6-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-E6-FI-11-1">FI-E6-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E6-FI-20-1">FI-E6-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E6-FI-30-1">FI-E6-FI-30-1 - ei ole sallittu.</entry>
@@ -581,7 +581,7 @@
     <entry key="rule|text|FI-E6-FI-125-1">FI-E6-FI-125-1 - ei ole sallittu</entry>
     <!-- CEI -->
     <entry key="rule|text|FI-CEI-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-CEI-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-CEI-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-CEI-FI-11-1">FI-CEI-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-CEI-FI-20-1">FI-CEI-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-CEI-FI-30-1">FI-CEI-FI-30-1 - ei ole sallittu.</entry>
@@ -589,7 +589,7 @@
     <entry key="rule|text|FI-CEI-FI-125-1">FI-CEI-FI-125-1 - ei ole sallittu</entry>
     <!-- T01 -->
     <entry key="rule|text|FI-T01-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-T01-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T01-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-T01-FI-11-1">FI-T01-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-T01-FI-20-1">FI-T01-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-T01-FI-30-1">FI-T01-FI-30-1 - ei ole sallittu.</entry>
@@ -597,7 +597,7 @@
     <entry key="rule|text|FI-T01-FI-125-1">FI-T01-FI-125-1 - ei ole sallittu</entry>
     <!-- T02 -->
     <entry key="rule|text|FI-T02-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-T02-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-T02-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-T02-FI-11-1">FI-T02-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-T02-FI-20-1">FI-T02-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-T02-FI-30-1">FI-T02-FI-30-1 - ei ole sallittu.</entry>
@@ -605,7 +605,7 @@
     <entry key="rule|text|FI-T02-FI-125-1">FI-T02-FI-125-1 - ei ole sallittu</entry>
     <!-- X01 -->
     <entry key="rule|text|FI-X01-FI-70-1">FI-70 - Ei ole sallittu.</entry>
-    <entry key="rule|text|FI-X01-FI-70-Contract-1">FI-70-Contract - Ei ole sallittu.</entry>
+    <entry key="rule|text|FI-X01-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
     <entry key="rule|text|FI-X01-FI-11-1">FI-X01-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-X01-FI-20-1">FI-X01-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-X01-FI-30-1">FI-X01-FI-30-1 - ei ole sallittu.</entry>
