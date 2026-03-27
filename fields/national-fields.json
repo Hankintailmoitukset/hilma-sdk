@@ -483,7 +483,7 @@
               "37",
               "E4"
             ],
-            "condition": "{ND-LotResult} ${((BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')) or (BT-119-LotResult == TRUE))}",
+            "condition": "{ND-SettledContract} ${((BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')) or (BT-119-LotResult == TRUE))}",
             "value": true,
             "severity": "ERROR"
           }
@@ -530,29 +530,6 @@
       "pattern": {
         "value": "^CON-\\d{4}$",
         "severity": "ERROR"
-      },
-      "mandatory": {
-        "value": false,
-        "severity": "ERROR",
-        "constraints": [
-          {
-            "noticeTypes": [
-              "29",
-              "30",
-              "31",
-              "32",
-              "33",
-              "34",
-              "35",
-              "36",
-              "37",
-              "E4"
-            ],
-            "condition": "{ND-LotResult} ${BT-142-LotResult == 'selec-w'}",
-            "value": true,
-            "severity": "ERROR"
-          }
-        ]
       },
       "forbidden": {
         "value": false,
