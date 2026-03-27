@@ -74,57 +74,84 @@
     <entry key="rule|text|FI-10-FI-30-1">FI-10-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-10-BT-512-Organization-Company-1">FI-10-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-10-FI-125-1">FI-10-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-10-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-10-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-10-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 11 -->
     <entry key="rule|text|FI-11-FI-11-1">FI-11-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-FI-20-1">FI-11-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-FI-30-1">FI-11-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-11-BT-512-Organization-Company-1">FI-11-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-11-FI-125-1">FI-11-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-11-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-11-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-11-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 12 -->
     <entry key="rule|text|FI-12-FI-11-1">FI-12-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-12-BT-512-Organization-Company-1">FI-12-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-12-FI-125-1">FI-12-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-12-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-12-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-12-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 13 -->
     <entry key="rule|text|FI-13-FI-11-1">FI-13-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-FI-20-1">FI-13-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-FI-30-1">FI-13-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-13-BT-512-Organization-Company-1">FI-13-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-13-FI-125-1">FI-13-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-13-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-13-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-13-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 14 -->
     <entry key="rule|text|FI-14-FI-11-1">FI-14-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-FI-20-1">FI-14-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-14-BT-512-Organization-Company-1">FI-14-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-14-FI-125-1">FI-14-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-14-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-14-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-14-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 15 -->
     <entry key="rule|text|FI-15-FI-11-1">FI-15-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-FI-20-1">FI-15-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-FI-30-1">FI-15-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-15-BT-512-Organization-Company-1">FI-15-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-15-FI-125-1">FI-15-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-15-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-15-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-15-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 16 -->
     <entry key="rule|text|FI-16-FI-11-1">FI-16-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-FI-20-1">FI-16-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-BT-50-Lot-1">'Minimum Candidates' (BT-50-Lot) is mandatory when: 'Maximum Candidates Indicator' (BT-661-Lot) is 'true'</entry>
     <entry key="rule|text|FI-16-BT-512-Organization-Company-1">FI-16-BT-512-Organization-Company-1 - is mandatory.</entry>
+	<entry key="rule|text|FI-16-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
     <entry key="rule|text|FI-16-BT-762-notice-1">FI-16-BT-762-notice-1 - is not allowed.</entry>
     <entry key="rule|text|FI-16-BT-762-notice-2">FI-16-BT-762-notice-2 - is not allowed.</entry>
     <entry key="rule|text|FI-16-FI-125-1">FI-16-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-16-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-16-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 17 -->
     <entry key="rule|text|FI-17-FI-11-1">FI-17-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-FI-20-1">FI-17-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-17-BT-512-Organization-Company-1">FI-17-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-17-FI-125-1">FI-17-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-17-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-17-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-17-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 18 -->
     <entry key="rule|text|FI-18-FI-11-1">FI-18-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-FI-20-1">FI-18-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-18-BT-512-Organization-Company-1">FI-18-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-18-FI-125-1">FI-18-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-18-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-18-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-18-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 19 -->
     <entry key="rule|text|FI-19-FI-11-1">FI-19-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-19-FI-20-1">FI-19-FI-20-1 - is not allowed.</entry>
@@ -132,24 +159,36 @@
     <entry key="rule|text|FI-19-BT-88-Procedure-1">FI-19-BT-88-Procedure-1 - is mandatory when procedure code requires description.</entry>
     <entry key="rule|text|FI-19-BT-512-Organization-Company-1">FI-19-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-19-FI-125-1">FI-19-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-19-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-19-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-19-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 20 -->
     <entry key="rule|text|FI-20-FI-11-1">FI-20-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-FI-20-1">FI-20-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-20-BT-512-Organization-Company-1">FI-20-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-20-FI-125-1">FI-20-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-20-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-20-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-20-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 21 -->
     <entry key="rule|text|FI-21-FI-11-1">FI-21-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-FI-20-1">FI-21-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-21-BT-512-Organization-Company-1">FI-21-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-21-FI-125-1">FI-21-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-21-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-21-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-21-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 22 -->
     <entry key="rule|text|FI-22-FI-11-1">FI-22-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-FI-20-1">FI-22-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-22-BT-512-Organization-Company-1">FI-22-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-22-FI-125-1">FI-22-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-22-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-22-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-22-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 23 -->
     <entry key="rule|text|FI-23-FI-11-1">FI-23-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-23-FI-20-1">FI-23-FI-20-1 - is not allowed.</entry>
@@ -170,24 +209,36 @@
     <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-25-BT-512-Organization-Company-1">FI-25-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-25-FI-125-1">FI-25-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-25-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-25-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-25-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 26 -->
     <entry key="rule|text|FI-26-FI-11-1">FI-26-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-FI-20-1">FI-26-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-26-BT-512-Organization-Company-1">FI-26-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-26-FI-125-1">FI-26-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-26-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-26-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-26-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 27 -->
     <entry key="rule|text|FI-27-FI-11-1">FI-27-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-FI-20-1">FI-27-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-27-BT-512-Organization-Company-1">FI-27-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-27-FI-125-1">FI-27-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-27-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-27-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-27-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 28 -->
     <entry key="rule|text|FI-28-FI-11-1">FI-28-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-FI-20-1">FI-28-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-28-BT-512-Organization-Company-1">FI-28-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-28-FI-125-1">FI-28-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-28-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-28-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-28-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 29 -->
     <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - is not allowed.</entry>
@@ -200,6 +251,9 @@
 	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-29-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <entry key="rule|text|FI-29-FI-125-1">FI-29-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-29-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-29-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-29-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - is not allowed.</entry>
@@ -212,6 +266,9 @@
 	<entry key="rule|text|FI-30-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-30-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <entry key="rule|text|FI-30-FI-125-1">FI-30-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-30-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-30-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-30-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - is not allowed.</entry>
@@ -224,6 +281,9 @@
 	<entry key="rule|text|FI-31-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-31-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <entry key="rule|text|FI-31-FI-125-1">FI-31-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-31-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-31-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-31-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - is not allowed.</entry>
@@ -236,6 +296,9 @@
 	<entry key="rule|text|FI-32-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-32-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-32-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+	<entry key="rule|text|FI-32-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-32-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-32-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 33 -->
     <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - is not allowed.</entry>
@@ -248,6 +311,9 @@
 	<entry key="rule|text|FI-33-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-33-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-33-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+	<entry key="rule|text|FI-33-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-33-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-33-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 34 -->
     <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - is not allowed.</entry>
@@ -260,6 +326,9 @@
 	<entry key="rule|text|FI-34-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-34-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <entry key="rule|text|FI-34-FI-125-1">FI-34-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-34-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-34-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-34-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - is not allowed.</entry>
@@ -272,6 +341,9 @@
 	<entry key="rule|text|FI-35-BT-723-LotResult-2">BT-723 allowed values: 'm1-m2-n1', 'm3' and 'n2-n3'</entry>
 	<entry key="rule|text|FI-35-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-35-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
+	<entry key="rule|text|FI-35-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-35-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-35-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 36 -->
     <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - is not allowed.</entry>
@@ -290,18 +362,27 @@
     <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-38-BT-512-Organization-Company-1">FI-38-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-38-FI-125-1">FI-38-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-38-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-38-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-38-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 39 -->
     <entry key="rule|text|FI-39-FI-11-1">FI-39-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-FI-20-1">FI-39-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-39-BT-512-Organization-Company-1">FI-39-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-39-FI-125-1">FI-39-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-39-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-39-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-39-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- 40 -->
     <entry key="rule|text|FI-40-FI-11-1">FI-40-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-FI-20-1">FI-40-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-40-BT-512-Organization-Company-1">FI-40-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-40-FI-125-1">FI-40-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-40-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-40-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-40-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- E1 -->
     <entry key="rule|text|FI-E1-BT-11-Procedure-Buyer-1">FI-E1-BT-11-Procedure-Buyer-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E1-BT-13716-notice-1">'Section identifier' (BT-13716-notice) is mandatory, except when: 'Version of the previous notice to be changed' (BT-758-notice) is not filled in (in 'E1')</entry>
@@ -327,6 +408,9 @@
     <entry key="rule|text|FI-E1-FI-20-1">FI-E1-FI-20-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E1-FI-30-1">FI-E1-FI-30-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E1-FI-125-1">FI-E1-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-E1-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-E1-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-E1-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- E2 -->
     <entry key="rule|text|FI-E2-FI-11-1">FI-E2-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E2-FI-20-1">FI-E2-FI-20-1 - is not allowed.</entry>
@@ -396,6 +480,9 @@
     <entry key="rule|text|FI-E3-BT-810-Lot-1">FI-E3-BT-810-Lot-1 is forbidden.</entry>
     <entry key="rule|text|FI-E3-BT-811(a)-Lot-1">FI-E3-BT-811(a)-Lot-1 is forbidden.</entry>
     <entry key="rule|text|FI-E3-BT-811(b)-Lot-1">FI-E3-BT-811(b)-Lot-1 is forbidden.</entry>
+	<entry key="rule|text|FI-E3-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-E3-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-E3-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- E4 -->
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
@@ -462,6 +549,9 @@
 	<entry key="rule|text|FI-E4-BT-717-Lot-1">BT-717 is mandatory</entry>
 	<entry key="rule|text|FI-e4-OPT-156-LotResult-1">OPT-156 is mandatory if OPT-155 is set</entry>
     <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-E4-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-E4-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-E4-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-11-1">FI-E5-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E5-FI-20-1">FI-E5-FI-20-1 - is not allowed.</entry>
@@ -473,6 +563,9 @@
     <entry key="rule|text|FI-E6-FI-30-1">FI-E6-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-E6-BT-512-Organization-Company-1">FI-E6-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-E6-FI-125-1">FI-E6-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-E6-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-E6-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-E6-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- CEI -->
     <entry key="rule|text|FI-CEI-FI-11-1">FI-CEI-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-CEI-FI-20-1">FI-CEI-FI-20-1 - is not allowed.</entry>
@@ -485,12 +578,18 @@
     <entry key="rule|text|FI-T01-FI-30-1">FI-T01-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T01-BT-512-Organization-Company-1">FI-T01-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-T01-FI-125-1">FI-T01-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-T01-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-T01-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-T01-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- T02 -->
     <entry key="rule|text|FI-T02-FI-11-1">FI-T02-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-FI-20-1">FI-T02-FI-20-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-FI-30-1">FI-T02-FI-30-1 - is not allowed.</entry>
     <entry key="rule|text|FI-T02-BT-512-Organization-Company-1">FI-T02-BT-512-Organization-Company-1 - is mandatory.</entry>
     <entry key="rule|text|FI-T02-FI-125-1">FI-T02-FI-125-1 - is not allowed.</entry>
+	<entry key="rule|text|FI-T02-BT-536-Lot-1">Duration start date is mandatory (BT-536), when contract duration is Unlimited or Fixes-term.</entry>
+	<entry key="rule|text|FI-T02-BT-36-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
+	<entry key="rule|text|FI-T02-BT-537-Lot-1">A fixed-term contract must state either the estimated end date (BT-537) or the estimated duration of the contract (BT-36).</entry>
     <!-- X01 -->
     <entry key="rule|text|FI-X01-FI-11-1">FI-X01-FI-11-1 - is not allowed.</entry>
     <entry key="rule|text|FI-X01-FI-20-1">FI-X01-FI-20-1 - is not allowed.</entry>
