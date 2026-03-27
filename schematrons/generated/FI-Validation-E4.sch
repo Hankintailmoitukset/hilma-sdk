@@ -45,6 +45,11 @@
 <assert id="FI-E4-BT-773-Tender-1" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) &gt; 0 or not(cbc:ID)">rule|text|FI-E4-BT-773-Tender-1</assert>
 <assert id="FI-E4-BT-773-Tender-2" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) = 0 or (cbc:ID)">rule|text|FI-E4-BT-773-Tender-2</assert>
 </rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'E4']">
+<assert id="FI-E4-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:EndDate)))">rule|text|FI-E4-BT-36-Lot-1</assert>
+<assert id="FI-E4-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not((not(cbc:DescriptionCode)) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|FI-E4-BT-536-Lot-1</assert>
+<assert id="FI-E4-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:DurationMeasure)))">rule|text|FI-E4-BT-537-Lot-1</assert>
+</rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E4-BT-501-Organization-Company-1</assert>
 </rule>
@@ -68,7 +73,7 @@
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-723-LotResult-1" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) &gt; 0 or not((efbc:ProcurementCategoryCode))">rule|text|FI-E4-BT-723-LotResult-1</assert>
-<assert id="FI-E4-BT-723-LotResult-2" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or not(efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n3')">rule|text|FI-E4-BT-723-LotResult-2</assert>
+<assert id="FI-E4-BT-723-LotResult-2" role="ERROR" test="count(efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or not((efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'm2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n1' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n2' or efac:ProcurementDetails/efbc:AssetCategoryCode/normalize-space(text()) = 'n3'))">rule|text|FI-E4-BT-723-LotResult-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-758-notice-1" role="ERROR" test="count(efbc:ChangedNoticeIdentifier) &gt; 0">rule|text|FI-E4-BT-758-notice-1</assert>
@@ -93,7 +98,7 @@
 <assert id="FI-E4-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E4-BT-811(a)-LotResult-1</assert>
 <assert id="FI-E4-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E4-BT-811(b)-LotResult-1</assert>
 <assert id="FI-E4-BT-814-LotResult-1" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) &gt; 0 or (efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-1</assert>
-<assert id="FI-E4-BT-814-LotResult-2" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) = 0 or not(efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab')">rule|text|FI-E4-BT-814-LotResult-2</assert>
+<assert id="FI-E4-BT-814-LotResult-2" role="ERROR" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric) = 0 or not((efbc:LegalFrameworkCode) and not(efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab'))">rule|text|FI-E4-BT-814-LotResult-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-812-LotResult-1" role="ERROR" test="count(efbc:LabelCode) = 0">rule|text|FI-E4-BT-812-LotResult-1</assert>
