@@ -24,13 +24,14 @@
     <phase id="eforms-shared">
         <active pattern="EFORMS-validation-stage-1a"/>
         <active pattern="EFORMS-validation-stage-2b"/>
-        <active pattern="FI-validation-2b-g"/>
+        <active pattern="FI-validation-stage-2b"/>
         <active pattern="EFORMS-validation-stage-3a"/>
         <active pattern="EFORMS-validation-stage-3b"/>
-        <active pattern="FI-validation-3b-g"/>
+        <active pattern="FI-validation-stage-3b"/>
         <active pattern="EFORMS-validation-stage-4m"/>
         <active pattern="EFORMS-validation-stage-5"/>
         <active pattern="EFORMS-validation-stage-5m"/>
+		<active pattern="FI-validation-stage-5"/>
         <active pattern="FI-validation-M"/>
     </phase>
     <phase id="eforms-1">
@@ -395,11 +396,12 @@
     <include href="./manual/FI-validation-M.sch" />
     <include href="./generated/FI-Validation-1.sch"/>
     <include href="./generated/FI-Validation-2.sch"/>
-    <include href="./generated/FI-Validation-2b-g.sch"/>
+    <include href="./generated/FI-Validation-stage-2b.sch"/>
     <include href="./generated/FI-Validation-3.sch"/>
-    <include href="./generated/FI-Validation-3b-g.sch"/>
+    <include href="./generated/FI-Validation-stage-3b.sch"/>
     <include href="./generated/FI-Validation-4.sch"/>
     <include href="./generated/FI-Validation-5.sch"/>
+	<include href="./generated/FI-Validation-stage-5.sch"/>
     <include href="./generated/FI-Validation-6.sch"/>
     <include href="./generated/FI-Validation-7.sch"/>
     <include href="./generated/FI-Validation-8.sch"/>

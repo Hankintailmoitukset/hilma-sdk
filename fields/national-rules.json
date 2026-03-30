@@ -1164,6 +1164,14 @@
       ],
       "severity": "",
       "value": false
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value": "{ND-Root} ${BT-161-NoticeResult == sum(FI-70)}",
+        "severity": "ERROR"
+      } ]
     }
   },
   {

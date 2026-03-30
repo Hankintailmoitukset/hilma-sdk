@@ -20,7 +20,28 @@
       "xpathAbsolute": "/*/hilma:NationalExtension/hilma:TenderingProcess",
       "xpathRelative": "hilma:TenderingProcess",
       "repeatable": false
-    }    
+    },
+    {
+      "id": "ND-NationalNoticeResult",
+      "parentId": "ND-NationalExtensionRoot",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult",
+      "xpathRelative": "hilma:NoticeResult",
+      "repeatable": false
+    },
+    {
+      "id": "ND-NationalSettledContracts",
+      "parentId": "ND-NationalNoticeResult",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts",
+      "xpathRelative": "hilma:SettledContracts",
+      "repeatable": true
+    },
+    {
+      "id": "ND-NationalSettledContract",
+      "parentId": "ND-NationalSettledContracts",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract",
+      "xpathRelative": "hilma:SettledContract",
+      "repeatable": true
+    }
   ],
   "fields": [
     {
@@ -49,9 +70,7 @@
         "severity": "ERROR",
         "constraints": [
           {
-            "noticeTypes": [
-              "E3"
-            ],
+            "noticeTypes": ["E3"],
             "value": true,
             "severity": "ERROR"
           }
@@ -134,9 +153,7 @@
         "severity": "ERROR",
         "constraints": [
           {
-            "noticeTypes": [
-              "E3"
-            ],
+            "noticeTypes": ["E3"],
             "value": true,
             "severity": "ERROR"
           }
@@ -219,11 +236,7 @@
         "severity": "ERROR",
         "constraints": [
           {
-            "noticeTypes": [
-              "E1",
-              "E3",
-              "E4"
-            ],
+            "noticeTypes": ["E1", "E3", "E4"],
             "value": true,
             "severity": "ERROR"
           }
@@ -369,6 +382,291 @@
       "pattern": {
         "value": "^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\\d)|(19|20)\\d\\d-(\\d{1,8}))$",
         "severity": "ERROR"
+      }
+    },
+    {
+      "id": "FI-70",
+      "parentNodeId": "ND-NationalSettledContract",
+      "name": "Contract Value",
+      "btId": "FI-70",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount",
+      "xpathRelative": "hilma:ContractValueAmount",
+      "type": "amount",
+      "businessEntityId": "lot",
+      "legalType": "VALUE",
+      "repeatable": {
+        "value": false,
+        "severity": "ERROR"
+      },
+      "mandatory": {
+        "value": false,
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          }
+        ]
+      },
+      "forbidden": {
+        "value": false,
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "noticeTypes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25",
+              "26",
+              "27",
+              "28",
+              "38",
+              "39",
+              "40",
+              "CEI",
+              "E1",
+              "E2",
+              "E3",
+              "E5",
+              "E6",
+              "T01",
+              "T02",
+              "X01"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          },
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "condition": "{ND-NationalSettledContract} ${BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+            "value": true,
+            "severity": "ERROR"
+          },
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "condition": "{ND-NationalSettledContract} ${BT-119-LotResult == TRUE}",
+            "value": true,
+            "severity": "ERROR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "FI-70-Currency",
+      "parentNodeId": "ND-NationalSettledContract",
+      "name": "Contract Value Currency",
+      "btId": "FI-70",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount/@currencyID",
+      "xpathRelative": "hilma:ContractValueAmount/@currencyID",
+      "type": "code",
+      "attributeName": "currencyID",
+      "attributeOf": "FI-70",
+      "legalType": "VALUE",
+      "repeatable": {
+        "value": false,
+        "severity": "ERROR"
+      },
+      "codeList": {
+        "value": {
+          "id": "currency",
+          "type": "flat"
+        },
+        "severity": "ERROR"
+      }
+    },
+    {
+      "id": "FI-70-Contract",
+      "parentNodeId": "ND-NationalSettledContract",
+      "name": "Contract Identifier Reference",
+      "btId": "FI-70",
+      "xpathAbsolute": "/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/cbc:ID",
+      "xpathRelative": "cbc:ID",
+      "type": "id-ref",
+      "businessEntityId": "lot",
+      "idSchemes": ["CON"],
+      "repeatable": {
+        "value": false,
+        "severity": "ERROR"
+      },
+      "pattern": {
+        "value": "^CON-\\d{4}$",
+        "severity": "ERROR"
+      },
+      "mandatory": {
+        "value": false,
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          }
+        ]
+      },
+      "forbidden": {
+        "value": false,
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "noticeTypes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25",
+              "26",
+              "27",
+              "28",
+              "38",
+              "39",
+              "40",
+              "CEI",
+              "E1",
+              "E2",
+              "E3",
+              "E5",
+              "E6",
+              "T01",
+              "T02",
+              "X01"
+            ],
+            "value": true,
+            "severity": "ERROR"
+          },
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "condition": "{ND-NationalSettledContract} ${BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+            "value": true,
+            "severity": "ERROR"
+          },
+          {
+            "noticeTypes": [
+              "29",
+              "30",
+              "31",
+              "32",
+              "33",
+              "34",
+              "35",
+              "36",
+              "37",
+              "E4"
+            ],
+            "condition": "{ND-NationalSettledContract} ${BT-119-LotResult == TRUE}",
+            "value": true,
+            "severity": "ERROR"
+          }
+        ]
+      },
+      "assert": {
+        "value": "{ND-Root} ${TRUE}",
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "condition": "{ND-NationalNoticeResult} ${FI-70-Contract is present}",
+            "value": "{ND-NationalNoticeResult} ${every text:$contract in FI-70-Contract satisfies ($contract in OPT-316-Contract)}",
+            "severity": "ERROR",
+            "message": "rule|text|FI-BT-00070-0002"
+          }
+        ]
       }
     }
   ]

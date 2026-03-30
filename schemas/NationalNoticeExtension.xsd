@@ -3,10 +3,13 @@
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             targetNamespace="urn:hanselHilma:NationalNoticeExtension"
             xmlns:udt="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1"
+            xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
             elementFormDefault="qualified"
             attributeFormDefault="unqualified">
    <xsd:import namespace="urn:oasis:names:specification:bdndr:schema:xsd:UnqualifiedDataTypes-1"
                schemaLocation="../ted/sdk/schemas/common/BDNDR-UnqualifiedDataTypes-1.1.xsd"/>
+   <xsd:import namespace="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+               schemaLocation="../ted/sdk/schemas/common/UBL-CommonBasicComponents-2.3.xsd"/>
 
   
     <xsd:element name="PredictedValueConstraintIndicator"
@@ -20,6 +23,9 @@
         
     <xsd:element name="PreviousPlanningIdentifier"
       type="PreviousPlanningIdentifierIdentifierType"/>
+	  
+	<xsd:element name="ContractValueAmount"
+      type="ContractValueAmountType"/>
 
     <xsd:complexType name="PredictedValueConstraintIndicatorType">
       <xsd:simpleContent>
@@ -45,6 +51,12 @@
     </xsd:simpleContent>  
   </xsd:complexType>
   
+  <xsd:complexType name="ContractValueAmountType">
+    <xsd:simpleContent>
+      <xsd:restriction base="udt:AmountType"/>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  
     <xsd:element name="NationalExtension">
         <xsd:complexType>
             <xsd:sequence>
@@ -68,6 +80,28 @@
                       <!-- FI-125 -->
                       <xsd:element ref="PreviousPlanningIdentifier" minOccurs="0" maxOccurs="1" />
                     </xsd:sequence>  
+                  </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="NoticeResult">
+                  <xsd:complexType>
+                    <xsd:sequence>
+                      <xsd:element name="SettledContracts">
+                        <xsd:complexType>
+                          <xsd:sequence>
+                            <xsd:element name="SettledContract" maxOccurs="unbounded">
+                              <xsd:complexType>
+                                <xsd:sequence>
+                                  <!-- FI-70 -->
+                                  <xsd:element ref="ContractValueAmount" minOccurs="1" maxOccurs="1" />
+                                  <!-- FI-70-Contract -->
+                                  <xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+                                </xsd:sequence>  
+                              </xsd:complexType>
+                            </xsd:element>
+                          </xsd:sequence>
+                        </xsd:complexType>
+                      </xsd:element>
+                    </xsd:sequence>
                   </xsd:complexType>
                 </xsd:element>
 				<xsd:element name="ReadOnlyFields">
