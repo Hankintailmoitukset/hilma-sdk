@@ -4,9 +4,9 @@
 
 <pattern id="FI-validation-16" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '16']">
-<assert id="FI-16-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:EndDate)))">rule|text|FI-16-BT-36-Lot-1</assert>
-<assert id="FI-16-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not((not(cbc:DescriptionCode)) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|FI-16-BT-536-Lot-1</assert>
-<assert id="FI-16-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:DurationMeasure)))">rule|text|FI-16-BT-537-Lot-1</assert>
+<assert id="FI-16-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:EndDate)">rule|text|FI-16-BT-36-Lot-1</assert>
+<assert id="FI-16-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not(cbc:DescriptionCode) or cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'">rule|text|FI-16-BT-536-Lot-1</assert>
+<assert id="FI-16-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:DurationMeasure)">rule|text|FI-16-BT-537-Lot-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList[$noticeSubType = '16']">
 <assert id="FI-16-BT-50-Lot-1" role="ERROR" test="count(cbc:MinimumQuantity) &gt; 0 or not(cbc:LimitationDescription = true())">rule|text|FI-16-BT-50-Lot-1</assert>

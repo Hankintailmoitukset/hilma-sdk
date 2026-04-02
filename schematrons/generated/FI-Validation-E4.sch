@@ -46,9 +46,9 @@
 <assert id="FI-E4-BT-773-Tender-2" role="ERROR" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) = 0 or (cbc:ID)">rule|text|FI-E4-BT-773-Tender-2</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'E4']">
-<assert id="FI-E4-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:EndDate)))">rule|text|FI-E4-BT-36-Lot-1</assert>
-<assert id="FI-E4-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not((not(cbc:DescriptionCode)) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|FI-E4-BT-536-Lot-1</assert>
-<assert id="FI-E4-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:DurationMeasure)))">rule|text|FI-E4-BT-537-Lot-1</assert>
+<assert id="FI-E4-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:EndDate)">rule|text|FI-E4-BT-36-Lot-1</assert>
+<assert id="FI-E4-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not(cbc:DescriptionCode) or cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'">rule|text|FI-E4-BT-536-Lot-1</assert>
+<assert id="FI-E4-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:DurationMeasure)">rule|text|FI-E4-BT-537-Lot-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity[$noticeSubType = 'E4']">
 <assert id="FI-E4-BT-501-Organization-Company-1" role="ERROR" test="count(cbc:CompanyID) &gt; 0">rule|text|FI-E4-BT-501-Organization-Company-1</assert>
