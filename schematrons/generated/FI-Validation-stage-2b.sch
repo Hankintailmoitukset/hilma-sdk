@@ -13,6 +13,6 @@
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract">
 <assert id="FI-70-1" role="ERROR" test="count(hilma:ContractValueAmount) &lt; 2">rule|text|FI-70-1</assert>
-<assert id="FI-70-Contract-1" role="ERROR" test="count(cbc:ID) &lt; 2">rule|text|FI-70-Contract-1</assert>
+<assert id="FI-OPT-100-Contract-1" role="ERROR" test="count(cbc:ID) &lt; 2">rule|text|FI-OPT-100-Contract-1</assert>
 </rule>
 </pattern>
