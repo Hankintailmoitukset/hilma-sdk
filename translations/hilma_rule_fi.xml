@@ -117,7 +117,7 @@
     <entry key="rule|text|FI-12-FI-20-1">FI-12-FI-20-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-12-FI-30-1">FI-12-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-12-BT-512-Organization-Company-1">FI-12-BT-512-Organization-Company-1 - on pakollinen.</entry>
-    <entry key="rule|text|FI-12-FI-125-1">FI-12-FI-125-1 - ei ole sallittu</entry>    
+    <entry key="rule|text|FI-12-FI-125-1">FI-12-FI-125-1 - ei ole sallittu</entry>
     <!-- 13 -->
     <entry key="rule|text|FI-13-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-13-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -134,6 +134,9 @@
     <entry key="rule|text|FI-14-FI-30-1">FI-14-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-14-BT-512-Organization-Company-1">FI-14-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-14-FI-125-1">FI-14-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-14-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-14-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-14-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 15 -->
     <entry key="rule|text|FI-15-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-15-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -150,9 +153,12 @@
     <entry key="rule|text|FI-16-FI-30-1">FI-16-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-BT-50-Lot-1">'Menettelyn j�lkimm�iseen vaiheeseen kutsuttavien ehdokkaiden v�himm�ism��r�' (BT-50-Lot) on pakollinen, kun: 'Menettelyn j�lkimm�iseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimm�ism��r�' (BT-661-Lot) on 'kyll�'</entry>
     <entry key="rule|text|FI-16-BT-512-Organization-Company-1">FI-16-BT-512-Organization-Company-1 - on pakollinen.</entry>
-    <entry key="rule|text|FI-16-BT-762-notice-1">FI-16-BT-762-notice-1 - ei ole sallittu.</entry>
+    <entry key="rule|text|FI-16-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-16-BT-762-notice-1">FI-16-BT-762-notice-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-BT-762-notice-2">FI-16-BT-762-notice-2 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-16-FI-125-1">FI-16-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-16-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-16-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 17 -->
     <entry key="rule|text|FI-17-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-17-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -161,6 +167,9 @@
     <entry key="rule|text|FI-17-FI-30-1">FI-17-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-17-BT-512-Organization-Company-1">FI-17-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-17-FI-125-1">FI-17-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-17-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-17-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-17-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 18 -->
     <entry key="rule|text|FI-18-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-18-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -169,6 +178,9 @@
     <entry key="rule|text|FI-18-FI-30-1">FI-18-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-18-BT-512-Organization-Company-1">FI-18-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-18-FI-125-1">FI-18-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-18-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-18-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-18-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 19 -->
     <entry key="rule|text|FI-19-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-19-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -178,6 +190,9 @@
     <entry key="rule|text|FI-19-BT-88-Procedure-1">FI-19-BT-88-Procedure-1 - on pakollinen kun menettelyn koodi vaatii kuvauksen.</entry>
     <entry key="rule|text|FI-19-BT-512-Organization-Company-1">FI-19-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-19-FI-125-1">FI-19-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-19-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-19-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-19-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 20 -->
     <entry key="rule|text|FI-20-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-20-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -186,6 +201,9 @@
     <entry key="rule|text|FI-20-FI-30-1">FI-20-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-20-BT-512-Organization-Company-1">FI-20-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-20-FI-125-1">FI-20-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-20-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-20-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-20-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 21 -->
     <entry key="rule|text|FI-21-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-21-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -194,6 +212,9 @@
     <entry key="rule|text|FI-21-FI-30-1">FI-21-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-21-BT-512-Organization-Company-1">FI-21-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-21-FI-125-1">FI-21-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-21-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-21-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-21-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 22 -->
     <entry key="rule|text|FI-22-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-22-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -202,6 +223,9 @@
     <entry key="rule|text|FI-22-FI-30-1">FI-22-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-22-BT-512-Organization-Company-1">FI-22-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-22-FI-125-1">FI-22-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-22-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-22-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-22-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 23 -->
     <entry key="rule|text|FI-23-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-23-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -228,6 +252,9 @@
     <entry key="rule|text|FI-25-FI-30-1">FI-25-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-25-BT-512-Organization-Company-1">FI-25-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-25-FI-125-1">FI-25-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-25-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-25-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-25-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 26 -->
     <entry key="rule|text|FI-26-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-26-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -236,6 +263,9 @@
     <entry key="rule|text|FI-26-FI-30-1">FI-26-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-26-BT-512-Organization-Company-1">FI-26-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-26-FI-125-1">FI-26-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-26-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-26-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-26-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 27 -->
     <entry key="rule|text|FI-27-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-27-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -244,6 +274,9 @@
     <entry key="rule|text|FI-27-FI-30-1">FI-27-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-27-BT-512-Organization-Company-1">FI-27-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-27-FI-125-1">FI-27-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-27-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-27-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-27-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 28 -->
     <entry key="rule|text|FI-28-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-28-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -252,6 +285,9 @@
     <entry key="rule|text|FI-28-FI-30-1">FI-28-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-28-BT-512-Organization-Company-1">FI-28-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-28-FI-125-1">FI-28-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-28-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-28-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-28-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 29 -->
     <entry key="rule|text|FI-29-FI-11-1">FI-29-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-29-FI-20-1">FI-29-FI-20-1 - ei ole sallittu.</entry>
@@ -261,9 +297,12 @@
 	<entry key="rule|text|FI-29-BT-735-LotResult-2">BT-375 on sallittu, kun voittaja on valittu (BT-142)</entry>
 	<entry key="rule|text|FI-29-BT-723-LotResult-1">BT-723 on pakollinen, kun BT-735 kenttään on valittu arvo</entry>
 	<entry key="rule|text|FI-29-BT-723-LotResult-2">BT-723 sallitut arvot: 'm1-m2-n1', 'm3' ja 'n2-n3'</entry>
-	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 on pakollinen</entry>
+  	<entry key="rule|text|FI-29-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-29-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-29-FI-125-1">FI-4-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-29-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-29-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-29-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 30 -->
     <entry key="rule|text|FI-30-FI-11-1">FI-30-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-30-FI-20-1">FI-30-FI-20-1 - ei ole sallittu.</entry>
@@ -276,6 +315,9 @@
 	<entry key="rule|text|FI-30-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-30-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-30-FI-125-1">FI-30-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-30-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-30-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-30-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 31 -->
     <entry key="rule|text|FI-31-FI-11-1">FI-31-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-31-FI-20-1">FI-31-FI-20-1 - ei ole sallittu.</entry>
@@ -288,6 +330,9 @@
 	<entry key="rule|text|FI-31-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-31-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-31-FI-125-1">FI-31-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-31-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-31-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-31-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 32 -->
     <entry key="rule|text|FI-32-FI-11-1">FI-32-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-32-FI-20-1">FI-32-FI-20-1 - ei ole sallittu.</entry>
@@ -300,6 +345,9 @@
 	<entry key="rule|text|FI-32-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-32-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-32-FI-125-1">FI-32-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-32-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-32-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-32-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 33 -->
     <entry key="rule|text|FI-33-FI-11-1">FI-33-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-33-FI-20-1">FI-33-FI-20-1 - ei ole sallittu.</entry>
@@ -312,6 +360,9 @@
 	<entry key="rule|text|FI-33-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-33-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-33-FI-125-1">FI-33-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-33-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-33-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-33-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 34 -->
     <entry key="rule|text|FI-34-FI-11-1">FI-34-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-34-FI-20-1">FI-34-FI-20-1 - ei ole sallittu.</entry>
@@ -324,6 +375,9 @@
 	<entry key="rule|text|FI-34-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-34-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-34-FI-125-1">FI-34-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-34-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-34-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-34-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 35 -->
     <entry key="rule|text|FI-35-FI-11-1">FI-35-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-35-FI-20-1">FI-35-FI-20-1 - ei ole sallittu.</entry>
@@ -336,6 +390,9 @@
 	<entry key="rule|text|FI-35-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-35-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-35-FI-125-1">FI-35-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-35-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-35-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-35-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 36 -->
     <entry key="rule|text|FI-36-FI-11-1">FI-36-FI-11-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-36-FI-20-1">FI-36-FI-20-1 - ei ole sallittu.</entry>
@@ -356,6 +413,9 @@
     <entry key="rule|text|FI-38-FI-30-1">FI-38-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-38-BT-512-Organization-Company-1">FI-38-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-38-FI-125-1">FI-38-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-38-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-38-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-38-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 39 -->
     <entry key="rule|text|FI-39-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-39-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -364,6 +424,9 @@
     <entry key="rule|text|FI-39-FI-30-1">FI-39-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-39-BT-512-Organization-Company-1">FI-39-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-39-FI-125-1">FI-39-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-39-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-39-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-39-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- 40 -->
     <entry key="rule|text|FI-40-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-40-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -372,6 +435,9 @@
     <entry key="rule|text|FI-40-FI-30-1">FI-40-FI-30-1 - ei ole sallittu.</entry>
     <entry key="rule|text|FI-40-BT-512-Organization-Company-1">FI-40-BT-512-Organization-Company-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-40-FI-125-1">FI-40-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-40-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-40-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-40-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- E1 -->
     <entry key="rule|text|FI-E1-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-E1-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
@@ -471,7 +537,10 @@
     <entry key="rule|text|FI-E3-BT-651-1">'Subcontracting Tender Indication' (BT-651-Lot) - ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-810-Lot-1">FI-E3-BT-810-Lot-1 is ei ole sallittu.</entry>
     <entry key="rule|text|FI-E3-BT-811(a)-Lot-1">FI-E3-BT-811(a)-Lot-1 - ei ole sallittu.</entry>
-    <entry key="rule|text|FI-E3-BT-811(b)-Lot-1">FI-E3-BT-811(b)-Lot-1 - ei ole sallittu.</entry>    
+    <entry key="rule|text|FI-E3-BT-811(b)-Lot-1">FI-E3-BT-811(b)-Lot-1 - ei ole sallittu.</entry>
+	<entry key="rule|text|FI-E3-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-E3-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-E3-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- E4 -->
     <entry key="rule|text|FI-E4-BT-105-Procedure-1">FI-E4-BT-105-Procedure-1 - on pakollinen.</entry>
     <entry key="rule|text|FI-E4-BT-10-Procedure-Buyer-1">count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) &gt; 0 or not(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))</entry>
@@ -538,6 +607,9 @@
 	<entry key="rule|text|FI-E4-BT-717-Lot-1">BT-717 on pakollinen</entry>
 	<entry key="rule|text|FI-E4-OPT-156-LotResult-1">OPT-156 on pakollinen, jos OPT-155 on asetettu</entry>
     <entry key="rule|text|FI-E4-FI-125-1">FI-E4-FI-125-1 - ei ole sallittu</entry>
+	<entry key="rule|text|FI-E4-BT-536-Lot-1">Arvioitu aloituspäivämäärä on pakollinen (BT-536), kun sopimuksen kestoksi on valittu Toistaiseksi voimassa oleva tai Määräaikainen.</entry>
+	<entry key="rule|text|FI-E4-BT-36-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
+	<entry key="rule|text|FI-E4-BT-537-Lot-1">Määräaikaisessa sopimuksessa on ilmoitettava joko arvioitu päättymispäivä (BT-537) tai arvioitu sopimuksen kesto(BT-36).</entry>
     <!-- E5 -->
     <entry key="rule|text|FI-E5-FI-70-1">FI-70 (Sopimuksen arvo) - Ei ole sallittu.</entry>
     <entry key="rule|text|FI-E5-FI-OPT-100-Contract-1">FI-OPT-100 - Sopimuksen tunniste ei ole sallittu.</entry>
