@@ -1169,7 +1169,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value": "{ND-NoticeResult} ${not(FI-70 is present) or BT-161-NoticeResult == sum(FI-70)}",
+        "value": "{ND-NoticeResult} ${not(FI-70 is present) or not(every text:$c1 in FI-70-Currency, text:$c2 in FI-70-Currency satisfies $c1 == $c2) or BT-161-NoticeResult == sum(FI-70)}",
         "severity": "ERROR"
       } ]
     }
