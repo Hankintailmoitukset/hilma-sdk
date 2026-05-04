@@ -4,9 +4,9 @@
 
 <pattern id="FI-validation-38" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '38']">
-<assert id="FI-38-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:EndDate)">rule|text|FI-38-BT-36-Lot-1</assert>
+<assert id="FI-38-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:EndDate)))">rule|text|FI-38-BT-36-Lot-1</assert>
 <assert id="FI-38-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not(cbc:DescriptionCode) or cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'">rule|text|FI-38-BT-536-Lot-1</assert>
-<assert id="FI-38-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:DurationMeasure)">rule|text|FI-38-BT-537-Lot-1</assert>
+<assert id="FI-38-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:DurationMeasure)))">rule|text|FI-38-BT-537-Lot-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress[$noticeSubType = '38']">
 <assert id="FI-38-BT-512-Organization-Company-1" role="ERROR" test="count(cbc:PostalZone) &gt; 0">rule|text|FI-38-BT-512-Organization-Company-1</assert>

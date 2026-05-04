@@ -36,9 +36,9 @@
 <assert id="FI-E3-BT-141_a_-notice-2" role="ERROR" test="count(efbc:ChangeDescription) = 0 or (efac:ChangedSection/efbc:ChangedSectionIdentifier)">rule|text|FI-E3-BT-141(a)-notice-2</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'E3']">
-<assert id="FI-E3-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:EndDate)">rule|text|FI-E3-BT-36-Lot-1</assert>
+<assert id="FI-E3-BT-36-Lot-1" role="ERROR" test="count(cbc:DurationMeasure) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:EndDate)))">rule|text|FI-E3-BT-36-Lot-1</assert>
 <assert id="FI-E3-BT-536-Lot-1" role="ERROR" test="count(cbc:StartDate) &gt; 0 or not(cbc:DescriptionCode) or cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'">rule|text|FI-E3-BT-536-Lot-1</assert>
-<assert id="FI-E3-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not(cbc:DescriptionCode) and not(cbc:DurationMeasure)">rule|text|FI-E3-BT-537-Lot-1</assert>
+<assert id="FI-E3-BT-537-Lot-1" role="ERROR" test="count(cbc:EndDate) &gt; 0 or not((not(cbc:DescriptionCode) and not(cbc:DurationMeasure)))">rule|text|FI-E3-BT-537-Lot-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-40-Lot-1" role="ERROR" test="count(efbc:SecondStageIndicator) &gt; 0 or (not(cbc:TendererRequirementTypeCode)) or not(../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) or not(../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted'))">rule|text|FI-E3-BT-40-Lot-1</assert>
