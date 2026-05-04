@@ -4,6 +4,6 @@
 
 <pattern id="FI-validation-stage-5" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult">
-<assert id="FI-BT-161-NoticeResult-1" role="ERROR" test="not(../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount) or cbc:TotalAmount/number() = sum(../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount/number())">rule|text|FI-BT-161-NoticeResult-1</assert>
+<assert id="FI-BT-161-NoticeResult-1" role="ERROR" test="not(../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount) or not(every $c1 in ../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount/@currencyID, $c2 in ../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount/@currencyID satisfies $c1 = $c2) or cbc:TotalAmount/number() = sum(../../../../../hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract/hilma:ContractValueAmount/number())">rule|text|FI-BT-161-NoticeResult-1</assert>
 </rule>
 </pattern>
