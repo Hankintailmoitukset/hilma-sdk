@@ -1705,7 +1705,7 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
         } ]
@@ -1720,7 +1720,7 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
         },
@@ -1791,7 +1791,7 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
         },
@@ -1862,7 +1862,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
       },
@@ -1932,7 +1932,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       },
@@ -2002,7 +2002,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -2017,7 +2017,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -2032,7 +2032,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -2047,7 +2047,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -2062,7 +2062,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -2077,7 +2077,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
