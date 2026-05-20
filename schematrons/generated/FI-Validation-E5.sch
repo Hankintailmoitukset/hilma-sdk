@@ -4,12 +4,12 @@
 
 <pattern id="FI-validation-E5" xmlns="http://purl.oclc.org/dsdl/schematron">
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E5']">
-<assert id="FI-E5-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or (efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E5-BT-811(a)-Lot-1</assert>
-<assert id="FI-E5-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or (efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E5-BT-811(b)-Lot-1</assert>
+<assert id="FI-E5-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E5-BT-811(a)-Lot-1</assert>
+<assert id="FI-E5-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E5-BT-811(b)-Lot-1</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E5']">
-<assert id="FI-E5-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or (efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E5-BT-811(a)-LotResult-1</assert>
-<assert id="FI-E5-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or (efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E5-BT-811(b)-LotResult-1</assert>
+<assert id="FI-E5-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E5-BT-811(a)-LotResult-1</assert>
+<assert id="FI-E5-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E5-BT-811(b)-LotResult-1</assert>
 </rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = 'E5']">
 <assert id="FI-E5-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-E5-FI-11-1</assert>

@@ -114,13 +114,13 @@
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0">rule|text|FI-E3-BT-811(a)-Lot-1</assert>
-<assert id="FI-E3-BT-811_a_-Lot-2" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or (efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E3-BT-811(a)-Lot-2</assert>
+<assert id="FI-E3-BT-811_a_-Lot-2" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E3-BT-811(a)-Lot-2</assert>
 <assert id="FI-E3-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0">rule|text|FI-E3-BT-811(b)-Lot-1</assert>
-<assert id="FI-E3-BT-811_b_-Lot-2" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or (efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E3-BT-811(b)-Lot-2</assert>
+<assert id="FI-E3-BT-811_b_-Lot-2" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E3-BT-811(b)-Lot-2</assert>
 </rule>
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'E3']">
-<assert id="FI-E3-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or (efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E3-BT-811(a)-LotResult-1</assert>
-<assert id="FI-E3-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or (efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E3-BT-811(b)-LotResult-1</assert>
+<assert id="FI-E3-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-E3-BT-811(a)-LotResult-1</assert>
+<assert id="FI-E3-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-E3-BT-811(b)-LotResult-1</assert>
 </rule>
 <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language[$noticeSubType = 'E3']">
 <assert id="FI-E3-BT-97-Lot-1" role="ERROR" test="count(cbc:ID) &gt; 0">rule|text|FI-E3-BT-97-Lot-1</assert>
