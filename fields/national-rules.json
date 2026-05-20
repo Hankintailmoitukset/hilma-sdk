@@ -1778,7 +1778,7 @@
             "X01",
             "X02"
           ],
-          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(a)-Lot not in ('gpp-crit', 'nzeb-bui')}",
+          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(a)-Lot in ('gpp-crit', 'nzeb-bui')}",
           "value": true,
           "severity": "ERROR"
         }      
@@ -1852,7 +1852,7 @@
             "X01",
             "X02"
           ],
-          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(b)-Lot not in ('building')}",
+          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(b)-Lot in ('building')}",
           "value": true,
           "severity": "ERROR"
         }        
@@ -1926,7 +1926,7 @@
           "X01",
           "X02"
         ],
-        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(a)-LotResult not in ('gpp-crit', 'nzeb-bui')}",
+        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(a)-LotResult in ('gpp-crit', 'nzeb-bui')}",
         "value": true,
         "severity": "ERROR"
       }]
@@ -1999,7 +1999,7 @@
           "X01",
           "X02"
         ],
-        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(b)-LotResult not in ('building')}",
+        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(b)-LotResult in ('building')}",
         "value": true,
         "severity": "ERROR"
       }]
