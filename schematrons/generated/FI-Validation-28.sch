@@ -11,6 +11,14 @@
 <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress[$noticeSubType = '28']">
 <assert id="FI-28-BT-512-Organization-Company-1" role="ERROR" test="count(cbc:PostalZone) &gt; 0">rule|text|FI-28-BT-512-Organization-Company-1</assert>
 </rule>
+<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '28']">
+<assert id="FI-28-BT-811_a_-Lot-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-28-BT-811(a)-Lot-1</assert>
+<assert id="FI-28-BT-811_b_-Lot-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-28-BT-811(b)-Lot-1</assert>
+</rule>
+<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = '28']">
+<assert id="FI-28-BT-811_a_-LotResult-1" role="ERROR" test="count(efbc:LegalFrameworkCode) = 0 or not(efbc:LegalFrameworkCode/normalize-space(text()) = ('gpp-crit','nzeb-bui'))">rule|text|FI-28-BT-811(a)-LotResult-1</assert>
+<assert id="FI-28-BT-811_b_-LotResult-1" role="ERROR" test="count(efbc:AssetCategoryCode) = 0 or not(efbc:AssetCategoryCode/normalize-space(text()) = ('building'))">rule|text|FI-28-BT-811(b)-LotResult-1</assert>
+</rule>
 <rule context="/*/hilma:NationalExtension/hilma:ProcurementProject[$noticeSubType = '28']">
 <assert id="FI-28-FI-11-1" role="ERROR" test="count(hilma:ApplicableLegislationCode) = 0">rule|text|FI-28-FI-11-1</assert>
 <assert id="FI-28-FI-30-1" role="ERROR" test="count(hilma:PredictedValueConstraintIndicator) = 0">rule|text|FI-28-FI-30-1</assert>
