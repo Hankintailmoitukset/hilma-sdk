@@ -1705,7 +1705,7 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
         } ]
@@ -1720,10 +1720,69 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
-        }]
+        },
+        {
+          "noticeTypes": [
+            "1",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "2",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "3",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "4",
+            "40",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "CEI",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "T01",
+            "T02",
+            "X01",
+            "X02"
+          ],
+          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(a)-Lot in ('gpp-crit', 'nzeb-bui')}",
+          "value": true,
+          "severity": "ERROR"
+        }      
+      ]
       },
       "mandatory": {
         "constraints": []
@@ -1735,10 +1794,69 @@
         "value" : false,
         "severity" : "ERROR",
         "constraints" : [ {
-          "noticeTypes" : [ "E1", "E3", "E4" ],
+          "noticeTypes" : [ "E3", "E4" ],
           "value" : true,
           "severity" : "ERROR"
-        }]
+        },
+        {
+          "noticeTypes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "CEI",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "T01",
+            "T02",
+            "X01",
+            "X02"
+          ],
+          "condition": "{ND-EEDProcurementDetailsLot} ${BT-811(b)-Lot in ('building')}",
+          "value": true,
+          "severity": "ERROR"
+        }        
+      ]
       },
       "mandatory" : {
         "constraints" : []
@@ -1750,10 +1868,68 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
-      } ]
+      },
+      {
+        "noticeTypes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "CEI",
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "T01",
+          "T02",
+          "X01",
+          "X02"
+        ],
+        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(a)-LotResult in ('gpp-crit', 'nzeb-bui')}",
+        "value": true,
+        "severity": "ERROR"
+      }]
     },
     "mandatory" : {
         "constraints" : []
@@ -1765,9 +1941,67 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
+      },
+      {
+        "noticeTypes": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "CEI",
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "T01",
+          "T02",
+          "X01",
+          "X02"
+        ],
+        "condition": "{ND-EEDProcurementDetailsLotResult} ${BT-811(b)-LotResult in ('building')}",
+        "value": true,
+        "severity": "ERROR"
       }]
     },
     "mandatory" : {
@@ -1780,7 +2014,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1795,7 +2029,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1810,7 +2044,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1825,7 +2059,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1840,7 +2074,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4" ],
+        "noticeTypes" : [ "E4" ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1855,7 +2089,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "E1", "E3", "E4"  ],
+        "noticeTypes" : [ "E4"  ],
         "value" : true,
         "severity" : "ERROR"
       }]
@@ -1863,5 +2097,5 @@
     "mandatory" : {
         "constraints" : []
     }
-  }
+  } 
 ]
