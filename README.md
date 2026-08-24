@@ -49,7 +49,9 @@ Hilma API Portal: https://hns-hilma-prod-apim.developer.azure-api.net/
 
 ### Notice validation
 
-The eForm notices submitted to Hilma via Hilma API are validated against validation rules defined by Hilma SDK, which themselves are an extension of validation rules defined by TED. When backwards incompatible changes to validation rules are introduced in Hilma, a new major version pre-release of Hilma SDK is published. 
+The eForm notices submitted to Hilma via Hilma API are validated against validation rules defined by Hilma SDK, which themselves are an extension of validation rules defined by TED. 
+
+When backwards incompatible changes to validation rules are introduced in Hilma, a new major version pre-release of Hilma SDK is published. Unless otherwise specified, there will be a three month transition period from old Hilma SDK version to a new one.
 
 In order to test the Hilma SDK pre-release validation rules, you can target the pre-release version validation rules by adding the ```hilmaSdkVersion``` query parameter to your Hilma API requests. For example:
 
