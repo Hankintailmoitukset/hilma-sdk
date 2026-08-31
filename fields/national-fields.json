@@ -398,6 +398,17 @@
         "value": false,
         "severity": "ERROR"
       },
+      "mandatory": {
+        "value": false,
+        "severity": "ERROR",
+        "constraints": [
+          {
+            "noticeTypes": ["29", "30","31","32","33","34","35","E4"],
+            "value": true,
+            "severity": "ERROR"
+          }
+        ]
+      },
       "forbidden": {
         "value": false,
         "severity": "ERROR",
@@ -432,6 +443,8 @@
               "26",
               "27",
               "28",
+              "36",
+              "37",
               "38",
               "39",
               "40",
