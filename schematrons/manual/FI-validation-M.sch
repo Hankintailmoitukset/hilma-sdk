@@ -43,7 +43,7 @@
     </rule>
 
     <!-- FI-70 -->
-    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = ('29','30','31','32','33','34','35','36','37','E4')]">
+    <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = ('29','30','31','32','33','34','35','E4')]">
         <let name="faLotIds"       value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')]/normalize-space(text())"/>
         <let name="allLotResults"  value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
         <let name="hilmaContracts" value="/*/hilma:NationalExtension/hilma:NoticeResult/hilma:SettledContracts/hilma:SettledContract"/>
