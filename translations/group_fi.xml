@@ -1,0 +1,11 @@
+<properties>
+<entry key="group|name|GR-Buyer">Ostajaorganisaatio</entry>
+<entry key="group|name|GR-Lots">Osat</entry>
+<entry key="group|name|GR-Lot-AwardCriteria">Päätöksenteon perusteet</entry>
+<entry key="group|name|GR-Lot-Procurement-Description">Hankinnan kuvaus</entry>
+<entry key="group|name|GR-Lot-Statistics">Tilastotiedot ja strategiset hankinnat</entry>
+<entry key="group|name|GR-Organisation-Participant">Mukana oleva organisaatio</entry>
+<entry key="group|name|GR-Procedure-Information">Hankinnan tiedot</entry>
+<entry key="group|name|GR-Procedure-Description">Hankinnan kohde</entry>
+<entry key="group|name|GR-Procedure-Main-Nature">Pääasiallinen hankintalaji</entry>
+</properties>
